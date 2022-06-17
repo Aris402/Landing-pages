@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.gradient-text{  
+    background-image: linear-gradient(to top,#b78c54, #d8aa6b, #d7ad76); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+.copyright{
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+#author{
+    color: #d7ad76;
+    font-size: 16px;
+    width: 260px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+.button{
+    font-family: 'Work Sans', sans-serif;
+    color: #41281d;
+    padding: 20px;
+    background-color: #e2ae69;
+    border-radius: 50px;
+    font-weight: 700;
+    box-shadow: 0px 0px 35px #e2ae69, 0px 0px 15px #e2ae69 inset;
+}
+.paragraph-text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 20px 0 20px;
+}
+@media screen and (min-width: 321px) and (max-width: 990px){
+    .images100{
+        width: 100%;
+    }
+    body{
+        background: url('bg.jpg') no-repeat;
+        background-size: cover;
+    }
+    .main-page{
+        margin-top: 20px;
+        overflow-x: hidden;
+        position: relative;
+        margin-left: auto;
+        text-align: center;
+        margin-right: auto;
+    }
+    .paragraph-slower{
+        font-size: 20px;
+        font-family: 'Work Sans', sans-serif;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+    }
+    .marginFix{
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    h1, h2{
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    #proposta{
+        margin-top: 100px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 30px;
+    }
+    .paragraph1{
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .paragraph2{
+        font-size: 25px;
+    }
+    #checkmate-pc{
+        display: none;
+    }
+    #king{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #fazer{
+        font-size: 33px;
+    }
+    .logoBottom{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    #bigHorse{
+        position: relative;
+        right: 14%;
+    }
+    .carousel{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .smallHorse{
+        width: 100px;
+    }
+    .gradient-text{
+        text-align: center;
+    }
+    #noJogo{
+        font-size: 35px;
+    }
+    .button{
+        font-size: 30px;
+        width: 95%;
+        margin-left: 10px;
+        text-decoration: none !important;
+    }
+    .logo{
+        width: 50%;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1920px){
+    .logo{
+        margin: 150px 0 200px 0;
+        width: 500px;
+    }
+    body{
+        background-image: url('bg2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .list{
+        float: left;
+    }
+    #list-item2{
+        margin-left: 80px;
+    }
+    .logoContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        padding: 0 0 0 4%;
+    }
+    h1, h2{
+        font-size: 50px;
+        width: 900px;
+    }
+    #proposta{
+        margin-bottom: 30px;
+    }
+    .topic-header{
+        font-size: 50px;
+    }
+    #bigHorse{
+        display: none;
+    }
+    .main-page{
+        position: relative;
+        height: 1239px;
+        margin-left: auto;
+        background: url('bg-horse-pc.png') no-repeat;
+        background-position: 55% 0;
+        background-size: cover;
+        margin-right: auto;
+    }
+    .button{
+        font-size: 30px;
+        width: 410px;
+        margin-left: 0px;
+        text-decoration: none !important;
+    }
+    #checkmate-mobile{
+        display: none;
+    }
+    .secondary-page1{
+        background: url('checkmate-pc.png') no-repeat;
+        padding: 150px 0 150px 0;
+    }
+    .secondary-page2{
+        text-align: center;
+    }
+    .secondary-page2 h2, .secondary-page4 h2{
+        width: 1000px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .secondary-page4 h2{
+        text-align: center;
+    }
+    .secondary-page4{
+        background: url('derrubada.png') no-repeat;
+    }
+    .bg-settings{
+        background-size: cover;
+        background-position: 50%;
+        padding-bottom: 80px;
+    }
+    .secondary-page3{
+        background: url('torre.png') no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        padding-bottom: 100px;
+    }
+    .topic-paragraph{
+        margin-bottom: 130px;
+    }
+    .paragraph-slower{
+        font-size: 35px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .paragraph-text, #nao-existe{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 35px;
+        width: 900px;
+        text-align: left;
+        padding: 0;
+        margin: 40px 0 80px 0;
+    }
+    .texts, .carousel{
+       padding: 0 30% 0 30%;
+    }
+    .whatwedo h3{
+        font-size: 60px;
+    }
+    .whatwedo{
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .secondary-page5{
+        background: url('rainha.png') no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    #king{
+        display: none;
+    }
+    .list2{
+        font-size: 35px;
+    }
+    .list2 br{
+        display: none;
+    }
+    .list2 h4{
+        margin-bottom: 40px;
+        width: 800px;
+    }
+    .who-we-are{
+        float: right;
+        width: 700px;
+        text-align: right;
+        margin: 100px 4% 0 0;
+    }
+    #cavalo-logo{
+        width: 900px;
+        float: left;
+    }
+    .secondary-page6{
+        display: inline-block;
+        width: 100%;
+    }
+    #paragraph-header{
+        width: 700px;
+    }
+    .last-page{
+        width: 950px;
+        text-align: center;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #last-button{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+    .logoBottom{
+        width: 450px;
+        margin: 150px 0 20px 0;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

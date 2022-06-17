@@ -1,0 +1,160 @@
+.background-jp{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('jp.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px !important;
+}
+.b-example-divider {
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+.col-lg-4 {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.title-text{
+  text-align: center; 
+  background-color: #506fb2; 
+  color: white;
+  width: 200px;
+}
+.agendar-button{
+  background-color: #25D366;
+  position: fixed;
+  top: 85%;
+  left: 90%;
+  width: 55px;
+  height: 55px;
+  z-index: 10;
+  border-radius: 50%;
+  box-shadow: 5px 3px 12px green, 
+            0 0 darkgreen;
+}
+.bg-circle{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+header{
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
+  padding: 0 5% 0 5% !important;
+  top: 0;
+}
+.text-main{
+  padding: 15% 5% 15% 5%;
+}
+.aboutjp{
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.shadow-box{
+  box-shadow: inset 0 -4px 0 rgb(0 0 0 / 29%);
+  padding-bottom: 15px !important;
+}
+@media screen and (min-width: 321px) and (max-width: 990px) {
+    .mobile-version{
+        display:block;
+    }
+    .image2{
+      width: 100%;
+      border-radius: 25% !important;
+    }
+    .adj{
+      --bs-gutter-x: 0 !important;
+      padding: 0 5% 0 5%;
+    }
+    .hor-lines{
+      margin: 0 4% 0 4%;
+    }
+    .pc-version{
+        display: none !important;
+    }
+    header{
+      padding-bottom: 0 !important;
+    }
+    header a{
+      position: relative;
+      left: 0 !important;
+    }
+    .paragrafos{
+      width: 100%;
+    }
+    .agendar-button{
+      left: 80%;
+    }
+    .provas-sociais{
+      width: 95%;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #author{
+      margin-left: auto; 
+      margin-right: auto; 
+      margin-bottom: 0 !important; 
+      margin-top: 10px;
+    }
+    #depoimentos{
+      padding: 8px 20px 8px 20px;
+      width: 210px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+    }
+  }  
+@media screen and (min-width: 1400px) and (max-width: 1920px){
+  .adj{
+    --bs-gutter-x: 0 !important;
+    padding: 0 15% 0 15%;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1920px){
+  .box-space{
+    margin-left: 11.5% !important;
+  }
+  .hor-lines{
+    margin: 0 16% 0 16%;
+  }
+  .paragrafos{
+    width: 95%;
+  }
+  .posts-insta{
+    display: flex;
+  }
+  .postagens{
+    display: inline-block;
+  }
+  #depoimentos{
+    padding: 8px 33px 8px 30px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+  .depoimentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .provas-sociais{
+    height: 50vh;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1920px){
+  .posts-insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
