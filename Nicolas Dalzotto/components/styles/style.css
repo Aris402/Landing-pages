@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'shoikaregular';
+    src: url('/components/fonts/shoika-regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'typold';
+    src: url('/components/fonts/Typold-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'reloadedbold';
+    src: url('../fonts/ReloadedBold-K73pX.ttf') format('truetype'),
+         url('../fonts/ReloadedBold-MVGEP.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gabrielasemibold';
+    src: url('../fonts/gabriela-semi-bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'haborosoft';
+    src: url('../fonts/haboro-soft-ext-book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #0E0E0E;
+}
+
+h1{
+    font-size: 95px;
+    font-family: 'reloadedbold';
+    color: white;
+}
+aside{
+    padding: 7%;
+}
+aside p{
+    font-family: 'haborosoft';
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+input{
+    padding: 20px 190px 20px 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: none;
+}
+.main-description{
+    font-size: 32px;
+}
+.gabriela-font{
+    font-family: 'gabrielasemibold';
+}
+.date{
+    display: flex; 
+    margin: 0 0 30px 0;
+}
+.paragraphs-font{
+    font-family: 'haborosoft';
+    font-size: 22px;
+}
+.gradient-text{
+    background-image: linear-gradient(to bottom,rgb(239, 239, 239), rgb(218, 218, 218), rgb(186, 186, 186)); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+.article-text{
+    margin-left: auto;
+    padding: 80px;
+    background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163)); /* Standard syntax */
+    margin-right: auto;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.header-section1{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.squares-section{
+    padding: 70px 290px 0 290px;
+    height: 1389px;
+    background: url('/components/images/bg-lightining.png') no-repeat;
+    background-size: cover;
+}
+.squares{
+    display: flex;
+    flex-direction: row;
+}
+.squares-images{
+    width: 330px;
+    /*position: absolute;*/
+    bottom: -20em;
+}
+.images-bg{
+    padding: 0 75px 0 75px;
+    border-radius: 30px;
+    height: 320px;
+    background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163)); /* Standard syntax */
+}
+.mini-text{
+    position: relative;
+    top: 40%;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+footer hr{
+    position: relative;
+    top: 47%;
+    align-self: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    background-color: #0E0E0E;
+    border: none;
+    margin-bottom: 30px;
+}
+.typold-font{
+    font-size: 45px;
+    font-family: 'typold';
+    padding: 40px 450px 90px 450px;
+    color: white;
+}
+.thank-you hr{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    height: 3px;
+    border:none;
+    background-color: rgb(193, 193, 193);
+    align-self: center;
+}
+.brandingLogo{
+    margin-bottom: 0;
+}
+.nicolas-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 140px 0 140px 0;
+    background: url('/components/images/bg-left-light.png') no-repeat;
+    background-size: cover;
+}
+.nicolas-header{
+    font-size: 40px;
+}
+.nicolas-description{
+    margin: 20px 0 0 150px;
+}
+.paragraph-nicolas{
+    font-size: 24px;
+    font-family: 'haborosoft';
+}
+a{
+    text-decoration: none;
+    color: #0E0E0E;
+}
+.nicolas{
+    width: 450px;
+}
+.buttons{
+    padding: 20px 120px 20px 120px;
+    background: linear-gradient(rgb(231, 231, 231), rgb(205, 205, 205), rgb(190, 190, 190)); /* Standard syntax */
+    font-size: 25px;
+    font-family: 'shoikaregular';
+    border-radius: 18px;
+    box-shadow: 0px 0px 18px rgb(244, 244, 244), 0px 0px 15px rgb(207, 207, 207) inset;
+    border: none;
+}
+.buttons:hover{
+    color: white;
+    background: linear-gradient(rgb(167, 167, 167), rgb(141, 141, 141), rgb(85, 85, 85)); /* Standard syntax */
+    transition: 0.3s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#button2{
+    margin: 35px 0 50px 0;
+}
+aside{
+    background: url('/components/images/wolf-pc.png') no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+.copyright{
+    color: rgb(219, 219, 219);
+    font-family: 'haborosoft';
+    font-size: 17px;
+    padding: 15px 0 23px 0;
+    border-top: rgb(173, 173, 173) solid;
+}
+.thank-you{
+    text-align: center;
+    padding-top: 130px;
+    background: url('/components/images/obrigado-bg.png') no-repeat;
+    background-size: cover;
+}
+#percent{
+    width: 1200px;
+}
+.thank-you h1{
+    font-size: 115px;
+}
+.header-obrigado{
+    font-size: 45px;
+    padding: 80px 200px 40px 200px;
+}
+@media screen and (max-width: 768px){
+    .nicolas-section{
+        flex-direction: column;
+        padding: 15px 0 70px 0;
+        text-align: left;
+    }
+    .date{
+        align-self: center; 
+        justify-content: center;
+    }
+    .squares-section{
+        background: url('/components/images/bg-lightining-mobile.png') no-repeat;
+        background-size: cover;
+    }
+    .nicolas{
+        width: 500px;
+        align-self: center;
+    }
+    .nicolas-description{
+        margin: 0;
+        align-self: center;
+        padding: 0 30px 0 30px;
+    }
+    .paragraph-nicolas{
+        font-size: 18px;
+    }
+    aside{
+        text-align: center;
+        padding: 10% 7% 87% 7%;
+        background: url('/components/images/wolf-mobile.png') no-repeat;
+        background-size: cover;
+        background-position: 60%;
+    }
+    aside p{
+        font-size: 20px;
+    }
+    aside br, .article-text br{
+        display: none;
+    }
+    .squares-section{
+        padding: 70px 50px 0 50px;
+    }
+    .header-section1{
+        font-size: 30px;
+    }
+    .main-description{
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+    h1{
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+    .article-text{
+        padding: 100px 50px 100px 50px;
+        font-size: 20px;
+    }
+    .buttons{
+        padding: 3% 10% 3% 10%;
+        font-size: 20px;
+    }
+    .excl-id{
+        display: none;
+    }
+    input{
+        padding: 10px 35px 10px 20px;
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1188px){
+    .nicolas-description{
+        margin-left: 0;
+    }
+    .nicolas-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .article-text{
+        font-size: 23px;
+    }
+    .article-text br{
+        display: none;
+    }
+    .squares-section{
+        padding: 70px 20px 0 20px;
+    }
+    .nicolas{
+        align-self: center;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .nicolas{
+        width: 300px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+    .buttons{
+        padding: 20px 25px 20px 25px;
+        font-size: 18px;
+    }
+    input{
+        padding: 10px 15px 10px 20px;
+        font-size: 20px;
+    }
+}
