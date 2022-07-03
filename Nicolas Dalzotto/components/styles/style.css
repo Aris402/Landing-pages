@@ -49,6 +49,13 @@ h1{
     font-family: 'reloadedbold';
     color: white;
 }
+iframe{
+    margin-top: 50px;
+    border: white solid 5px;
+}
+#container-marged{
+    margin-right: 80px;
+}
 aside{
     padding: 7%;
 }
@@ -62,6 +69,23 @@ input{
     font-size: 30px;
     border-radius: 20px;
     border: none;
+}
+.bonus{
+    padding: 15px 50px 15px 50px;
+    text-align: center;
+    margin: auto;
+    width: 480px;
+    background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163)); /* Standard syntax */
+    border-radius: 25px;
+}
+.bonus h2{
+    font-size: 30px;
+    font-family:'gabrielasemibold';
+}
+.bonus p{
+    font-size: 20px;
+    font-family: 'haborosoft';
+    margin-bottom: 15px;
 }
 .main-description{
     font-size: 32px;
@@ -78,7 +102,7 @@ input{
     font-size: 22px;
 }
 .gradient-text{
-    background-image: linear-gradient(to bottom,rgb(239, 239, 239), rgb(218, 218, 218), rgb(186, 186, 186)); 
+    background: linear-gradient(to bottom,rgb(239, 239, 239), rgb(218, 218, 218), rgb(186, 186, 186)); 
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -93,6 +117,13 @@ input{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
 }
+.ty-footer{
+    padding: 80px;
+    background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163)); /* Standard syntax */
+    color: black;
+    font-family: 'typold';
+    font-size: 25px;
+}
 .header-section1{
     text-align: center;
     font-size: 38px;
@@ -100,32 +131,44 @@ input{
     width: 100%;
 }
 .squares-section{
-    padding: 70px 290px 0 290px;
-    height: 1389px;
+    padding: 70px 240px 0 240px;
+    height: 1120px;
     background: url('/components/images/bg-lightining.png') no-repeat;
     background-size: cover;
+}
+.paragraph-ty{
+    font-family: 'typold';
+    font-size: 30px;
+    color: white;
+    padding: 0 490px 150px 490px;
 }
 .squares{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .squares-images{
-    width: 330px;
-    /*position: absolute;*/
-    bottom: -20em;
+    width: 100%;
+    position: relative;
+    top: -20%;
 }
 .images-bg{
-    padding: 0 75px 0 75px;
+    padding: 0 50px 0 50px;
+    margin-bottom: 75px;
     border-radius: 30px;
-    height: 320px;
+    height: 280px;
+    width: 420px;
     background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163)); /* Standard syntax */
 }
-.mini-text{
+.text-hr{
     position: relative;
-    top: 40%;
+    top: -15%;
+}
+.mini-text{
     font-size: 20px;
     text-align: center;
-    padding: 30px 0 30px 0;
+    padding: 20px 0 25px 0;
 }
 footer hr{
     position: relative;
@@ -227,12 +270,23 @@ aside{
 #percent{
     width: 1200px;
 }
+#percent-mobile{
+    display: none;
+}
 .thank-you h1{
     font-size: 115px;
 }
 .header-obrigado{
     font-size: 45px;
     padding: 80px 200px 40px 200px;
+}
+.images-bg hr, .bonus hr{
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2px;
+    border:none;
+    background-color: #0E0E0E;
 }
 @media screen and (max-width: 768px){
     .nicolas-section{
@@ -274,10 +328,11 @@ aside{
         display: none;
     }
     .squares-section{
-        padding: 70px 50px 0 50px;
+        padding: 70px 30px 0 30px;
+        height: 2000px;
     }
     .header-section1{
-        font-size: 30px;
+        font-size: 25px;
     }
     .main-description{
         font-size: 23px;
@@ -302,6 +357,79 @@ aside{
         padding: 10px 35px 10px 20px;
         font-size: 25px;
     }
+    #percent{
+        display: none;
+    }
+    #percent-mobile{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+    .header-obrigado{
+        font-size: 21px;
+        padding: 10px 20px 40px 20px;
+    }
+    .typold-font{
+        font-size: 23px;
+        padding: 0 20px 30px 20px;
+    }
+    .squares{
+        flex-direction: column;
+    }
+    .paragraph-ty{
+        font-size: 17px;
+        padding: 0 20px 60px 20px;
+    }
+    .thank-you hr{
+        width: 300px;
+        margin: 20px auto 20px auto;
+        height: 1px;
+    }
+    .thank-you h1{
+        font-size: 55px;
+    }
+    .thank-you{
+        padding-top: 80px;
+        background: url('/components/images/obrigado-bg-mobile.png') no-repeat;
+        background-size: cover;
+    }
+    .ty-footer{
+        font-size: 12px;
+        padding: 30px;
+    }
+    #ty-button{
+        padding: 15px 60px 15px 60px;
+        border-radius: 10px;
+    }
+    iframe{
+        width: 90%;
+        height: 300px;
+    }
+    #container-marged{
+        margin: 0;
+    }
+    .images-bg{
+        margin-bottom: 120px;
+    }
+    .images-bg br{
+        display: none;
+    }
+    .text-hr{
+        top: -10%;
+    }
+    .bonus{
+        padding: 15px 10px 15px 10px;
+        width: 100%;
+    }
+    .bonus h2{
+        font-size: 25px;
+    }
+    .bonus p{
+        font-size: 15px;
+    }
+    #last-image{
+        margin-bottom: 55px;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1188px){
     .nicolas-description{
@@ -324,9 +452,17 @@ aside{
         align-self: center;
     }
 }
+@media screen and (min-width: 768px) and (max-width: 1500px){
+    aside{
+        background-position: 60%;
+    }
+}
 @media (min-width: 320px) and (max-width: 480px) {
     .nicolas{
         width: 300px;
+    }
+    .images-bg{
+        width: 100%;
     }
     .copyright{
         font-size: 14px;
