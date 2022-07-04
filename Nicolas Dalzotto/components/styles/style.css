@@ -27,15 +27,22 @@
 }
 
 @font-face {
-    font-family: 'gabrielasemibold';
-    src: url('../fonts/gabriela-semi-bold.otf') format('opentype');
+    font-family: 'rufina';
+    src: url('../fonts/Rufina-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'haborosoft';
-    src: url('../fonts/haboro-soft-ext-book.ttf') format('truetype');
+    font-family: 'montserrat-regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -43,14 +50,18 @@
 body{
     background-color: #0E0E0E;
 }
-
+#logo{
+    width: 600px;
+    margin-bottom: 20px;
+    align-self: left;
+}
 h1{
     font-size: 95px;
     font-family: 'reloadedbold';
     color: white;
 }
 iframe{
-    margin-top: 50px;
+    margin-top: 20px;
     border: white solid 5px;
 }
 #container-marged{
@@ -60,7 +71,7 @@ aside{
     padding: 7%;
 }
 aside p{
-    font-family: 'haborosoft';
+    font-family: 'montserrat-regular';
     font-size: 24px;
     margin-bottom: 30px;
 }
@@ -80,25 +91,25 @@ input{
 }
 .bonus h2{
     font-size: 30px;
-    font-family:'gabrielasemibold';
+    font-family:'rufina';
 }
 .bonus p{
     font-size: 20px;
-    font-family: 'haborosoft';
+    font-family: 'montserrat-regular';
     margin-bottom: 15px;
 }
 .main-description{
     font-size: 32px;
 }
 .gabriela-font{
-    font-family: 'gabrielasemibold';
+    font-family: 'rufina';
 }
 .date{
     display: flex; 
     margin: 0 0 30px 0;
 }
 .paragraphs-font{
-    font-family: 'haborosoft';
+    font-family: 'montserrat-regular';
     font-size: 22px;
 }
 .gradient-text{
@@ -109,20 +120,19 @@ input{
     color: black;
 }
 .article-text{
-    margin-left: auto;
+    margin: auto;
     padding: 80px;
     background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163)); /* Standard syntax */
-    margin-right: auto;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'montserrat-regular';
     font-size: 28px;
 }
 .ty-footer{
-    padding: 80px;
+    padding: 40px;
     background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163)); /* Standard syntax */
     color: black;
     font-family: 'typold';
-    font-size: 25px;
+    font-size: 20px;
 }
 .header-section1{
     text-align: center;
@@ -140,7 +150,7 @@ input{
     font-family: 'typold';
     font-size: 30px;
     color: white;
-    padding: 0 490px 150px 490px;
+    padding: 0 200px 150px 200px;
 }
 .squares{
     display: flex;
@@ -150,10 +160,13 @@ input{
 }
 .squares-images{
     width: 100%;
-    position: relative;
-    top: -20%;
+    -webkit-position: relative !important;
+    position: relative !important;
+    -webkit-bottom: 20% !important;
+    bottom: 20% !important;
 }
 .images-bg{
+    position: relative;
     padding: 0 50px 0 50px;
     margin-bottom: 75px;
     border-radius: 30px;
@@ -163,35 +176,22 @@ input{
 }
 .text-hr{
     position: relative;
-    top: -15%;
+    top: -10%;
 }
 .mini-text{
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     padding: 20px 0 25px 0;
 }
-footer hr{
-    position: relative;
-    top: 47%;
-    align-self: center;
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 2px;
-    background-color: #0E0E0E;
-    border: none;
-    margin-bottom: 30px;
-}
 .typold-font{
-    font-size: 45px;
+    font-size: 35px;
     font-family: 'typold';
-    padding: 40px 450px 90px 450px;
+    padding: 40px 200px 90px 200px;
     color: white;
 }
 .thank-you hr{
     width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     margin-top: 60px;
     height: 3px;
     border:none;
@@ -217,7 +217,7 @@ footer hr{
 }
 .paragraph-nicolas{
     font-size: 24px;
-    font-family: 'haborosoft';
+    font-family: 'montserrat-regular';
 }
 a{
     text-decoration: none;
@@ -247,7 +247,7 @@ footer{
     flex-direction: column;
 }
 #button2{
-    margin: 35px 0 50px 0;
+    margin: 35px 0 35px 0;
 }
 aside{
     background: url('/components/images/wolf-pc.png') no-repeat;
@@ -256,10 +256,14 @@ aside{
 }
 .copyright{
     color: rgb(219, 219, 219);
-    font-family: 'haborosoft';
+    font-family: 'montserrat-regular';
     font-size: 17px;
     padding: 15px 0 23px 0;
-    border-top: rgb(173, 173, 173) solid;
+}
+footer hr{
+    background-color: rgb(173, 173, 173) !important;
+    margin-bottom: 0px !important;
+    width: 350px;
 }
 .thank-you{
     text-align: center;
@@ -268,7 +272,7 @@ aside{
     background-size: cover;
 }
 #percent{
-    width: 1200px;
+    width: 900px;
 }
 #percent-mobile{
     display: none;
@@ -282,8 +286,7 @@ aside{
 }
 .images-bg hr, .bonus hr{
     width: 170px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 2px;
     border:none;
     background-color: #0E0E0E;
@@ -293,6 +296,9 @@ aside{
         flex-direction: column;
         padding: 15px 0 70px 0;
         text-align: left;
+    }
+    footer hr{
+        width: 250px;
     }
     .date{
         align-self: center; 
@@ -329,7 +335,7 @@ aside{
     }
     .squares-section{
         padding: 70px 30px 0 30px;
-        height: 2000px;
+        height: 1800px;
     }
     .header-section1{
         font-size: 25px;
@@ -357,6 +363,10 @@ aside{
         padding: 10px 35px 10px 20px;
         font-size: 25px;
     }
+    #logo{
+        -webkit-width: 90%;
+        width: 90%;
+    }
     #percent{
         display: none;
     }
@@ -367,7 +377,7 @@ aside{
     }
     .header-obrigado{
         font-size: 21px;
-        padding: 10px 20px 40px 20px;
+        padding: 10px 20px 0 20px;
     }
     .typold-font{
         font-size: 23px;
@@ -394,8 +404,8 @@ aside{
         background-size: cover;
     }
     .ty-footer{
-        font-size: 12px;
-        padding: 30px;
+        font-size: 10px;
+        padding: 20px;
     }
     #ty-button{
         padding: 15px 60px 15px 60px;
@@ -410,12 +420,14 @@ aside{
     }
     .images-bg{
         margin-bottom: 120px;
+        height: 240px;
     }
     .images-bg br{
         display: none;
     }
     .text-hr{
-        top: -10%;
+        -webkit-bottom: 30%;
+        bottom: 30%;
     }
     .bonus{
         padding: 15px 10px 15px 10px;
