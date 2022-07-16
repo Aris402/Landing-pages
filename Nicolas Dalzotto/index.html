@@ -17,8 +17,8 @@
         }
         function form_validation(){
             var submitar = document.getElementById("mc-embedded-subscribe");
-            var emaill = document.getElementById("mce-EMAIL")
-            if(emaill.value.includes('.com') == false){
+            var emaill = document.getElementById("emailAddress")
+            if(emaill.value.includes('@') == false){
                 window.alert('Por favor, preencha o campo com um email válido');
             }
             else{
@@ -35,39 +35,19 @@
             <h2 class="main-description gabriela-font gradient-text">Os elementos que te deixarão <br>capacitado para guardar a si mesmo<br> e aos seus.</h2>
             <br>
             <p style="color: white;">Te apresentarei, na live de lançamento, de forma<br> clara e prática, o caminho para se tornar um<br> detector de criminosos.</p>
-            <!-- Begin Mailchimp Signup Form -->
-            <div id="mc_embed_signup">
-            <form action="https://gmail.us17.list-manage.com/subscribe/post?u=bf17cc138db19b3cc04694901&amp;id=47f5c2cf09" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                <h2></h2>
-            <div class="mc-field-group">
-            </label>
-                <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="Seu nome..." style="margin-bottom: 20px;">
-            </div>
-            <div class="mc-field-group">
-                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Seu melhor email...">
-            </div>
-                <div id="mce-responses" class="clear foot">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_42e60b7bf458bfbcd0b5b9710_11c7515601" tabindex="-1" value=""></div>
-                    <div class="optionalParent">
-                        <div class="clear foot">
-                            <input type="submit" onclick="return form_validation()" value="Quero garantir minha vaga" name="subscribe" id="mc-embedded-subscribe" class="buttons" style="margin: 30px 0 30px 0;">
-                            <div class="date">
-                                <img src="components/images/instagram.png" alt="icone do instagram" style="margin-right: 15px;">
-                                <h2 class="gradient-text paragraphs-font" style="align-self: center;">18/07 | 20:30
-                                </h2>
-                            </div>
-                            <p class="brandingLogo"><a href="http://eepurl.com/h5J02z" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
-                        </div>
-                    </div>
-                </div>
+    
+            <form id="signupSubscriberForm" method="post" action="https://nicolasdalzottoflores.campayn.com/contacts/signup_form_add_contact/156279" accept-charset="utf-8">
+
+                <input type="hidden" name="formId" value="113241">
+                <input type="hidden" id="selectedImage" value="">
+                <input type="hidden" id="selectedImageId" value="">
+                
+                <input type="text" id="firstName" value="" placeholder="Seu nome..." class="inputs" name="first_name"><br>
+                <input type="text" id="emailAddress" value="" class="inputs" name="email" placeholder="Seu melhor email..."><br>
+                <input type="submit" id="subscribeToList" value="Quero garantir minha vaga" class="buttons">
+            
             </form>
-            </div>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-        <!--End mc_embed_signup-->
+    
         </aside>
         <article>
             <div class="article-text">
@@ -108,8 +88,8 @@
                     <div class="images-bg" id="last-image">
                         <img src="components/images/boxe-fight.png" alt="lutadores de boxe" class="squares-images">
                         <div class="text-hr">
-                            <p class="paragraphs-font mini-text">Como se orientar de forma<br>
-                                segura e racional.</p>
+                            <p class="paragraphs-font mini-text">Como agir corretamente em<br> qualquer situação.<br>
+                                </p>
                             <hr>
                         </div>
                     </div>
@@ -145,7 +125,7 @@
                     <br>
                     Já vivi situações reais e sei como a consciência<br class="excl-id">
                     situacional deve ser enquadrada na prática, e vou<br class="excl-id">
-                    te ensinar a ser um detetor de predadores, fazendo<br class="excl-id">
+                    te ensinar a ser um detector de predadores, fazendo<br class="excl-id">
                     com que você tenha mais segurança no dia a dia.</p>
             </div>
         </section>

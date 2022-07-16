@@ -75,11 +75,15 @@ aside p{
     font-size: 24px;
     margin-bottom: 30px;
 }
-input{
+.inputs{
     padding: 20px 190px 20px 20px;
     font-size: 30px;
     border-radius: 20px;
     border: none;
+    margin: 15px 0 15px 0;
+}
+#subscribeToList{
+    margin-top: 20px;
 }
 .bonus{
     padding: 15px 50px 15px 50px;
@@ -359,7 +363,7 @@ footer hr{
     .excl-id{
         display: none;
     }
-    input{
+    .inputs{
         padding: 10px 35px 10px 20px;
         font-size: 25px;
     }
@@ -483,7 +487,7 @@ footer hr{
         padding: 20px 25px 20px 25px;
         font-size: 18px;
     }
-    input{
+    .inputs{
         padding: 10px 15px 10px 20px;
         font-size: 20px;
     }
