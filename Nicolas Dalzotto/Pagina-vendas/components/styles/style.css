@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'shoikaregular';
+    src: url('../fonts/shoika-regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'typold';
+    src: url('../fonts/Typold-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'reloadedbold';
+    src: url('../fonts/ReloadedBold-K73pX.ttf') format('truetype'),
+         url('../fonts/ReloadedBold-MVGEP.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rufina';
+    src: url('../fonts/Rufina-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #0E0E0E;
+}
+aside p{
+    width: 500px;
+    font-family: 'montserrat-regular';
+    font-size: 24px;
+    margin-bottom: 55px;
+}
+#logo-sell{
+    width: 350px;
+    margin-bottom: 50px;
+}
+.bonus{
+    padding: 15px 50px 15px 50px;
+    text-align: center;
+    margin: auto;
+    width: 480px;
+    background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163)); /* Standard syntax */
+    border-radius: 25px;
+}
+.wolf-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+#zap {
+    font-family: 'montserrat-regular';
+    background: url('../images/texture-bg4.png') no-repeat;
+    background-size: cover;
+}
+#zap h2{
+    color: white !important;
+}
+#zap a{
+    background-color: #64E95F;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    color: black;
+    width: 250px;
+    box-shadow: 0px 0px 18px #64E95F, 0px 0px 15px #49ae46 inset;
+}
+.bonus h2{
+    font-size: 30px;
+    font-family:'rufina';
+}
+#logo-zap{
+    width: 85px;
+    align-self: center;
+}
+.contact{
+    background-color: #262626;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 60px 20px 60px;
+    border: #888888 solid;
+    border-radius: 20px;
+}
+#suporte{
+    font-family: 'montserrat-medium';
+    font-size: 30px;
+    margin: 10px 0 30px 0;
+}
+.bonus p{
+    font-size: 20px;
+    font-family: 'montserrat-regular';
+    margin-bottom: 15px;
+}
+#dalzotto{
+    position: relative;
+    width: 60%;
+}
+.main-description{
+    font-size: 32px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.gabriela-font{
+    font-family: 'rufina';
+}
+.paragraphs-font{
+    font-family: 'montserrat-regular';
+    font-size: 22px;
+}
+.gradient-text{
+    background: linear-gradient(to bottom,rgb(239, 239, 239), rgb(218, 218, 218), rgb(186, 186, 186)); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+.header-section1{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+.nicolas{
+    width: 450px;
+}
+.buttons{
+    color: white;
+    padding: 20px;
+    background: linear-gradient(#e4ae74, #b98e59, #8c6842);
+    font-size: 22px;
+    font-family: 'shoikaregular';
+    border-radius: 6px;
+    box-shadow: 0px 0px 18px #e3b77d, 0px 0px 15px #b79466 inset;
+    border: none;
+}
+.buttons:hover{
+    background: linear-gradient(#e2b789, #b28f65, #8c6842);
+    transition: 0.5s;
+}
+.compra-segura{
+    display: flex;
+    margin-top: 50px;
+}
+.compra-segura p{
+    width: 190px;
+}
+#cadeado{
+    width: 14px;
+    height: 18px;
+}
+#wolf{
+    height: 600px;
+    margin-bottom: 30px;
+}
+.sections-1{
+    padding: 100px 150px 0 150px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(234, 234, 234), rgb(218, 218, 218), rgb(221, 221, 221));
+}
+.sections-1 li{
+    margin: auto;
+}
+.sections-2{
+    background: url('../images/texture-bg2.png') no-repeat;
+    background-size: cover;
+    padding: 110px 90px 0 115px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#nicolas-aulas{
+    width: 500px;
+    margin-left: 60px;
+}
+.sections-2 ul{
+    width: 1100px;
+    color: white;
+    padding: 70px 120px 60px 170px;
+    font-size: 20px;
+    font-family: 'montserrat-regular';
+    border: 3px solid rgb(125, 125, 125);
+    border-bottom: none !important;
+    border-radius: 7px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #181818;
+    align-self: center;
+}
+.ul-style-1{
+    width: 600px;
+    padding: 100px 90px 100px 115px;
+    font-size: 21px;
+    font-family: 'montserrat-regular';
+    border: 3px solid white;
+    border-bottom: none !important;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0px 0px 18px #b8b8b8;
+}
+.sections-3{
+    background: linear-gradient(rgb(200, 200, 200), rgb(191, 191, 191), rgb(196, 196, 196));
+}
+.sections-3, .sections-4{
+    padding: 50px 40px 50px 65px;
+    display: flex;
+    justify-content: center;
+}
+.sections-4{
+    background-color: white;
+}
+.sections-5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 130px 0 130px;
+    color: white;
+    background: url('../images/texture-bg2.png') no-repeat;
+    background-size: cover;
+}
+.sections-5 ul{
+    font-size: 19px;
+    width: 500px;
+    padding: 40px 90px 40px 90px;
+    box-shadow: none;
+    border: #888888 solid;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #181818;
+}
+.sections-5 p, .sections-5 h2{
+    text-align: center;
+}
+#bonus{
+    flex-direction: column;
+    text-align: center;
+}
+#bonus p{
+    font-family: 'montserrat-medium';
+    font-size: 22px;
+    width: 500px;
+    margin: 25px auto 25px auto;
+}
+#quero{
+    font-size: 19px;
+    text-align: center;
+}
+#bonus h2{
+    margin-top: 35px;
+    font-size: 27px;
+}
+.headers-font-size{
+    font-size: 32px;
+    font-weight: 400;
+}
+.nicolas-no-pc{
+    width: 250px;
+    margin: 0 20px 0 20px;
+}
+#garantia{
+    background: url('../images/light-bg.png') no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 60px;
+}
+#garantia h2{
+    font-size: 28px;
+    width: 600px;
+}
+.sections-6{
+    padding: 60px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgb(234, 234, 234), rgb(218, 218, 218), rgb(221, 221, 221));
+}
+.sections-6 h2{
+    color: black;
+}
+.sections-6 ul{
+   align-self: center;
+   width: 900px;
+   font-size: 18px;
+   padding: 80px 90px 80px 115px;
+}
+a{
+    text-decoration: none;
+    align-self: center;
+    text-align: center;
+    width: 350px;
+}
+#garantia p{
+    font-family: 'montserrat-regular';
+    margin-top: 15px;
+    font-size: 18px;
+}
+.div-garantia{
+    width: 500px;
+    align-self: center;
+    margin-left: 40px;
+}
+.header-style-1{
+    width: 320px;
+    align-self: center;
+    margin-right: 120px;
+    color: black !important;
+}
+.header-style-2{
+    color: white;
+    width: 820px;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 70px;
+}
+.header-style-3{
+    font-size: 22px;
+    width: 350px;
+    align-self: center;
+}
+aside{
+    display: flex;
+    padding: 5% 7% 0 7%;
+    background-size: cover;
+    background: url('../images/texture-bg1.png') no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+.copyright{
+    color: rgb(0, 0, 0);
+    font-family: 'montserrat-regular';
+    text-align: center;
+    font-size: 17px;
+    padding: 15px 0 23px 0;
+}
+footer{
+    padding: 30px;
+    background: linear-gradient(rgb(234, 234, 234), rgb(218, 218, 218), rgb(221, 221, 221));
+}
+@media screen and (max-width: 768px){
+    #logo-sell{
+        width: 250px;
+    }
+    aside p{
+        font-size: 20px;
+    }
+    .div-garantia {
+        width: 100%;
+        margin-left: 0;
+    }
+    .main-description{
+        font-size: 23px;
+    }
+    #exception{
+        text-align: left !important;
+    }
+    .buttons{
+        font-size: 18px;
+        justify-self: center;
+        margin: auto;
+    }
+    *{
+        flex-direction: column;
+    }
+    .compra-segura{
+        flex-direction: row;
+        justify-content: center;
+    }
+    #dalzotto{
+        width: 100%;
+    }
+    .headers-font-size{
+        font-size: 22px;
+    }
+    #garantia{
+        padding: 30px;
+    }
+    #garantia h2{
+        width: 100%;
+        font-size: 24px;
+    }
+    #zap{
+        padding-top: 0;
+    }
+    #zap h2{
+        margin-bottom: 30px;
+    }
+    .contact{
+        width: 100%;
+    }
+    .copyright{
+        font-size: 14px;
+        padding: 20px 0 20px 0 !important;
+    }
+    footer{
+        padding: 0;
+    }
+    .sections-6 a{
+        font-size: 16px;
+    }
+    #garantia p{
+        font-size: 16px;
+    }
+    section{
+        padding: 20px;
+    }
+    .sections-1{
+        padding: 30px 40px 30px 40px;
+        justify-content: center;
+    }
+    .header-style-1{
+        width: 100% !important;
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+    .ul-style-1{
+        width: 100%;
+        padding: 50px 45px 50px 45px;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .header-style-2{
+        color: white;
+        width: 320px;
+        margin-bottom: 35px;
+    }
+    .sections-2{
+        padding: 60px 45px 0 45px;
+    }
+    .sections-2 ul{
+        width: 100%;
+        padding: 15px 30px 15px 45px;
+        font-size: 14px;
+    }
+    #wolf{
+        height: auto;
+        width: 100%;
+        margin: 30px 0 30px 0;
+        background: linear-gradient(rgb(234, 234, 234), rgb(218, 218, 218), rgb(221, 221, 221));
+    }
+    .nicolas-no-pc{
+        align-self: center;
+        padding: 20px 0 20px 0;
+    }
+    .sections-3, .sections-4{
+        padding: 40px 20px 30px 20px;
+        text-align: center;
+    }
+    .sections-6 h2{
+        margin-bottom: 0;
+    }
+    aside{
+        text-align: center;
+    }
+    .sections-6 {
+        padding: 60px 30px 0 30px;
+    }
+    .sections-6 ul {
+        width: 100%;
+        font-size: 16px;
+        padding: 40px 20px 80px 40px;
+    }
+    aside p, .main-description{
+        width: 100%;
+    }
+    #bonus p{
+        width: 100%;
+    }
+    #quero{
+        margin: 0 0 20px 11%;
+        font-size: 14px;
+        width: 100%;
+    }
+    #bonus h2{
+        margin-top: 0;
+    }
+    #zap h2{
+        font-size: 20px;
+    }
+    #bonus p{
+        margin-bottom: 15px;
+    }
+    .sections-5{
+        padding: 30px 30px 0 30px;
+    }
+    .sections-5 ul{
+        width: 100%;
+        padding: 40px 20px 40px 20px;
+    }
+    .sections-5 li{
+        margin-left: 25%;
+    }
+    #nicolas-aulas{
+        width: 100%;
+        padding: 40px 0 40px 0;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1368px){
+    
+}
