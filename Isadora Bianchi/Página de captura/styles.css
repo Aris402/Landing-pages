@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('./fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('./fonts/Montserrat-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulish-semibold';
+    src: url('./fonts/Mulish-SemiBold.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-semibold';
+    src: url('./fonts/Montserrat-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulish';
+    src: url('./fonts/Mulish-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulish-bold';
+    src: url('./fonts/Mulish-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #452F2E;
+}
+
+.main-section{
+    background: url('./images/bg-isadora-caderno.png') no-repeat;
+    background-size: cover;
+    padding: 5% 5% 7% 8%;
+}
+
+.gradient-text{
+    background: linear-gradient(165.61deg, #FFDAA8 10.21%, rgba(255, 218, 168, 0) 205.24%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.mulish-font{
+    font-family: 'mulish';
+}
+
+.mulish-font-bold{
+    font-family: 'mulish-bold';
+}
+
+.logo{
+    margin-bottom: 40px;
+}
+
+.main-header{
+    font-size: 26px;
+}
+
+.form-page{
+    width: 350px;
+}
+
+.montserrat-font{
+    font-family: 'montserrat-medium';
+}
+.montserrat-font-bold{
+    font-family: 'montserrat-bold';
+}
+
+input[type="text"], input[type="email"]{
+    padding: 20px 100px 20px 27px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    margin: 10px 0 10px 0;
+}
+
+.small-paragraphs{
+    font-size: 20px;
+}
+
+.buttons, input[type="submit"]{
+    background: linear-gradient(150.98deg, #C6A272 -56.44%, #eabf86 82.16%);
+    border-radius: 3px;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    font-family: 'montserrat-semibold';
+    box-shadow: 0px 0px 18px #C6A272, 0px 0px 15px #eabf86 inset;
+    color: #30281c;
+    display: flex;
+    margin: auto;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover, .buttons:hover{
+    background: linear-gradient(150.98deg, #e3c092 -56.44%, #ffc375 82.16%);
+    transition: 0.5s;
+}
+
+.date{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.big-paragraph1{
+    font-size: 23px;
+    text-align: center;
+}
+
+.second-section{
+    background: linear-gradient(150.98deg, #C6A272 -56.44%, #eabf86 82.16%);
+    padding: 4% 6% 4% 6%;
+}
+
+.second-section article {
+    width: 45%;
+    margin: auto;
+}
+
+.rectangles{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secondary-header{
+    font-size: 30px;
+    margin: 70px 0 70px 0;
+    text-align: center;
+}
+
+.items{
+    padding: 38px 70px 22px 70px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    background: linear-gradient(150.98deg, #C6A272 -56.44%, #eabf86 82.16%);
+}
+
+hr{
+    width: 150px;
+    border: none;
+    background-color: black;
+    height: 2px;
+    margin: auto;
+}
+
+.blocks-content{
+    width: 200px;
+    margin: auto;
+}
+
+.fourth-section{
+    background: linear-gradient(150.98deg, #C6A272 -56.44%, #eabf86 82.16%);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.fourth-section article{
+    display: flex;
+    justify-content: center;
+}
+.third-header{
+    font-size: 34px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+.description{
+    width: 600px;
+}
+
+.congratulations{
+    width: 900px;
+    padding: 70px;
+    text-align: center;
+}
+
+.thanks-sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#special-button{
+    padding: 13px 35px 13px 35px;
+    background-color: #452F2E;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.mulish-semibold{
+    font-family: 'mulish-semibold';
+}
+
+.thanks-third-section{
+    padding: 130px;
+}
+
+.description p{
+    font-family: 'mulish-semibold';
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+    align-self: center;
+}
+
+.fifthy-section{
+    text-align: center;
+    padding: 2%;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(150.98deg, #C6A272 -56.44%, #eabf86 82.16%);
+}
+
+@media screen and (max-width: 768px){
+    .main-section{
+        padding: 5px;
+        margin-top: 40px;
+        background: url('./images/bg-isadora-mobile.png') no-repeat;
+        background-size: cover;
+        padding-bottom: 200px;
+    }
+    .form-page{
+        width: 100%;
+        text-align: center;
+    }
+    .main-header{
+        font-size: 20px;
+    }
+    .small-paragraphs{
+        font-size: 16px;
+    }
+    input[type="text"], input[type="email"] {
+        padding: 10px 50px 10px 14px;
+    }
+    .buttons, input[type="submit"] {
+        padding: 15px;
+        font-size: 20px;
+    }
+    #logo{
+        margin-top: 20px;
+    }
+    .date {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .big-paragraph1 {
+        font-size: 18px;
+    }
+    .second-section article {
+        width: 100%;
+    }
+    .second-section {
+        padding: 10% 4% 10% 4%;
+    }
+    .secondary-header {
+        font-size: 20px;
+        margin: 20px 0 30px 0;
+    }
+    .blocks {
+        flex-direction: column;
+    }
+    .items {
+        padding: 30px 60px 22px 60px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .third-section{
+        padding: 30px 15px 0 15px;
+    }
+    .fourth-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .fourth-section article {
+        flex-direction: column;
+    }
+    .third-header {
+        font-size: 24px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .description{
+        width: 100%;
+        padding: 0 35px 30px 35px;
+    }
+    .description p {
+        font-family: 'mulish-semibold';
+        font-size: 18px;
+    }
+    .fifthy-section {
+        padding: 6%;
+    }
+    .blocks-content {
+        width: 150px;
+        margin: auto;
+    }
+    footer {
+        padding: 20px;
+    }
+    .congratulations {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .thanks-third-section {
+        padding: 50px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1282px){
+    .main-section{
+        background-position: 50%;
+    }
+}
