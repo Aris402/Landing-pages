@@ -54,6 +54,7 @@
 
 body{
     background-color: #5C4430;
+    color: white;
 }
 
 #tulio{
@@ -78,13 +79,17 @@ body{
 }
 
 .safeData{
-    font-size: 13px;
+    font-size: 10px;
     text-align: center;
     color: white;
 }
 
+.copyright{
+    font-size: 12px;
+}
+
 .logo{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .main-header{
@@ -112,6 +117,7 @@ input[type="text"], input[type="email"]{
 
 .small-paragraphs{
     font-size: 16px;
+    color: black;
 }
 
 .buttons, input[type="submit"]{
@@ -198,8 +204,9 @@ hr{
 }
 
 .fourth-section{
-    background: linear-gradient(355.5deg, #9B9B9B -27.12%, rgb(255, 255, 255) 151.56%);
+    background: linear-gradient(343.31deg, rgba(92, 68, 48, 0.7) -20.21%, rgba(38, 38, 38, 0) 215%);
     padding-top: 80px;
+    background-color: #F2A86B;
     padding-bottom: 80px;
 }
 
@@ -215,7 +222,7 @@ hr{
 
 .description{
     width: 600px;
-    margin-top: 50px;
+    margin-top: 180px;
     color: white;
 }
 
@@ -294,14 +301,15 @@ a{
 footer{
     text-align: center;
     padding: 40px;
-    background: linear-gradient(355.5deg, #9B9B9B -27.12%, rgb(255, 255, 255) 151.56%);
+    background: linear-gradient(343.31deg, rgba(92, 68, 48, 0.7) -20.21%, rgba(38, 38, 38, 0) 215%);
+    background-color: #F2A86B;
 }
 
 @media screen and (max-width: 768px){
     .main-section{
         padding: 20px;
         background-position: top 40%;
-        background: url('./images/bg-soldier-mobile.png') no-repeat;
+        background: url('./images/bg-1-mobile.png') no-repeat;
         background-size: cover;
         padding-bottom: 200px;
     }
@@ -329,8 +337,11 @@ footer{
         padding: 15px;
         font-size: 20px;
     }
-    #logo{
-        margin-top: 20px;
+    #logoDesktop{
+        width: 250px;
+    }
+    .logo{
+        width: 250px;
     }
     .date {
         margin-top: 15px;
@@ -345,6 +356,8 @@ footer{
     }
     .second-section {
         padding: 10% 4% 10% 4%;
+        background: url('images/bg-2-mobile.png') no-repeat;
+        background-size: cover;
     }
     .secondary-header {
         font-size: 22px;
@@ -360,6 +373,8 @@ footer{
     }
     .third-section{
         padding: 30px 15px 25px 15px;
+        background: url('images/bg-3-mobile.png') no-repeat;
+        background-size: cover;
     }
     .fourth-section {
         padding-top: 20px;
@@ -379,6 +394,7 @@ footer{
     .description{
         width: 100%;
         padding: 0 35px 30px 35px;
+        margin-top: 0;
     }
     .description p {
         font-family: 'montserrat-medium';
@@ -395,10 +411,10 @@ footer{
         padding: 20px;
     }
     #tulio{
-        width: 90%;
+        width: 100%;
         align-self: center;
         margin-bottom: 30px;
-        padding-top: 20px;
+        padding-top: 0;
         max-width: 90%;
     }
     .congratulations {
