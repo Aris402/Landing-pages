@@ -1,0 +1,450 @@
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('./fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('./fonts/Montserrat-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulish-semibold';
+    src: url('./fonts/Mulish-SemiBold.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-semibold';
+    src: url('./fonts/Montserrat-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulish';
+    src: url('./fonts/Mulish-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulish-bold';
+    src: url('./fonts/Mulish-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #091535;
+    color: white;
+}
+
+#tulio{
+    margin-top: 50px;
+}
+
+.main-section{
+    background: url('./images/bg-1.png') no-repeat;
+    background-size: cover;
+    padding: 5% 5% 7% 8%;
+}
+
+.gradient-text{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 164.52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.mulish-font{
+    font-family: 'mulish';
+}
+
+.safeData{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.copyright{
+    font-size: 12px;
+    color: #091535;
+}
+
+#specialButton2{
+    padding: 20px 38px 20px 38px;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    background-color: #091535;
+    box-shadow: 0px 0px 18px #091535, 0px 0px 15px #091535 inset;
+}
+
+#specialButton2:hover{
+    background-color: #122967;
+    transition: 0.5s;
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+.main-header{
+    font-size: 26px;
+}
+
+.form-page{
+    width: 350px;
+}
+
+.montserrat-font{
+    font-family: 'montserrat-medium';
+}
+.montserrat-font-bold{
+    font-family: 'montserrat-bold';
+}
+
+input[type="text"], input[type="email"]{
+    padding: 20px 110px 20px 27px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    margin: 10px 0 10px 0;
+}
+
+.small-paragraphs{
+    font-size: 16px;
+    
+}
+
+.buttons, input[type="submit"]{
+    background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163));
+    border-radius: 3px;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    font-family: 'montserrat-semibold';
+    box-shadow: 0px 0px 18px rgb(175, 175, 175), 0px 0px 15px rgb(212, 212, 212) inset;
+    margin: auto;
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover, .buttons:hover{
+    background: linear-gradient(rgb(230, 230, 230), rgb(210, 210, 210), rgb(194, 194, 194));
+    transition: 0.5s;
+}
+
+.date{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.big-paragraph1{
+    font-size: 23px;
+    text-align: center;
+}
+
+.second-section{
+    background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163));
+    padding: 8% 10% 8% 10%;
+    background: url('images/bg-2.png');
+    background-size: cover;
+
+}
+
+.second-section article {
+    width: 45%;
+    margin: auto;
+}
+
+.rectangles{
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secondary-header{
+    font-size: 30px;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0 70px 0;
+}
+
+.items{
+    padding: 38px 70px 38px 50px;
+    width: 337px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #091535;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    background: url('images/small-bg.png') no-repeat;
+    background-color: #636262;
+}
+
+hr{
+    width: 150px;
+    border: none;
+    background-color: black;
+    height: 2px;
+    margin: auto;
+}
+
+.blocks-content{
+    width: 200px;
+    margin: auto;
+}
+
+.fourth-section{
+    background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163));
+    padding-top: 80px;
+    background-color: #F2A86B;
+    padding-bottom: 80px;
+}
+
+.fourth-section article{
+    display: flex;
+    justify-content: space-evenly;
+}
+.third-header{
+    font-size: 34px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+.description{
+    width: 600px;
+    margin-top: 70px;
+    color: #091535 !important;
+}
+
+.congratulations{
+    width: 900px;
+    padding: 70px;
+    text-align: center;
+}
+
+.thanks-sections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thanks-footer{
+    background: black;
+}
+
+.third-section{
+    padding: 0 0 40px 0;
+}
+
+#logoMobile{
+    display: none;
+}
+
+#specialButton{
+    padding: 13px 35px 13px 35px;
+    color: black;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.mulish-semibold{
+    font-family: 'mulish-semibold';
+}
+
+.thanks-third-section{
+    padding: 130px;
+}
+
+.description p{
+    font-family: 'montserrat';
+    font-size: 22px;
+}
+
+a{
+    text-decoration: none;
+    align-self: center;
+    
+}
+
+#video{
+    height: 400px;
+    width: 700px;
+    border: #FFFFFF solid;
+}
+
+.fifthy-section{
+    text-align: center;
+    padding: 4%;
+}
+
+.thanks-paragraphs{
+    font-size: 25px;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(rgb(212, 212, 212), rgb(175, 175, 175), rgb(163, 163, 163));
+    background-color: #F2A86B;
+}
+
+@media screen and (max-width: 768px){
+    .main-section{
+        padding: 20px;
+        background: url('./images/bg-1-mobile.png') no-repeat;
+        background-size: cover;
+        padding-bottom: 200px;
+    }
+    #video{
+        width: 100%;
+        height: 300px;
+    }
+    #specialButton{
+        font-size: 16px;
+    }
+    .form-page{
+        width: 100%;
+        text-align: center;
+    }
+    .main-header{
+        font-size: 20px;
+    }
+    .small-paragraphs{
+        font-size: 16px;
+    }
+    input[type="text"], input[type="email"] {
+        padding: 10px 50px 10px 14px;
+    }
+    .buttons, input[type="submit"] {
+        padding: 15px;
+        font-size: 20px;
+    }
+    #logoDesktop{
+        width: 180px;
+    }
+    .logo{
+        width: 180px;
+    }
+    .date {
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .big-paragraph1 {
+        font-size: 18px;
+    }
+    .second-section article {
+        width: 100%;
+    }
+    .second-section {
+        padding: 10% 4% 10% 4%;
+        background: url('images/bg-2-mobile.png') no-repeat;
+        background-size: cover;
+    }
+    .secondary-header {
+        font-size: 22px;
+        width: 90%;
+        padding: 20px 0 30px 0;
+    }
+    .blocks {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .items {
+        padding: 30px 60px 30px 40px;
+        margin-bottom: 40px;
+    }
+    .third-section{
+        padding: 30px 15px 25px 15px;
+    }
+    .fourth-section {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .fourth-section article {
+        flex-direction: column;
+    }
+    .thanks-paragraphs{
+        font-size: 18px;
+    }
+    .third-header {
+        font-size: 24px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    .description{
+        width: 100%;
+        padding: 0 35px 30px 35px;
+        margin-top: 0;
+    }
+    .description p {
+        font-family: 'montserrat-medium';
+        font-size: 16px;
+    }
+    .fifthy-section {
+        padding: 9%;
+    }
+    .blocks-content {
+        width: 150px;
+        margin: auto;
+    }
+    footer {
+        padding: 20px;
+    }
+    #tulio{
+        width: 100%;
+        align-self: center;
+        margin-bottom: 30px;
+        padding-top: 0;
+        max-width: 90%;
+    }
+    .congratulations {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .thanks-third-section {
+        padding: 50px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1282px){
+    .main-section{
+        background-position: 50%;
+    }
+}
