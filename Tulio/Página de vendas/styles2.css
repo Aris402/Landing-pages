@@ -1,0 +1,490 @@
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-medium';
+    src: url('./fonts/Montserrat-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('./fonts/Montserrat-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-semibold';
+    src: url('./fonts/Montserrat-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montaga';
+    src: url('./fonts/Montaga-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2e1f13;
+}
+
+.main-section{
+    background: url('./images/bg-soldier-sell.png') no-repeat;
+    background-size: cover;
+    padding: 10% 5% 18% 8%;
+}
+
+.gradient-text{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 432.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+#cell-mobile{
+    display: none;
+}
+
+.montaga-font{
+    font-family: 'montaga';
+}
+
+.logo{
+    margin-bottom: 40px;
+}
+
+.garantia{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.garantia-text{
+    width: 500px;
+}
+
+#selo-garantia{
+    width: 300px;
+}
+
+.main-header{
+    font-size: 26px;
+}
+
+.first-page{
+    width: 450px;
+}
+
+.montserrat-font{
+    font-family: 'montserrat-medium';
+}
+.montserrat-font-bold{
+    font-family: 'montserrat-bold';
+}
+
+.duvidas-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 0 0 0;
+}
+
+input[type="text"], input[type="email"]{
+    padding: 20px 110px 20px 27px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    margin: 10px 0 10px 0;
+}
+
+.small-paragraphs{
+    font-size: 16px;
+}
+
+.buttons{
+    background: linear-gradient(150.98deg, #BA7D4D -56.44%, #ee9e61 82.16%);
+    border-radius: 11px;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    font-size: 20px;
+    font-family: 'montserrat-semibold';
+    box-shadow: 0px 0px 18px #cb8854, 0px 0px 15px #af7548 inset;
+    color: #30281c;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.bg-1{
+    background: linear-gradient(174.97deg, #FFD79A -7.71%, rgba(255, 215, 154, 0.633) 122.8%);
+}
+
+.bg-2{
+    background: linear-gradient(150.98deg, #a76f45 -56.44%, #c2814f 82.16%);
+}
+
+.rectangles-2{
+    width: 680px;
+    font-size: 20px;
+    text-align: left;
+    padding: 60px;
+    margin: auto;
+    border-radius: 10px;
+    border: white 3px solid;
+    display: flex;
+    position: relative;
+    margin-top: 90px;
+}
+
+.fifthy-header{
+    font-size: 30px;
+}
+
+.images-box{
+    position: absolute;
+    left: 60%;
+    bottom: 1%;
+}
+
+.sell-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0 0 0;
+}
+
+#sell-button{
+    font-size: 16px;
+}
+
+.price{
+    text-align: center;
+}
+
+.price-text{
+    font-size: 58.9px;
+}
+
+.rectangles-paragraphs{
+    width: 350px;
+}
+
+.big-paragraph1 {
+    font-size: 26.68px;
+    text-align: left;
+    align-self: center;
+    width: 290px;
+}
+
+.ul-style-1 {
+    width: 600px;
+    padding: 100px 90px 100px 115px;
+    font-size: 21px;
+    color: white;
+    font-family: 'montserrat';
+    border: 3px solid white;
+    border-bottom: none !important;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0px 0px 18px #636363;
+}
+
+.ul-style-2 {
+    width: 1100px;
+    padding: 70px 120px 0 260px;
+    font-size: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    border-bottom: none !important;
+    font-family: 'montserrat';
+    border-radius: 7px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0px 0px 18px #636363;
+    background: rgba(186, 125, 77, 0.63);
+    align-self: center;
+    color: white;
+}
+
+.buttons:hover{
+    background: linear-gradient(150.98deg, #ffbc88 -56.44%, #e9a26c 82.16%);
+    transition: 0.5s;
+}
+
+.second-section{
+    padding: 4% 10% 0 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.rectangles{
+    text-align: center;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 698px;
+    padding: 40px 80px 40px 80px;
+    border: solid white 2px;
+}
+
+.last-header{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.align-buttons{
+    display: flex;
+}
+
+.secondary-header{
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0 70px 0;
+}
+
+.fourth-section {
+    padding: 60px 90px 0 115px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.third-header{
+    font-size: 34px;
+    margin-bottom: 45px !important;
+    margin-top: 45px;
+}
+
+.third-section{
+    background: url('images/bg-2-sell.png') no-repeat;
+    padding: 0 0 40px 0;
+}
+
+a{
+    text-decoration: none;
+    align-self: center;
+}
+
+.fifthy-section{
+    text-align: center;
+    padding: 4%;
+}
+
+footer{
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(355.5deg, #9B9B9B -27.12%, rgb(255, 255, 255) 151.56%);
+}
+
+.zap-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black !important;
+    padding: 60px 0 0 0;
+}
+
+.zap-box{
+    padding: 30px;
+    background: linear-gradient(173.51deg, rgb(0, 0, 0)14%, #71717126 87.95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 65px 50px 85px;
+    border: 3px solid white;
+    border-bottom: none !important;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: 0px 0px 18px #636363;
+}
+
+.zap-box a{
+    background-color: #64E95F;
+    padding: 15px 25px 15px 25px;
+    border-radius: 4px;
+    color: black;
+    width: 250px;
+    box-shadow: 0px 0px 18px #64E95F, 0px 0px 15px #49ae46 inset;
+}
+
+@media screen and (max-width: 768px){
+    .main-section{
+        padding: 20px;
+        background-position: 0% 100% !important;
+        background: url('./images/bg-soldier-mobile2.png') no-repeat;
+        background-size: cover;
+        padding-bottom: 320px;
+    }
+    .zap-section{
+        flex-direction: column;
+        padding: 30px 0 0 0;
+    }
+    .rectangles-2 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 20px;
+        font-size: 16px;
+        padding-bottom: 0;
+        margin-top: 40px;
+    }
+    .images{
+        width: 180px;
+    }
+    .images-box{
+        position: relative;
+        left: 0;
+        align-self: center;
+    }
+    .price-text{
+        font-size: 48px;
+    }
+    .fifthy-section{
+        padding: 0 15px 30px 15px;
+    }
+    .rectangles-paragraphs {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .fifthy-section br{
+        display: none;
+    }
+    .garantia{
+        flex-direction: column;
+        padding: 40px 0 40px 0;
+    }
+    .garantia-text{
+        width: 90%;
+        text-align: center;
+    }
+    #selo-garantia{
+        width: 220px;
+    }
+    #cell-desktop{
+        display: none;
+    }
+    #cell-mobile{
+        display: block;
+    }
+    .ul-style-1{
+        width: 100%;
+        padding: 25px 45px 50px 60px !important;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .first-page{
+        width: 100%;
+        text-align: center;
+    }
+    .logo{
+        width: 250px;
+        margin-bottom: 20px;
+    }
+    .main-header{
+        font-size: 20px;
+    }
+    .small-paragraphs{
+        font-size: 16px;
+        margin-bottom: 0 !important;
+    }
+    #sell-button{
+        font-size: 14px;
+        text-align: center;
+    }
+    input[type="text"], input[type="email"] {
+        padding: 10px 50px 10px 14px;
+    }
+    .rectangles {
+        font-size: 15px;
+        width: 90%;
+        padding: 30px 20px 30px 20px;
+        border: solid white 2px;
+    }
+    .buttons, input[type="submit"] {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .zap-box{
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .zap-section{
+        flex-direction: column;
+        padding: 5px 10px 0 10px;
+    }
+    .second-section article {
+        width: 100%;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    .second-section {
+        padding: 4% 4% 0 4%;
+        flex-direction: column;
+    }
+    .align-buttons{
+        text-align: center;
+    }
+    .third-section{
+        padding: 0 15px 25px 15px;
+    }
+    .sell-section {
+        padding: 20px 10px 0 10px;
+    }
+    .fourth-section {
+        padding: 0 10px 0 10px;
+    }
+    .fourth-section article {
+        flex-direction: column;
+    }
+    .ul-style-2 {
+        width: 100%;
+        padding: 45px 30px 15px 45px;
+        font-size: 16px;
+    }
+    .duvidas-section{
+        padding: 0 10px 0 10px;
+    }
+    .third-header{
+        margin-bottom: 0 !important;
+    }
+    .mobile-header{
+        font-size: 20px;
+        align-self: center;
+        text-align: center;
+        margin: auto;
+        padding: 40px 0 40px 0;
+    }
+    footer {
+        padding: 20px;
+    }
+    #rectangle-1{
+        margin-top: 0;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1282px){
+    .main-section{
+        background-position: 50%;
+    }
+}
