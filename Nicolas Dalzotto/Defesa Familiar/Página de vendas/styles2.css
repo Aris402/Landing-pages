@@ -13,6 +13,13 @@
 }
 
 @font-face {
+    font-family: 'montserrat-light';
+    src: url('./fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'montserrat-bold';
     src: url('./fonts/Montserrat-Bold.otf') format('opentype');
     font-weight: normal;
@@ -62,6 +69,10 @@ body{
     background: url('./images/bg-1-sell.png') no-repeat;
     background-size: cover;
     padding: 10% 5% 18% 8%;
+}
+
+.montserrat-light{
+    font-family: 'montserrat-light';
 }
 
 .gradient-text{
@@ -211,7 +222,6 @@ body{
     padding: 70px 90px 70px 115px;
     font-size: 21px;
     color: white;
-    font-family: 'montserrat';
     border: 3px solid white;
     background: linear-gradient(358.43deg, #091535 -88.64%, #0b1b47 124.46%);
     border-radius: 20px;
@@ -223,7 +233,6 @@ body{
     font-size: 18px;
     justify-content: center;
     border-bottom: none !important;
-    font-family: 'montserrat';
     border-radius: 7px;
     display: flex;
     flex-direction: column;
@@ -316,6 +325,7 @@ del{
 a{
     text-decoration: none;
     align-self: center;
+    text-align: center;
 }
 
 .fifthy-section{
@@ -515,6 +525,9 @@ footer{
         margin: 20px 0 60px 0;
         width: 100%;
         padding: 25px;
+    }
+    .small-paragraphs{
+        font-size: 13px;
     }
     .zap-p{
         width: 100%;
