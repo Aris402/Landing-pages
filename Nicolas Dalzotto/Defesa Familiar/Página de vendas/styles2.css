@@ -153,6 +153,9 @@ body{
 .montserrat-font-bold{
     font-family: 'montserrat-bold';
 }
+.montserrat-font-semibold{
+    font-family: 'montserrat-semibold';
+}
 
 .duvidas-section{
     display: flex;
@@ -332,10 +335,14 @@ footer{
 
 .zap-section{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    background-color: black !important;
     padding: 60px 0 0 0;
+}
+
+.zap-p{
+    font-size: 21px;
+    width: 400px;
 }
 
 #img-cell{
@@ -344,18 +351,23 @@ footer{
 
 .zap-box{
     padding: 30px;
-    background: linear-gradient(173.51deg, rgb(0, 0, 0)14%, #71717126 87.95%);
+    background: linear-gradient(358.43deg, rgb(135, 135, 135) -88.64%, rgb(255, 255, 255) 124.46%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px 65px 50px 85px;
     border: 3px solid white;
-    border-bottom: none !important;
     border-radius: 20px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
     box-shadow: 0px 0px 18px #636363;
+}
+
+.suporte{
+    background: linear-gradient(154.4deg, #091535 16.19%, rgba(9, 21, 53, 0) 241.94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 20px 0 15px 0;
 }
 
 .zap-box a{
@@ -370,10 +382,10 @@ footer{
 @media screen and (max-width: 768px){
     .main-section{
         padding: 20px;
-        background-position: 0% 100% !important;
-        background: url('./images/bg-soldier-mobile2.png') no-repeat;
+        background-position: -35px 70px !important;
+        background: url('./images/bg-1-sell-mobile.png') no-repeat;
         background-size: cover;
-        padding-bottom: 320px;
+        height: 900px;
     }
     .zap-section{
         flex-direction: column;
@@ -453,7 +465,7 @@ footer{
     }
     .logo{
         width: 180px;
-        margin-bottom: 30px;
+        margin: 20px 0 50px 0;
         bottom: 0;
     }
     .blocks-column{
@@ -462,6 +474,9 @@ footer{
     .blocks {
         height: 125px;
         display: flex;
+        background: url('images/small-bg-sell-mobile.png') no-repeat;
+        background-size: cover;
+        background-color: white;
         align-items: center;
         padding: 30px 20px 30px 20px;
     }
@@ -497,8 +512,15 @@ footer{
         font-size: 16px;
     }
     .zap-box{
-        margin-top: 20px;
-        padding: 30px;
+        margin: 20px 0 60px 0;
+        width: 100%;
+        padding: 25px;
+    }
+    .zap-p{
+        width: 100%;
+    }
+    #zap-img{
+        width: 80px;
     }
     .zap-section{
         flex-direction: column;
@@ -548,7 +570,7 @@ footer{
     }
     .ul-style-2 {
         width: 100%;
-        padding: 45px 30px 45px 45px;
+        padding: 45px 30px 10px 45px;
         font-size: 16px;
     }
     .duvidas-section{
@@ -563,6 +585,9 @@ footer{
     }
     footer {
         padding: 20px;
+    }
+    #padding-ul-fix{
+        padding-bottom: 45px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1260px){
