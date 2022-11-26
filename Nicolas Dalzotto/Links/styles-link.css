@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 100px 0 120px 0;
+}
+
+@font-face {
+    font-family: 'rufina';
+    src: url('./fonts/Rufina-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('./fonts/Montserrat-Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulish';
+    src: url('./fonts/Mulish-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gradient-text{
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 432.5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.nicolas-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    align-self: center;
+}
+
+.rufina-font{
+    font-family: 'rufina';
+    font-size: 26px;
+}
+
+.nicolas-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.montserrat-font{
+    font-family: 'montserrat-regular';
+}
+
+.mulish-font{
+    font-family: 'mulish';
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'mulish';
+    font-size: 12px;
+}
+
+.main-header{
+    font-size: 20px;
+    letter-spacing: 11px;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .rufina-font{
+        font-size: 20px;
+    }
+    .montserrat-font{
+        font-size: 14px;
+    }
+    main img{
+        height: 110px;
+    }
+    main{
+        padding: 30px 0 60px 0;
+    }
+    .main-header{
+        font-size: 18px;
+    }
+    .cursos img, .cursos a{
+        padding: 0 5px 0 5px;
+        width: 100%;
+    }
+    .nicolas-description{
+        margin-left: 10px;
+    }
+    footer{
+        text-align: center;
+    }
+}
