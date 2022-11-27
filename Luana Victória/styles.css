@@ -92,6 +92,23 @@ body{
     font-family: 'montserrat-regular';
 }
 
+.thanks-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button-div{
+    padding: 55px 0 55px 0;
+    width: 500px;
+}
+
 .font-size1{
     font-size: 28px;
 }
@@ -222,6 +239,24 @@ input[type="text"], input[type="email"] {
     max-width: 400px;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-button{
+    padding: 13px 110px 13px 110px;
+    margin: 50px 0 50px 0;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1482px){
+    .first-section{
+        background-position: 50%;
+    }
+}
+
 @media screen and (min-width: 320px) and (max-width: 630px){
     .first-section {
         padding: 5% 2.5% 100% 2.5%;
@@ -230,7 +265,7 @@ input[type="text"], input[type="email"] {
         align-items: center;
         background: url('./Images/main-bg-capture-mobile.png') no-repeat;
         background-size: cover;
-        background-position: 0 0;
+        background-position: 50% 0;
     }
     input[type="text"], input[type="email"] {
         padding: 10px 70px 10px 14px;
@@ -238,6 +273,9 @@ input[type="text"], input[type="email"] {
     .description {
         align-self: center;
         max-width: 90%;
+    }
+    #second-button{
+        padding: 13px 60px 13px 60px;
     }
     .description p{
         font-size: 14px;
@@ -264,9 +302,8 @@ input[type="text"], input[type="email"] {
         margin: 10px 0 10px 0;
     }
     .action-button {
-        padding: 3% 25% 3% 25%;
+        padding: 13px 55px 13px 55px;
         font-size: 16px;
-        border-radius: 3.92px;
     }
     .font-size5 {
         font-size: 16px;
@@ -283,6 +320,7 @@ input[type="text"], input[type="email"] {
     .icons-list {
         width: 350px;
         margin-bottom: 50px;
+        padding: 0 15px 0 15px;
     }
     .squares-flex-box {
         flex-direction: column;
@@ -291,7 +329,24 @@ input[type="text"], input[type="email"] {
         padding: 28px 60px 28px 40px;
         font-size: 14px;
     }
+    .button-div{
+        padding: 45px 0 45px 0 !important;
+        width: 90% !important;
+    }
+    .first-section small br{
+        display: none;
+    }
+    .thanks-body p br{
+        display: none;
+    }
+    .thanks-body{
+        padding: 0 10px 0 10px;
+    }
     .last-section {
         flex-direction: column;
+    }
+    .last-section img{
+        width: 90%;
+        align-self: center;
     }
 }
