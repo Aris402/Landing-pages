@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('./fonts/Montserrat-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('./fonts/Poppins-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat-semi';
+    src: url('./fonts/Montserrat-SemiBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+}
+
+.first-section{
+    padding: 5% 5% 7% 8%;
+    background: url('./images/main-bg-capture.png') no-repeat;
+    background-size: cover;
+    background-position: 35% 5%;
+}
+
+.f-content{
+    max-width: 500px;
+}
+
+.font1{
+    font-family: 'montserrat-regular';
+    color: white;
+    font-weight: normal;
+}
+
+.font2{
+    font-family: 'poppins';
+    color: white;
+}
+
+.font3{
+    font-family: 'montserrat-semi';
+    color: white;
+}
+
+.font4{
+    font-family: 'montserrat-semi';
+    color: black;
+}
+
+.step-number{
+    background-color: #1570A5;
+    padding: 10px 20px 15px 20px;
+}
+
+.thanks-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url('./images/main-bg-thanks.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button-div{
+    padding: 55px 0 55px 0;
+    width: 500px;
+}
+
+.font-size1{
+    font-size: 28px;
+}
+
+.font-size2{
+    font-size: 18px;
+}
+
+.font-size3{
+    font-size: 16px;
+}
+
+.font-size4{
+    font-size: 11px;
+}
+
+.font-size5{
+    font-size: 20px;
+}
+
+.font-size6{
+    font-size: 14px;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 20px 110px 20px 27px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    margin: 10px 0 10px 0;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 5% 0;
+}
+
+.icons-paragraphs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icons{
+    margin-right: 10px;
+}
+
+.action-button{
+    background: linear-gradient(316.6deg, #1570A5 -134.21%, rgba(103, 158, 190, 0.761) 132.5%);
+    color: white;
+    border: none;
+    padding: 3% 25% 3% 25%; 
+    font-size: 18px;
+    border-radius: 3.92px;
+}
+
+.second-section{
+    background: url('./images/bg-2-persec.png') no-repeat;
+    background-size: cover;
+    padding: 3.5%;
+    text-align: center;
+}
+
+.flex-row-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons-list{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.third-section{
+    padding-top: 25px;
+}
+
+.fourth-section{
+    padding: 4%;
+}
+
+.items-square{
+    padding: 38px 70px 38px 50px;
+    width: 337px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    background: url('./images/column-bg.png') no-repeat;
+    background-position: 100% 0;
+    font-size: 15px;
+}
+
+.squares-flex-box{
+    display: flex;
+    justify-content: space-evenly !important;
+}
+
+.squares{
+    display: flex;
+    flex-direction: column;
+}
+
+#special-box1{
+    margin-right: 25px;
+}
+
+.last-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#second-button{
+    padding: 13px 110px 13px 110px;
+    margin: 50px 0 50px 0;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1482px){
+    .first-section{
+        background-position: 50%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 630px){
+    .first-section {
+        padding: 5% 2.5% 100% 2.5%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: url('./images/main-bg-capture-mobile.png') no-repeat;
+        background-size: cover;
+        background-position: 50% 0;
+    }
+    input[type="text"], input[type="email"] {
+        padding: 10px 70px 10px 14px;
+    }
+    .description {
+        align-self: center;
+        max-width: 90%;
+    }
+    #second-button{
+        padding: 13px 60px 13px 60px;
+    }
+    .description p{
+        font-size: 14px;
+    }
+    .f-content {
+        max-width: 100%;
+    }
+    #special-box1 {
+        margin-right: 0;
+    }
+    .font-size1{
+        font-size: 18px;
+    }
+    .font-size2{
+        font-size: 14px;
+    }
+    #logo{
+        width: 200px;
+    }
+    .items-fix{
+        padding: 38px 60px 38px 40px !important;
+    }
+    .icons-paragraphs {
+        justify-content: center;
+    }
+    .live-icons{
+        margin: 10px 0 10px 0;
+    }
+    .action-button {
+        padding: 13px 55px 13px 55px;
+        font-size: 16px;
+    }
+    .font-size5 {
+        font-size: 16px;
+    }
+    .second-section{
+        padding: 7.5% 7.5% 0 7.5%;
+    }
+    .icons{
+        width: 20px;
+    }
+    #who-is{
+        font-size: 24px;
+    }
+    .icons-list {
+        width: 350px;
+        margin-bottom: 10px;
+        padding: 0 15px 0 15px;
+    }
+    .squares-flex-box {
+        flex-direction: column;
+    }
+    .items-square {
+        padding: 28px 60px 28px 40px;
+        font-size: 14px;
+    }
+    .button-div{
+        padding: 45px 0 45px 0 !important;
+        width: 90% !important;
+    }
+    .first-section small br{
+        display: none;
+    }
+    .thanks-body p br{
+        display: none;
+    }
+    .thanks-body{
+        padding: 0 10px 0 10px;
+    }
+    .last-section {
+        flex-direction: column;
+    }
+    .last-section img{
+        width: 90%;
+        align-self: center;
+    }
+}
