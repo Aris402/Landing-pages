@@ -77,6 +77,11 @@ body{
     color: #856649;
 }
 
+.step-number{
+    background-color: white;
+    padding: 10px 20px 15px 20px;
+}
+
 .font4{
     font-family: 'poppins';
     color: #856649;
@@ -316,6 +321,9 @@ footer{
     }
     .icons{
         width: 15px;
+    }
+    #who-is{
+        font-size: 24px;
     }
     .icons-list {
         width: 350px;
