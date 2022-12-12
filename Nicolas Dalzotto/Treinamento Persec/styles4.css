@@ -77,10 +77,6 @@ body{
     color: white;
 }
 
-.ul-style-1{
-    line-height: 50px;
-}
-
 .font3{
     font-family: 'montserrat-semi';
     color: white;
@@ -97,6 +93,10 @@ body{
 
 .font6{
     font-family: 'k2d-semibold';
+}
+
+.font7{
+    font-family: 'poppins-bold';
 }
 
 .step-number{
@@ -121,6 +121,10 @@ a{
 .button-div{
     padding: 55px 0 55px 0;
     width: 500px;
+}
+
+.second-section-content{
+    padding-top: 70px;
 }
 
 .font-size1{
@@ -189,12 +193,36 @@ input[type="text"], input[type="email"] {
 
 .ul-style-1{
     color: white;
+    background: linear-gradient(351.99deg, #679EBE -228.68%, rgba(103, 158, 190, 0) 112.64%);
+    padding: 60px 75px 60px 75px;
+    border-radius: 7px;
+}
 
+.second-section-sell{
+    height: 1337px;
+    background: url('./Images/bg-2-persec-sell.png') no-repeat;
+    background-position: 50% 50%;
+}
+
+.gradient-bg{
+    background-color: #06324B;
+    border-radius: 7px;
+    border: 3px solid #567d94;
+}
+
+.sliced-section-1{
+    background: url('/Images/sliced-bg-1.png') no-repeat;
+    background-color: black;
+    background-size: cover;
 }
 
 .action-button:hover{
     background: linear-gradient(316.6deg, #1885c5 -134.21%, rgba(36, 130, 184, 0.931) 132.5%);
     transition: ease-in-out .2s;
+}
+
+.sliced-content-1{
+    padding: 100px 0 0 0;
 }
 
 .safe{
