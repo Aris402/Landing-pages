@@ -66,6 +66,12 @@ header{
     .mobile-version{
         display:block;
     }
+    #video{
+      width: 90%;
+      height: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
     .image2{
       width: 100%;
       border-radius: 25% !important;
