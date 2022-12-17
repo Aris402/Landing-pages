@@ -3,154 +3,225 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 @font-face {
     font-family: 'montserrat-regular';
     src: url('./fonts/Montserrat-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'k2d-regular';
     src: url('./fonts/K2D-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
+@font-face {
+    font-family: 'montserrat-italic';
+    src: url('./fonts/Montserrat-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mulish-bold';
+    src: url('./fonts/Mulish-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserrat-light';
+    src: url('./fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'k2d-semibold';
     src: url('./fonts/K2D-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'poppins';
     src: url('./fonts/Poppins-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'poppins-bold';
     src: url('./fonts/Poppins-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face {
     font-family: 'montserrat-semi';
     src: url('./fonts/Montserrat-SemiBold.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
-
 body{
     background-color: black;
 }
-
 .first-section{
     padding: 5% 5% 7% 8%;
-    background: url('./images/main-bg-capture.png') no-repeat;
+    background: url('./images/main-bg-capture-psc.png') no-repeat;
     background-size: cover;
     background-position: 35% 5%;
 }
-
 .sell-first-section{
     background: url('./images/main-bg-sell-psc.png') no-repeat;
 }
-
 .f-content{
     max-width: 500px;
     margin-bottom: 250px;
 }
-
+.sell-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.method-epev{
+    text-align: center; 
+    max-width: 600px;
+}
 .font1{
     font-family: 'montserrat-regular';
     color: white;
     font-weight: normal;
 }
-
 .font2{
     font-family: 'poppins';
     color: white;
 }
-
 .font3{
     font-family: 'montserrat-semi';
     color: white;
 }
-
 .font4{
     font-family: 'montserrat-semi';
     color: black;
 }
-
 .font5{
     font-family: 'k2d-regular';
 }
-
 .font6{
     font-family: 'k2d-semibold';
 }
-
 .font7{
     font-family: 'poppins-bold';
 }
-
+.font8{
+    font-family: 'montserrat-light';
+}
+.font9{
+    font-family: 'mulish-bold';
+}
+.font10{
+    font-family: 'montserrat-italic';
+}
 .step-number{
     background-color: #1570A5;
     padding: 10px 20px 15px 20px;
 }
-
 .thanks-body{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url('./images/main-bg-thanks.png') no-repeat;
+    background: url('./images/main-bg-thanks-psc.png') no-repeat;
     background-size: cover;
     text-align: center;
 }
-
+.third-section-sell{
+    color: white;
+    padding: 100px 0 100px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.WPP-BOX{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B0A0A;
+    border: 3px solid gray;
+    border-radius: 7px;
+    padding: 20px  40px 20px 40px;
+    width: 275px;
+    margin-right: 60px;
+}
+#contato{
+    background-color: #189D0E;
+    width: 120%;
+    padding: 15px 0 15px 0;
+    border-radius: 2px;
+    text-align: center;
+}
+.whatsapp-section{
+    background-color: #0D3A54;
+    padding: 50px 0 50px 0;
+}
+.accordion-button{
+    border: 2px solid white;
+    border-bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 20px;
+    text-align: left;
+    width: 550px;
+    font-size: 16px;
+    border-radius: 6px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.accordion-button::after{
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+.accordion-button--active::after{
+    content: '\25b4';
+}
+.accordion-content{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s;
+    padding: 0 20px;
+    border: 2px solid white;
+    width: 550px;
+}
 a{
     text-decoration: none;
 }
-
 .button-div{
     padding: 55px 0 55px 0;
     width: 500px;
 }
-
 .second-section-content{
     padding-top: 70px;
 }
-
 .font-size1{
     font-size: 28px;
 }
-
 .font-size2{
     font-size: 18px;
 }
-
 .font-size3{
     font-size: 16px;
 }
-
 .font-size4{
     font-size: 11px;
 }
-
 .font-size5{
     font-size: 20px;
 }
-
 .font-size6{
     font-size: 14px;
 }
-
+.font-size7{
+    font-size: 48px;
+}
 input[type="text"], input[type="email"] {
     padding: 20px 110px 20px 27px;
     font-size: 18px;
@@ -158,24 +229,20 @@ input[type="text"], input[type="email"] {
     border: none;
     margin: 10px 0 10px 0;
 }
-
 .logo-div{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 0 5% 0;
 }
-
 .icons-paragraphs{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .icons{
     margin-right: 10px;
 }
-
 .action-button{
     background: linear-gradient(316.6deg, #1570A5 -134.21%, rgba(36, 130, 184, 0.761) 132.5%);
     color: white;
@@ -186,84 +253,122 @@ input[type="text"], input[type="email"] {
     cursor: pointer;
     transition: ease-in-out .2s;
 }
-
 .sell-action-button{
     padding: 4% 17% 4% 17%; 
 }
-
 .ul-style-1{
     color: white;
     background: linear-gradient(351.99deg, #679EBE -228.68%, rgba(103, 158, 190, 0) 112.64%);
     padding: 60px 75px 60px 75px;
     border-radius: 7px;
 }
-
+.ul-style-2{
+    color: white;
+    padding: 60px 75px 60px 75px;
+    border-radius: 7px;
+    background-color: #0B0A0A;
+    border: 3px solid gray;
+}
 .second-section-sell{
     height: 1337px;
-    background: url('./Images/bg-2-persec-sell.png') no-repeat;
+    background: url('./images/bg-2-persec-sell.png') no-repeat;
     background-position: 50% 50%;
 }
-
 .gradient-bg{
     background-color: #06324B;
     border-radius: 7px;
     border: 3px solid #567d94;
 }
-
 .sliced-section-1{
-    background: url('/Images/sliced-bg-1.png') no-repeat;
+    background: url('/images/sliced-bg-1.png') no-repeat;
+    background-color: black;
+    height: 1300px;
+    background-position: 50% 50%;
+}
+.sliced-section-2{
+    background: url('/images/sliced-bg-2.png') no-repeat;
     background-color: black;
     background-size: cover;
+    padding-top: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
-
+.sell-ul-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 .action-button:hover{
     background: linear-gradient(316.6deg, #1885c5 -134.21%, rgba(36, 130, 184, 0.931) 132.5%);
     transition: ease-in-out .2s;
 }
-
+.bonus-box{
+    width: 272px;
+    height: 364px;
+    padding: 10px 50px 40px 50px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+.bonus-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+hr{
+    border: 2px solid gray;
+    width: 120px;
+    border-radius: 2px;
+}
 .sliced-content-1{
     padding: 100px 0 0 0;
 }
-
 .safe{
     max-width: 370px;
 }
-
 .second-section{
     background: url('./images/bg-2-persec.png') no-repeat;
     background-size: cover;
     padding: 3.5%;
     text-align: center;
 }
-
 .flex-row-center{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .flex-column-center{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 .icons-list{
     display: flex;
     align-items:flex-start;
     justify-content: center;
     flex-direction: column;
 }
-
 .third-section{
     padding-top: 25px;
 }
-
 .fourth-section{
     padding: 4%;
 }
-
+.garantia{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 150px;
+}
 .items-square{
     padding: 38px 70px 38px 50px;
     width: 337px;
@@ -277,59 +382,50 @@ input[type="text"], input[type="email"] {
     background-position: 100% 0;
     font-size: 15px;
 }
-
 .squares-flex-box{
     display: flex;
     justify-content: space-evenly !important;
 }
-
 .squares{
     display: flex;
     flex-direction: column;
 }
-
 #special-box1{
     margin-right: 25px;
 }
-
 .last-section{
     display: flex;
     justify-content: space-evenly;
 }
-
 .description{
     display: flex;
     flex-direction: column;
     max-width: 400px;
 }
-
 footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 #second-button{
     padding: 13px 110px 13px 110px;
     margin: 50px 0 50px 0;
 }
-
 @media screen and (min-width: 900px) and (max-width: 1482px){
     .first-section{
         background-position: 50% 0%;
     }
 }
-
 @media screen and (min-width: 320px) and (max-width: 630px){
     .first-section {
         padding: 5% 2.5% 100% 2.5%;
         text-align: center;
         justify-content: center;
         align-items: center;
-        background: url('./images/main-bg-capture-mobile.png') no-repeat;
+        background: url('./images/main-bg-sell-psc-mobile.png') no-repeat;
+        background-position: 50% 100%;
         background-size: cover;
-        background-position: 50% 0;
     }
     input[type="text"], input[type="email"] {
         padding: 10px 70px 10px 14px;
@@ -346,6 +442,71 @@ footer{
     }
     .f-content {
         max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .second-section-content{
+        padding-top: 40px;
+    }
+    #faq{
+        font-size: 30px;
+    }
+    #caso{
+        margin-bottom: 30px;
+    }
+    .second-section-sell{
+        height: 500px;
+        background: url('./images/bg-2-persec-sell-mobile.png') no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .bonus-boxes {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+    #sell-ul{
+        margin: 0 15px 0 15px;
+    }
+    #seguro{
+        flex-direction: row;
+    }
+    .delete-br{
+        display: none;
+    }
+    .sliced-section-1{
+        height: 100%;
+        background-size: cover;
+    }
+    .sliced-section-2{
+        padding: 50px 0 50px 0;
+    }
+    box{
+        margin-top: 50px;
+        width.bonus-: 272px;
+        height: 304px;
+        padding: 10px 50px 40px 50px;
+    }
+    .method-epev{
+        max-width: 90%;
+    }
+    .bonus-images{
+        width: 150px;
+    }
+    .ul-style-1{
+        padding: 40px;
+    }
+    .ul-style-2{
+        padding: 40px;
+        text-align: left;
+    }
+    .gradient-bg{
+        margin-top: 30px;
+    }
+    .accordion{
+        width: 90%;
+    }
+    .accordion-content, .accordion-button{
+        width: 100%;
     }
     #special-box1 {
         margin-right: 0;
@@ -356,14 +517,33 @@ footer{
     .font-size2{
         font-size: 14px;
     }
+    .WPP-BOX{
+        margin: 0 0 30px 0;
+    }
+    .whatsapp-section{
+        text-align: center;
+        padding-top: 0;
+    }
     #logo{
         width: 200px;
+    }
+    .third-section-sell{
+        padding: 50px 0 0 0;
     }
     .items-fix{
         padding: 38px 60px 38px 40px !important;
     }
     .icons-paragraphs {
         justify-content: center;
+    }
+    .sell-section{
+        padding-top: 80px;
+    }
+    #investimento{
+        font-size: 30px;
+    }
+    .flex-row-center{
+        flex-direction: column;
     }
     .live-icons{
         margin: 10px 0 10px 0;
@@ -378,11 +558,25 @@ footer{
     .second-section{
         padding: 7.5% 7.5% 0 7.5%;
     }
+    .sliced-content-1 {
+        padding: 50px 0 0 0;
+    }
     .icons{
         width: 20px;
     }
     #who-is{
         font-size: 24px;
+    }
+    .garantia{
+        flex-direction: column;
+        padding: 30px 15px 30px 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #garantia-img{
+        width: 150px;
+        margin: 30px 0 30px 0;
     }
     .icons-list {
         width: 350px;
@@ -399,6 +593,9 @@ footer{
     .button-div{
         padding: 45px 0 45px 0 !important;
         width: 90% !important;
+    }
+    .safe{
+        max-width: 100%;
     }
     .first-section small br{
         display: none;
