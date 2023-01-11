@@ -93,6 +93,16 @@
 .font10{
     font-family: 'poppins-bolder';
 }
+.font-size1{
+    font-size: 22px;
+}
+.text-left{
+    text-align: left;
+}
+.texts-lists{
+    display: flex;
+    justify-content: space-evenly;
+}
 .gradient-text1{
     background: linear-gradient(179.34deg, #FFFFFF 0.57%, rgba(255, 255, 255, 0) 104.37%);
     -webkit-background-clip: text;
@@ -181,6 +191,16 @@ button{
 .support-div{
     padding: 50px;
 }
+.images-div{
+    display: flex;
+    align-items: center;
+}
+.images-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (min-width: 320px) and (max-width: 630px){
     main{
         flex-direction: column;
@@ -229,6 +249,26 @@ button{
     }
     .support-div{
         display: none;
+    }
+    .triangulo{
+        width: 100%;
+    }
+    .font-size1{
+        font-size: 16px;
+    }
+    .texts-lists{
+        flex-direction: column;
+    }
+    .texts-lists p{
+        margin-bottom: 60px;
+    }
+    .text-left{
+        text-align: center;
+    }
+    .images-div{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 40px;
     }
 }
 @media screen and (min-width: 1048px) and (max-width: 1538px){
