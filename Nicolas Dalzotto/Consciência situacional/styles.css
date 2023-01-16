@@ -146,7 +146,7 @@ html{
     font-size:large;
 }
 body{
-    background-color: #1C1834;
+    background-color: #240606;
 }
 main{
     display: flex;
@@ -163,7 +163,7 @@ main{
     margin: 60px 0 60px 0;
 }
 .button-style1{
-    background: linear-gradient(348.06deg, #EFD37F -76.28%, rgba(222, 189, 102, 0) 439.83%);
+    background: #BF8046;
     cursor: pointer;
     padding: 1rem 2.5rem 1rem 2.5rem;
     border: 0;
@@ -171,11 +171,11 @@ main{
     border-radius: 5px;
 }
 .button-style2{
-    background-color: #1C1834;
-    color: white;
+    background-color: #FFFFFF;
+    color: #000000;
     font-size: 16px;
     padding: 0.5em 1.7em;
-    border-radius: 12px;
+    border-radius: 3px;
     border: none;
     cursor: pointer;
 }
@@ -201,14 +201,21 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+}
+.second-section ul{
+    line-height: 3rem;
+    font-size: larger;
 }
 .third-section{
-    background: url('./images/bg1.png') no-repeat;
-    padding: 220px 0 220px 0;
+    padding: 100px 0 100px 0;
     margin: 150px 0 0 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    text-align: center;
+    background: #FFFFFF;
 }
 .fourth-section{
     text-align: center;
@@ -250,6 +257,18 @@ main{
     justify-content: center;
     flex-direction: column;
 }
+.section-faq{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+}
+.section-faq ul{
+    text-align: left;
+    line-height: 30px;
+}
 .plans-section ul{
     line-height: 24px;
 }
@@ -285,13 +304,14 @@ main{
 }
 .gold-gradient-ul{
     background: #EFD37F;
-    border-radius: 22px;
+    border-radius: 3px;
     margin-left: 8px;
+    background: #E4AD7A;
 }
 .gold-ul{
-    background: linear-gradient(357.96deg, #857346 -92.53%, rgba(133, 115, 70, 0) 100.56%);
+    background: linear-gradient(356.55deg, #BF8046 -114.13%, rgba(191, 128, 70, 0) 138.04%);
     padding: 2em 3.5em;
-    border-radius: 22px;
+    border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -311,19 +331,6 @@ main{
 .yellow-box{
     background: rgba(239, 211, 127, 0.64);
 }
-.faq-section{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 80px;
-}
-.faq-ul{
-    background: #FFFFFF;
-    position: relative;
-    left: 1.8em;
-    top: 2em;
-    padding: 1.8em 2.5em 1.8em 3em;
-}
 .zap-section{
     display: flex;
     align-items: center;
@@ -331,12 +338,12 @@ main{
     margin-top: 100px;
 }
 .zap-box{
-    background: rgba(180, 180, 180, 0.5);
+    background: #BF8046;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2.5em 3.5em;
+    padding: 4em 5em;
     border-radius: 10px;
 }
 .zap-box p{
@@ -345,11 +352,20 @@ main{
 .price-text {
     max-height: 60px;
 }
+.gold-ul img{
+    width: 300px;
+}
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.plans-section h2{
+    margin: 40px;
+}
+.plans-section img{
+    margin: 30px 0;
 }
 @media screen and (min-width: 320px) and (max-width: 630px){
     main{
@@ -383,12 +399,19 @@ footer{
         flex-direction: column;
         align-items: center;
     }
+    .second-section ul{
+        line-height: 3rem;
+        font-size: larger;
+    }
     .price{
         margin-top: 25px;
         margin-bottom: 25px;
     }
     .content{
         padding: 0 15px;
+    }
+    .section-faq ul {
+       padding: 0 40px;
     }
     .squares{
         margin-bottom: 80px;
@@ -399,15 +422,13 @@ footer{
         padding: 30px 15px 0 15px;
     }
     .third-section{
-        padding: 40px 15px 220px 15px;
-        margin: 0;
-        align-items: center;
-        text-align: center;
-        background: url('./images/bg1-mobile.png') no-repeat;
-        background-size: cover;
-        background-position: 70% 0;
-        align-items: center;
-        justify-content: center;
+        padding: 100px 30px;
+        margin-top: 80px;
+        font-size: medium;
+    }
+    .second-section ul {
+        line-height: 3rem;
+        font-size: 14px;
     }
     .support-div{
         display: none;
@@ -446,7 +467,10 @@ footer{
         margin-top: 40px;
     }
     .plans-section{
-        margin-top: 80px;
+        margin-top: 40px;
+    }
+    .plans-section h2 {
+        margin: 5px;
     }
     .section-garantia {
         flex-direction: column;
@@ -471,12 +495,6 @@ footer{
     .garantia-img{
         width: 250px;
     }
-    .faq-section {
-        display: flex;
-        flex-direction: column;
-        margin-top: 40px;
-        text-align: center;
-    }
     .yellow-box{
         align-self:flex-start;
         text-align: left;
@@ -484,11 +502,6 @@ footer{
     }
     .yellow-box br{
         display: none;
-    }
-    .faq-ul{
-        font-size: 14px;
-        left: 0.6em;
-        top: 0.8em;
     }
     .zap-section{
         flex-direction: column;
