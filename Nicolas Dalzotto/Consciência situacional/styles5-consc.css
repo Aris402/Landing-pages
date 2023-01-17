@@ -187,6 +187,9 @@ main{
     border: none;
     cursor: pointer;
 }
+.lobos-mobile{
+    display: none;
+}
 .gradient-bg{
     background-color: #857346;
     padding: 0;
@@ -335,7 +338,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin: 100px 0 300px 0;
 }
 .zap-box{
     background: #BF8046;
@@ -386,6 +389,9 @@ footer{
     main h1{
         font-size: 20px;
     }
+    .main-text-div{
+        margin: 0 30px;
+    }
     button {
         font-size: 18px;
     }
@@ -394,6 +400,12 @@ footer{
     }
     .font-medium{
         font-size: medium;
+    }
+    .lobos-mobile{
+        display: block;
+    }
+    .lobos-pc{
+        display: none;
     }
     .sectwo-squares{
         flex-direction: column;
@@ -507,11 +519,19 @@ footer{
         flex-direction: column;
         text-align: center;
         margin-top: 40px;
+        margin-bottom: 200px;
+    }
+    #duvida{
+        font-size: 18px;
+        margin: 35px 0;
     }
     .zap-box figure{
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .zap-box{
+        padding: 4em 3em;
     }
     footer p{
         font-size: 12px;
