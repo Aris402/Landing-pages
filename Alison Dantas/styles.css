@@ -351,6 +351,9 @@ footer{
     align-items: center;
     justify-content: center;
 }
+#margin-button{
+    margin-bottom: 100px;
+}
 @media screen and (min-width: 320px) and (max-width: 630px){
     main{
         flex-direction: column;
@@ -382,6 +385,13 @@ footer{
     .sectwo-squares{
         flex-direction: column;
         align-items: center;
+        margin-top: 25px;
+    }
+    .third-section p {
+        text-align: left;
+    }
+    .faq-headers{
+        margin-bottom: 30px;
     }
     .price{
         margin-top: 25px;
@@ -391,7 +401,7 @@ footer{
         padding: 0 15px;
     }
     .squares{
-        margin-bottom: 80px;
+        margin-bottom: 30px;
         padding-bottom: 60px;
     }
     .second-section h2{
@@ -399,15 +409,11 @@ footer{
         padding: 30px 15px 0 15px;
     }
     .third-section{
-        padding: 40px 15px 220px 15px;
+        padding: 110px 15px 110px 15px;
         margin: 0;
-        align-items: center;
-        text-align: center;
         background: url('./images/bg1-mobile.png') no-repeat;
         background-size: cover;
         background-position: 70% 0;
-        align-items: center;
-        justify-content: center;
     }
     .support-div{
         display: none;
@@ -423,12 +429,14 @@ footer{
     }
     .texts-lists{
         flex-direction: column;
+        text-align: left;
+        margin: 0 20px 0 20px;
+    }
+    .main-text-div{
+        padding: 0 35px;
     }
     .texts-lists p{
         margin-bottom: 60px;
-    }
-    .text-left{
-        text-align: center;
     }
     .images-div{
         flex-direction: column;
@@ -447,6 +455,9 @@ footer{
     }
     .plans-section{
         margin-top: 80px;
+    }
+    #plans-header{
+        font-size: large;
     }
     .section-garantia {
         flex-direction: column;
@@ -474,7 +485,7 @@ footer{
     .faq-section {
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 80px;
         text-align: center;
     }
     .yellow-box{
@@ -493,7 +504,10 @@ footer{
     .zap-section{
         flex-direction: column;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 100px;
+    }
+    .zap-section p{
+        margin-bottom: 40px;
     }
     .zap-box figure{
         display: flex;
