@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: 'glacial';
+  src: url('/fonts/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.service-img{
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+.icone-zap{
+  margin-right: 10px;
+}
+iframe{
+  border: 0;
+}
+
+@media screen and (max-width: 768px){
+  .logo-img{
+    width: 70%;
+  }
+  .about-images{
+    width: 90%;
+  }
+  .icone-zap{
+    width: 25px;
+  }
+  #fixMargin{
+    margin-top: 35px;
+  }
+  iframe{
+    width: 90%;
+    margin-top: 30px;
+  }
+}
