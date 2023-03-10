@@ -50,7 +50,8 @@ export default function Sobre(){
                 <br/><br/>
                 Nossa equipe é composta por profissionais altamente capacitados que estão comprometidos em fornecer atendimentos abrangentes e personalizados, que atendem às necessidades individuais de cada paciente.
                 <br/><br/>
-                Nosso compromisso com a saúde das mulheres é refletido em todos os aspectos da clínica, desde nossas instalações modernas e confortáveis ​​até nossos métodos de tratamento avançados e tecnologias de última geração.
+                Nosso compromisso com a saúde das mulheres é refletido em todos os aspectos da clínica com nossas instalações modernas e confortáveis.
+                <br/><br/>
                 Se você está procurando uma clínica de saúde da mulher que tenha atendimento de qualidade, acessível e personalizado, não procure mais do que a Prevent Mulher. 
                 <br/><br/>
                 Entre em contato conosco hoje mesmo para agendar sua consulta e começar sua jornada rumo à saúde e ao bem-estar.
