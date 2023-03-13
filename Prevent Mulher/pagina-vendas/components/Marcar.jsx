@@ -73,7 +73,7 @@ export default function Marcar(){
                         Consulta ginecológica
                     </AgendarHeader>
                     <br/><br/>
-                    <ButtonStyle1 href="https://wa.me/558431132500?text=Ol%C3%A1%2C+quero+agendar+uma+consulta+ginecologica%21" target="_blank">
+                    <ButtonStyle1 onClick="return gtag_report_conversion('https://wa.me/558431132500?text=Ol%C3%A1%2C+quero+agendar+uma+consulta+ginecologica%21');" href="https://wa.me/558431132500?text=Ol%C3%A1%2C+quero+agendar+uma+consulta+ginecologica%21" target="_blank">
                         <FlexRowCenter>
                             <img className="icone-zap"
                                 src="./images/wpp-icon.png"
@@ -88,7 +88,7 @@ export default function Marcar(){
                         Ultrassonografia
                     </AgendarHeader>
                     <br/><br/>
-                    <ButtonStyle1 href="https://wa.me/558431132500?text=Ol%C3%A1%2C+quero+agendar+uma+ultrassonografia%21"
+                    <ButtonStyle1 onClick="return gtag_report_conversion('https://wa.me/558431132500?text=Ol%C3%A1%2C+quero+agendar+uma+ultrassonografia%21');" href="https://wa.me/558431132500?text=Ol%C3%A1%2C+quero+agendar+uma+ultrassonografia%21"
                     target="_blank">
                         <FlexRowCenter>
                             <img className="icone-zap"
@@ -104,10 +104,10 @@ export default function Marcar(){
             <FlexRowCenter>
                 <AgendarBox>
                         <AgendarHeader>
-                            Preventivos
+                            Preventivo
                         </AgendarHeader>
                         <br/><br/>
-                        <ButtonStyle1 href="https://wa.me/558431132500?text=Ol%C3%A1%2C+quero+marcar+o+preventivo%21"
+                        <ButtonStyle1 onClick="return gtag_report_conversion('https://wa.me/558431132500?text=Ol%C3%A1%2C+quero+marcar+o+preventivo%21');" href="https://wa.me/558431132500?text=Ol%C3%A1%2C+quero+marcar+o+preventivo%21"
                         target="_blank">
                             <FlexRowCenter>
                                 <img className="icone-zap"

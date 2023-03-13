@@ -50,7 +50,7 @@ export default function Sell(){
                 <br/><br/>
                 E mesmo quando encontramos, os custos podem ser altos.
                 <br/><br/>
-                Por isso a Prevent está aqui: Para garantir que você mulher tenha acesso a cuidados de saúde com qualidade e valores razoáveis.
+                Por isso a Prevent Mulher está aqui: Para garantir que você mulher tenha acesso a cuidados de saúde de qualidade e com valores razoáveis.
                 </SmallTexts>
                 <br/><br/><TemporaryBr/>
                 <ButtonStyle1 href="#agendar">Quero agendar!</ButtonStyle1>

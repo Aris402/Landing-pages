@@ -96,6 +96,27 @@ export default function Areas(){
                 </ServiceDiv>
                 <ServiceDiv>
                     <img className="service-img"
+                        src="/images/consultation.webp"
+                        alt="Mulher se consultando no ginecologista"
+                        width="293"
+                    />
+                    <br/>
+                    <FlexRowCenter>
+                        <CiMedicalCase 
+                            size={36}
+                            fill="#fff"
+                        />
+                        <HeadersSmaller>
+                            Preventivo
+                        </HeadersSmaller>
+                    </FlexRowCenter>
+                    <br/>
+                    <ServiceTexts>
+                    Também conhecido como Papanicolau, é um exame realizado com intuito de detectar alterações que podem levar ao câncer de colo do útero. É a principal estratégia para detectar lesões precocemente e fazer o diagnóstico da doença antes que a mulher tenha sintomas. Sua realização periódica permite que o diagnóstico seja feito cedo e reduza a mortalidade pela doença. O exame preventivo é indolor, simples e rápido.
+                    </ServiceTexts>
+                </ServiceDiv>
+                <ServiceDiv>
+                    <img className="service-img"
                         src="/images/sonography.webp"
                         alt="Médico realizando ultrassonografia"
                         width="293"
@@ -112,28 +133,7 @@ export default function Areas(){
                     </FlexRowCenter>
                     <br/>
                     <ServiceTexts>
-                        Para avaliar problemas ginecológicos, como cistos ovarianos, miomas uterinos, infertilidade, sangramento uterino anormal e outras condições. Também contamos com ultrassonografias o diagnóstico de problemas mamários e tireoidianos, além da ultrassonografia obstétrica.
-                    </ServiceTexts>
-                </ServiceDiv>
-                <ServiceDiv>
-                    <img className="service-img"
-                        src="/images/consultation.webp"
-                        alt="Mulher se consultando no ginecologista"
-                        width="293"
-                    />
-                    <br/>
-                    <FlexRowCenter>
-                        <CiMedicalCase 
-                            size={36}
-                            fill="#fff"
-                        />
-                        <HeadersSmaller>
-                            Preventivos
-                        </HeadersSmaller>
-                    </FlexRowCenter>
-                    <br/>
-                    <ServiceTexts>
-                        A consulta ginecológica engloba o acompanhamento periódico, prevenção e tratamento de doenças relacionadas à saúde reprodutiva feminina, bem como doenças sexualmente transmissíveis (DSTs).
+                        Para avaliar problemas ginecológicos, como cistos ovarianos, miomas uterinos, infertilidade, sangramento uterino anormal e outras condições. Também contamos com ultrassonografias de abdomen total, tireoide, mama e obstétrico.
                     </ServiceTexts>
                 </ServiceDiv>
             </Services>
