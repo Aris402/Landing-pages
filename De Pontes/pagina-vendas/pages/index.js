@@ -1,5 +1,7 @@
 import Head from 'next/head'
+import Growth from '../components/Growth'
 import Hero from '../components/Hero'
+import Secondary from '../components/Secondary'
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero/>
+      <Secondary/>
+      <Growth/>
     </div>
   )
 }

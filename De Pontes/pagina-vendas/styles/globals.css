@@ -7,5 +7,25 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background-color: #090D26;
+  background-color: #05081A;
+}
+.image-icons{
+  margin-bottom: 30px;
+}
+.lastIconDiv{
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px){
+  #logo{
+    margin: 20px 0 20px 0;
+    width: 100%;
+    align-self: center;
+  }
+  .images-mobile{
+    width: 90%;
+  }
+  .lastIconDiv{
+    margin-bottom: 120px;
+  }
 }
