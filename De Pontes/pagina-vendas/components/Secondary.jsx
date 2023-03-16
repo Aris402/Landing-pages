@@ -17,7 +17,7 @@ const DescBox = styled.div`
     }
 `
 const SecondarySec = styled.section`
-    background-image: url('./images/bg-1.png');
+    background-image: url('./images/bg-2.png');
     background-size: cover;
     background-color: #05081A !important;
     padding: 6em 0;

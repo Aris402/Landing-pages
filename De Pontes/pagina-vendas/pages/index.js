@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Growth from '../components/Growth'
 import Hero from '../components/Hero'
+import Method from '../components/Method'
 import Secondary from '../components/Secondary'
+import { PcBr } from '../components/styles/Sharedstyles'
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <Hero/>
       <Secondary/>
       <Growth/>
+      <PcBr/><PcBr/>
+      <Method/>
     </div>
   )
 }

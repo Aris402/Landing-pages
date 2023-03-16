@@ -15,11 +15,14 @@ body{
 .lastIconDiv{
   margin-bottom: 100px;
 }
+.iconsX{
+  margin-right: 15px;
+}
 
 @media screen and (max-width: 768px){
   #logo{
     margin: 20px 0 20px 0;
-    width: 100%;
+    width: 30%;
     align-self: center;
   }
   .images-mobile{
@@ -27,5 +30,11 @@ body{
   }
   .lastIconDiv{
     margin-bottom: 120px;
+  }
+  .image-icons{
+    width: 18%;
+  }
+  .arrow-icons{
+    width: 25px !important;
   }
 }

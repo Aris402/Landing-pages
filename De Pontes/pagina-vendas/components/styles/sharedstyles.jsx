@@ -18,6 +18,12 @@ const FlexRow = styled.div`
     display: flex;
     align-items: ${props => props.alignItems};
     justify-content: ${props => props.justifyItems};
+    padding: ${props => props.setPadding};
+
+    @media screen and (max-width: 768px){
+        flex-direction: ${props => props.flexDirection};
+        margin: ${props => props.setMargin};
+    }
 `
 const FlexColumnCenter = styled.div`
     display: flex;
@@ -88,9 +94,12 @@ const YellowText = styled.p`
     font-weight: ${props => props.fontWeight};
     margin: ${props => props.setMargin};
     text-align: ${props => props.textAlign};
+    text-transform: uppercase;
+    font-family: 'Rufina', serif;
 
     @media screen and (max-width: 768px){
         text-align: ${props => props.textAlignMobile};
+        font-size: 22px;
     }
 `
 const BoldMontserrat = styled.span`
@@ -103,14 +112,39 @@ const MobileBr = styled.br`
         display: block;
     }
 `
+const PcBr = styled.br`
+    display: block;
+
+    @media screen and (max-width: 768px){
+        display: none;
+}
+`
 const GradientBorder = styled.div`
     border-width: 2px;
-    border-left: 0;
+    border-left: ${props => props.setBLeft};
+    border-right: ${props => props.setBRight};
     border-style: solid;
-    border-image: linear-gradient(to left, #9A7E4E, rgba(0, 0, 0, 0)) 1 27%;
+    border-image: linear-gradient(${props => props.setBorder}, #9A7E4E, rgba(0, 0, 0, 0)) 1 7%;
     margin: ${props => props.setMargin};
+    padding: ${props => props.setPadding};
+
+    @media screen and (max-width: 768px){
+        margin: ${props => props.setMarginMobile};
+        padding: ${props => props.setPaddingMobile};
+    }
+`
+const BgText = styled.span`
+    color: #fff;
+    background-color: #9A7E4E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25.41px;
+
+    @media screen and (max-width: 768px){
+        font-size: 18px;
+    }
 `
 
 export {EvenlyDiv, FlexColumn, TemporaryBr, GradientButton, StyledButton, 
     FlexColumnCenter, YellowText, WhiteTexts, BoldMontserrat, MobileBr,
-    BlackTexts, FlexRow, GradientBorder}
+    BlackTexts, FlexRow, GradientBorder, BgText, PcBr}

@@ -24,12 +24,20 @@ const PageH1 = styled.h1`
     font-size: 29.71px;
     font-family: 'Rufina', serif;
     @media screen and (max-width: 768px){
-        font-size: 18px;
+        font-size: 22px;
         text-align: center;
     }
 `
 const ContentDiv = styled.div`
     padding: 7em 0;
+    background-image: url('./images/bg-1.jpg');
+
+    @media screen and (min-width: 900px) and (max-width: 1650px){
+        background-position: 50% 0;
+    }
+    @media screen and (max-width: 768px){
+        padding: 3em 0 14em;
+    }
 `
 const RufinaLogo = styled.p`
     font-family: 'Rufina', serif;
@@ -37,6 +45,14 @@ const RufinaLogo = styled.p`
     font-size: 19.38px;
     color: #fff;
     padding: 18px;
+
+    @media screen and (max-width: 768px){
+        font-size: 18px;
+        text-align: center;
+    }
+`
+const SupportDiv = styled.div`
+    width: 400px;
 `
 
 export default function Hero(){
@@ -50,8 +66,8 @@ export default function Hero(){
             <ContentDiv>
                 <EvenlyDiv>
                     <FlexColumn>
-                        <FlexRow justifyItems="flex-start">
-                            <GradientBorder setMargin="0 20px 0 0;">
+                        <FlexRow justifyItems="flex-start" flexDirection="column" setMargin="0 0 30px 0">
+                            <GradientBorder setMargin="0 20px 0 0;" setMarginMobile="0" setBorder="to left" setBLeft="0">
                                 <RufinaLogo>
                                     RECORRÊNCIA DE CRESCIMENTO
                                 </RufinaLogo>
@@ -65,7 +81,7 @@ export default function Hero(){
                         </FlexRow>
                         <PageH1>
                         <TemporaryBr/>
-                        MÉTODO CAPAZ DE TE DAR DOIS ANOS DE NOVOS PACIENTES E CRESCIMENTO, EM MESES.
+                            MÉTODO CAPAZ DE TE DAR DOIS ANOS DE NOVOS PACIENTES E CRESCIMENTO, EM MESES.
                         </PageH1>
                         <br/>
                         <WhiteTexts maxWidth="570px">
@@ -79,12 +95,7 @@ export default function Hero(){
                         </GradientButton>
                     </FlexColumn>
                     <MobileBr/><MobileBr/>
-                    <img
-                        src='./images/cellphone.webp'
-                        alt='imagem de um celular com apetrechos médicos'
-                        width='440'
-                        className='images-mobile'
-                    />
+                    <SupportDiv></SupportDiv>
                 </EvenlyDiv>
             </ContentDiv>
         </section>
