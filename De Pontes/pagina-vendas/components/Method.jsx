@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { BgText, WhiteTexts, PcBr, FlexRow } from "./styles/Sharedstyles";
+import { BgText, WhiteTexts, PcBr, FlexRow, FlexColumn, MobileBr } from "./styles/Sharedstyles";
+import { useEffect } from "react";
 
 const FirstDiv = styled.div`
     text-align: center;
@@ -40,13 +41,16 @@ const BgDivHeader = styled.p`
 
     @media screen and (max-width: 768px){
         font-size: 18px;
-        text-align: center;
+        text-align: ${props => props.textAlign};
     }
 `
 const MethodSec = styled.section`
     @media screen and (max-width: 768px){
     margin: 0 15px 0 15px;
 }
+`
+const SpecialSpanTwo = styled.span`
+    color: #9A7E4E;
 `
 
 export default function Method(){
@@ -64,11 +68,11 @@ export default function Method(){
                     O nosso <SpecialSpan>Método</SpecialSpan> é diferente de<PcBr/> tudo que você já viu...
                 </SpecialH2>
                 <BgDiv>
-                    <BgDivHeader>
+                    <BgDivHeader textAlign="left">
                         Método tradicional das agências comuns:
                     </BgDivHeader>
                     <br/>
-                    <WhiteTexts>
+                    <WhiteTexts textAlignMobile="left">
                     A maioria das agências de marketing tradicionais focam apenas em levar até você um volume enorme de pessoas, mas que não são ideais para a venda.
                     </WhiteTexts>
                     <br/>
@@ -97,6 +101,122 @@ export default function Method(){
                     </FlexRow>
                 </BgDiv>
             </SecondDiv>
+            <FlexRow justifyItems="space-evenly" alignItems="center" flexDirection="column" setPadding="60px 0 60px 0">
+                <FlexColumn>
+                    <BgDivHeader textAlign="center">
+                        MÉTODO <BgText>RECORRÊNCIA DE<PcBr/> CRESCIMENTO:</BgText>
+                    </BgDivHeader>
+                    <MobileBr/>
+                    <WhiteTexts fontSize="19.38px" maxWidth="504px">
+                            Com o nosso Método, nós levamos os pacientes certos até sua clínica ou consultório, aplicando estratégias para atrair, converter e torná-los evangelistas da sua clínica. São os pacientes certos para você focar em tratamentos de alto valor.
+                    </WhiteTexts>
+                    <br/>
+                    <FlexRow alignItems="center">
+                        <img 
+                            src="./images/iconV.svg"
+                            width="30"
+                            alt="ícone de check"
+                            className="iconsX"
+                        />
+                        <WhiteTexts textAlign="left !important">Não basta captar, é preciso converter e fidelizar.</WhiteTexts>
+                    </FlexRow>
+                    <br/>
+                    <FlexRow alignItems="center">
+                        <img 
+                            src="./images/iconV.svg"
+                            width="30"
+                            alt="ícone de check"
+                            className="iconsX"
+                        />
+                        <WhiteTexts textAlign="left !important">Levamos o paciente de qualidade que não vai te<PcBr/> olhar por preço.</WhiteTexts>
+                    </FlexRow>
+                    <br/>
+                    <FlexRow alignItems="center">
+                        <img 
+                            src="./images/iconV.svg"
+                            width="30"
+                            alt="ícone de check"
+                            className="iconsX"
+                        />
+                        <WhiteTexts textAlign="left !important">Foco em ações para filtrar e qualificar os<PcBr/> pacientes sempre.</WhiteTexts>
+                    </FlexRow>
+                </FlexColumn>
+                <img 
+                    src="./images/notebook.webp"
+                    width="616"
+                    alt="imagem de um notebook"
+                    className="images-mobile"
+                />
+            </FlexRow>
+            <FlexColumn justifyItems="center" textAlign="center">
+                <div>
+                    <BgDivHeader>
+                        PARA QUEM É NOSSO <SpecialSpanTwo>MÉTODO?</SpecialSpanTwo>
+                    </BgDivHeader>
+                    <br/>
+                    <WhiteTexts>
+                        Dentistas e donos de clínicas que…
+                    </WhiteTexts>
+                </div>
+                <FlexRow justifyItems="space-evenly" alignItems="center" setPadding="7em 0" 
+                flexDirection="column" setPaddingMobile="0 0">
+                    <FlexColumn alignItems="center" setPadding="4em 0">
+                        <img 
+                            src="./images/clock.svg"
+                            width="106"
+                            alt="ícone de relógio"
+                            className="image-icons-two"
+                        />
+                        <br/>
+                        <PcBr/>
+                        <WhiteTexts maxWidth='383px' fontSize="20px">
+                            Vivem presos ao trabalho e<MobileBr/> atarefados 24h, mas querem<MobileBr/> liberdade de tempo e fazer<MobileBr/> melhores atendimentos.
+                        </WhiteTexts>
+                    </FlexColumn>
+                    <FlexColumn alignItems="center">
+                        <img 
+                            src="./images/rocket.svg"
+                            width="106"
+                            alt="ícone de foguete"
+                            className="image-icons-two"
+                        />
+                        <br/>
+                        <PcBr/>
+                        <WhiteTexts maxWidth='383px' fontSize="20px">
+                            Já investem em tráfego pago<MobileBr/> e almejam ter excelência em<MobileBr/> suas estratégias e comunicação.
+                        </WhiteTexts>
+                    </FlexColumn>
+                </FlexRow>
+                <FlexRow justifyItems="space-evenly" alignItems="center" setPadding="1em 0" 
+                flexDirection="column" setPaddingMobile="0 0">
+                    <FlexColumn alignItems="center" setPadding="4em 0">
+                        <img 
+                            src="./images/cash.svg"
+                            width="106"
+                            alt="ícone de moeda e seta de crescimento"
+                            className="image-icons-two"
+                        />
+                        <br/>
+                        <PcBr/>
+                        <WhiteTexts maxWidth='383px' fontSize="20px">
+                        Querem construir uma<MobileBr/> clínica que fatura 100 mil<MobileBr/> por mês ou mais.
+                        </WhiteTexts>
+                    </FlexColumn>
+                    <FlexColumn alignItems="center">
+                        <img 
+                            src="./images/hands.svg"
+                            width="106"
+                            alt="ícone de mãos fechando acordo"
+                            className="image-icons-two"
+                        />
+                        <br/>
+                        <PcBr/>
+                        <WhiteTexts maxWidth='383px' fontSize="20px">
+                            Desejam ter fluxo constante<MobileBr/> de pacientes chegando aos<MobileBr/> seus mochos.
+                        </WhiteTexts>
+                    </FlexColumn>
+                </FlexRow>
+            </FlexColumn>
         </MethodSec>
     )
 }

@@ -34,7 +34,14 @@ body{
   .image-icons{
     width: 18%;
   }
+  .image-icons-two{
+    width: 75px;
+  }
   .arrow-icons{
     width: 25px !important;
+  }
+  .cofounders{
+    width: 130px;
+    margin: auto;
   }
 }

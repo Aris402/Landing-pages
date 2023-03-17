@@ -13,6 +13,15 @@ const EvenlyDiv = styled.div`
 const FlexColumn = styled.div`
     display: flex;
     flex-direction: column;
+    justify-content: ${props => props.justifyItems};
+    align-items: ${props => props.alignItems};
+    text-align: ${props => props.textAlign};
+    @media screen and (max-width: 768px){
+        padding: ${props => props.setPadding};
+        flex-direction: ${props => props.flexDirection};
+        justify-content: ${props => props.justifyItemsMob};
+        width: ${props => props.setWidthMob};
+    }
 `
 const FlexRow = styled.div`
     display: flex;
@@ -23,6 +32,8 @@ const FlexRow = styled.div`
     @media screen and (max-width: 768px){
         flex-direction: ${props => props.flexDirection};
         margin: ${props => props.setMargin};
+        text-align: ${props => props.textAlignMobile};
+        padding: ${props => props.setPaddingMobile};
     }
 `
 const FlexColumnCenter = styled.div`
@@ -50,6 +61,7 @@ const WhiteTexts = styled.p`
     @media screen and (max-width: 768px){
         font-size: 14px;
         text-align: center;
+        text-align: ${props => props.textAlignMobile};
     }
 `
 const BlackTexts = styled.p`
@@ -85,6 +97,7 @@ const GradientButton = styled.div`
     background-color: #9A7E4E;
     max-width: ${props => props.maxWidth};
     align-self: center;
+    align-self: ${props => props.alignSelf};
     box-shadow: 0 0 12px #C5AE86;
 `
 const YellowText = styled.p`

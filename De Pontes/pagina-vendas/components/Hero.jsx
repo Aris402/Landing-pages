@@ -18,7 +18,7 @@ const GradientHeader = styled.header`
     background-color: #B10000;
 `
 const PageH1 = styled.h1`
-    color: #C5AE86;
+    color: #fff;
     max-width: 532px;
     font-weight: 600;
     font-size: 29.71px;
@@ -37,6 +37,9 @@ const ContentDiv = styled.div`
     }
     @media screen and (max-width: 768px){
         padding: 3em 0 14em;
+        background-image: url('./images/bg-1-mobile.jpg');
+        background-size: cover;
+        background-position: center;
     }
 `
 const RufinaLogo = styled.p`
@@ -53,6 +56,11 @@ const RufinaLogo = styled.p`
 `
 const SupportDiv = styled.div`
     width: 400px;
+`
+const PageH2 = styled.p`
+    color: #9A7E4E;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 570px;
 `
 
 export default function Hero(){
@@ -84,11 +92,11 @@ export default function Hero(){
                             MÉTODO CAPAZ DE TE DAR DOIS ANOS DE NOVOS PACIENTES E CRESCIMENTO, EM MESES.
                         </PageH1>
                         <br/>
-                        <WhiteTexts maxWidth="570px">
+                        <PageH2>
                             Agende uma <BoldMontserrat>Sessão estratégica GRATUITA</BoldMontserrat> e descubra como ter o sistema de recorrência de pacientes ético, lucrativo e transformador para sua clínica.
-                        </WhiteTexts>
+                        </PageH2>
                         <br/><br/>
-                        <GradientButton maxWidth='341px'>
+                        <GradientButton maxWidth='341px' alignSelf="flex-start">
                             <StyledButton maxWidth='341px'>
                                 AGENDAR SESSÃO GRATUITA
                             </StyledButton>

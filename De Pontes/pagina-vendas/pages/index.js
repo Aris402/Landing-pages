@@ -4,6 +4,8 @@ import Hero from '../components/Hero'
 import Method from '../components/Method'
 import Secondary from '../components/Secondary'
 import { PcBr } from '../components/styles/Sharedstyles'
+import Who from '../components/Who'
+import Form from '../components/Form'
 
 export default function Home() {
   return (
@@ -22,6 +24,8 @@ export default function Home() {
       <Growth/>
       <PcBr/><PcBr/>
       <Method/>
+      <Who/>
+      <Form/>
     </div>
   )
 }
