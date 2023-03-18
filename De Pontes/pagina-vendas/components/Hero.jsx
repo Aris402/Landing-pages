@@ -61,6 +61,10 @@ const PageH2 = styled.p`
     color: #9A7E4E;
     font-family: 'Montserrat', sans-serif;
     max-width: 570px;
+
+    @media screen and (max-width: 768px){
+        text-align: center;
+    }
 `
 
 export default function Hero(){
@@ -96,8 +100,8 @@ export default function Hero(){
                             Agende uma <BoldMontserrat>Sessão estratégica GRATUITA</BoldMontserrat> e descubra como ter o sistema de recorrência de pacientes ético, lucrativo e transformador para sua clínica.
                         </PageH2>
                         <br/><br/>
-                        <GradientButton maxWidth='341px' alignSelf="flex-start">
-                            <StyledButton maxWidth='341px'>
+                        <GradientButton maxWidth='341px' alignSelf="flex-start" alignSelfMobile="center" href="#agendar">
+                            <StyledButton maxWidth='341px' >
                                 AGENDAR SESSÃO GRATUITA
                             </StyledButton>
                         </GradientButton>

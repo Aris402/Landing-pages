@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import { FlexColumn, PcBr, WhiteTexts } from "./styles/Sharedstyles"
+import { PcBr, WhiteTexts } from "./styles/Sharedstyles"
+import { useEffect } from "react"
 
 const StyledForm = styled.form`
     background-color: #000000;
@@ -8,14 +9,25 @@ const StyledForm = styled.form`
     display: flex;
     flex-direction: column;
     margin: auto;
+    margin-bottom: 100px;
     border: 2.6489px solid #C5AE86;
     border-radius: 6.62226px;
     font-family: 'Montserrat', sans-serif;
+
+    @media screen and (max-width: 768px){
+        padding: 50px 20px 20px 20px;
+        margin: 0 15px 50px 15px;
+    }
 `
 const StyledInput = styled.input`
     padding: 15px 0 15px 30px;
     font-size: 19px;
     font-family: 'Montserrat', sans-serif;
+
+    @media screen and (max-width: 768px){
+        font-size: 16px;
+        padding: 15px 0 15px 10px;
+    }
 `
 const StyledSubmit = styled.input`
     background: linear-gradient(354.44deg, #D0A04D 3.67%, rgba(197, 174, 134, 0) 207.12%);
@@ -31,6 +43,10 @@ const FormHeader = styled.p`
     font-size: 25.41px;
     font-weight: 600;
     text-align: center;
+
+    @media screen and (max-width: 768px){
+        font-size: 22px;
+    }
 `
 const SmallText = styled.small`
     font-size: 12px;
@@ -42,10 +58,25 @@ const YellowHeader = styled.span`
 `
 
 export default function Form(){
+
+
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "//js.hs-scripts.com/24271807.js";
+        script.id = "hs-script-loader"
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () =>{
+            document.body.removeChild(script);
+        }
+    }, [])
+
     return(
         <section>
-            <StyledForm>
-                <FormHeader>
+            <StyledForm method="POST" action="/obrigado">
+                <FormHeader id="agendar">
                     PARA ENTENDER COMO SUA CLÍNICA PODE TER UMA <YellowHeader>RECORRÊNCIA DE PACIENTES</YellowHeader> E <YellowHeader>FIDELIZA-LOS</YellowHeader>:
                 </FormHeader>
                 <br/>

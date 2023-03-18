@@ -67,8 +67,8 @@ export default function Growth(){
                     </FlexColumn>
                 </GradientBorder>
             </FlexRow>
-            <GradientButton maxWidth='341px'>
-                <StyledButton maxWidth='341px'>
+            <GradientButton maxWidth='341px' href="#agendar">
+                <StyledButton maxWidth='341px' >
                     QUERO ENTENDER O MÉTODO
                 </StyledButton>
             </GradientButton>

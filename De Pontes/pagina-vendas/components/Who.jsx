@@ -17,7 +17,7 @@ const WhoSec = styled.section`
 
     @media screen and (max-width: 768px){
         background-size: 150%;
-        padding: 7em 2em;
+        padding: 5em 2em;
     }
 `
 const AvatarHeader = styled.p`

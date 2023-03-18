@@ -18,6 +18,13 @@ body{
 .iconsX{
   margin-right: 15px;
 }
+.calendly-div{
+  min-width:320px;
+  height:630px;
+  border: 6px solid #FBF7F7;
+  border-radius: 20px;    
+  width: 648px;
+}
 
 @media screen and (max-width: 768px){
   #logo{
@@ -43,5 +50,11 @@ body{
   .cofounders{
     width: 130px;
     margin: auto;
+  }
+  .calendly-div{   
+    width: 100%;
+  }
+  .logoObg{
+    width: 130px;
   }
 }

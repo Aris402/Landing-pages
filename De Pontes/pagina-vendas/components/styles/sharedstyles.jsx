@@ -42,7 +42,12 @@ const FlexColumnCenter = styled.div`
     justify-content: center;
     align-items: center;
     max-width: 1275px;
+    max-width: ${props => props.maxWidth};
     margin: auto;
+
+    @media screen and (max-width: 768px){
+       padding: ${props => props.setPadding};
+    }
 `
 const TemporaryBr = styled.br`
     display:block;
@@ -75,6 +80,8 @@ const BlackTexts = styled.p`
     @media screen and (max-width: 768px){
         font-size: 14px;
         text-align: center;
+        text-align: ${props => props.textAlignMobile};
+        font-size: ${props => props.fontSizeMobile};
     }
 `
 const StyledButton = styled.button`
@@ -93,12 +100,16 @@ const StyledButton = styled.button`
         width: 300px;
     }
 `
-const GradientButton = styled.div`
+const GradientButton = styled.a`
     background-color: #9A7E4E;
     max-width: ${props => props.maxWidth};
     align-self: center;
     align-self: ${props => props.alignSelf};
     box-shadow: 0 0 12px #C5AE86;
+
+    @media screen and (max-width: 768px){
+        align-self: ${props => props.alignSelfMobile};
+    }
 `
 const YellowText = styled.p`
     color: #9A7E4E;
