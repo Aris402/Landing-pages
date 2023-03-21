@@ -19,13 +19,15 @@ const GradientHeader = styled.header`
 `
 const PageH1 = styled.h1`
     color: #fff;
-    max-width: 532px;
-    font-weight: 600;
+    max-width: 590px;
+    font-weight: 500;
     font-size: 29.71px;
     font-family: 'Rufina', serif;
+    line-height: 42px;
     @media screen and (max-width: 768px){
         font-size: 22px;
         text-align: center;
+        line-height: 32px;
     }
 `
 const ContentDiv = styled.div`
@@ -50,8 +52,12 @@ const RufinaLogo = styled.p`
     padding: 18px;
 
     @media screen and (max-width: 768px){
-        font-size: 18px;
+        font-size: 13px;
         text-align: center;
+        padding: 21px 12px 0 12px;
+    }
+    @media screen and (max-width: 375px){
+        padding: 14px 12px 0 6px;
     }
 `
 const SupportDiv = styled.div`
@@ -78,18 +84,20 @@ export default function Hero(){
             <ContentDiv>
                 <EvenlyDiv>
                     <FlexColumn>
-                        <FlexRow justifyItems="flex-start" flexDirection="column" setMargin="0 0 30px 0">
-                            <GradientBorder setMargin="0 20px 0 0;" setMarginMobile="0" setBorder="to left" setBLeft="0">
+                        <FlexRow justifyItems="space-evenly" setMargin="0 0 30px 0" alignItems="center">
+                            <GradientBorder setMargin="0 20px 0 0;" setMarginMobile="0" setBorder="to left" setBLeft="0" setColor="#9A7E4E">
                                 <RufinaLogo>
                                     RECORRÊNCIA DE CRESCIMENTO
                                 </RufinaLogo>
                             </GradientBorder>
-                            <img
-                                src='./images/logo-depontes.svg'
-                                width='132'
-                                alt='logo da agência de marketing De Pontes'
-                                id='logo'
-                            />
+                            <div>
+                                <img
+                                    src='./images/logo-depontes.png'
+                                    width='132'
+                                    alt='logo da agência de marketing De Pontes'
+                                    id='logo'
+                                />
+                            </div>
                         </FlexRow>
                         <PageH1>
                         <TemporaryBr/>
@@ -97,7 +105,7 @@ export default function Hero(){
                         </PageH1>
                         <br/>
                         <PageH2>
-                            Agende uma <BoldMontserrat>Sessão estratégica GRATUITA</BoldMontserrat> e descubra como ter o sistema de recorrência de pacientes ético, lucrativo e transformador para sua clínica.
+                            Agende uma <BoldMontserrat>Sessão estratégica GRATUITA</BoldMontserrat> e descubra como ter o sistema de recorrência de pacientes ético e lucrativo para a sua clínica.
                         </PageH2>
                         <br/><br/>
                         <GradientButton maxWidth='341px' alignSelf="flex-start" alignSelfMobile="center" href="#agendar">

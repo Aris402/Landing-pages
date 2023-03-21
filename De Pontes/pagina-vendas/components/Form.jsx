@@ -75,7 +75,7 @@ export default function Form(){
 
     return(
         <section>
-            <StyledForm method="POST" action="/obrigado">
+            <StyledForm method="POST" action="/obrigado.html">
                 <FormHeader id="agendar">
                     PARA ENTENDER COMO SUA CLÍNICA PODE TER UMA <YellowHeader>RECORRÊNCIA DE PACIENTES</YellowHeader> E <YellowHeader>FIDELIZA-LOS</YellowHeader>:
                 </FormHeader>

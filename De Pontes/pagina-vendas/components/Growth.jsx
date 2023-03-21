@@ -7,14 +7,13 @@ const GrowthSec = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3em 0;
+    padding: 3em 0 9em 0;
 
     @media screen and (max-width: 768px){
         padding: 3em 25px;
     }
 `
 const FirstTextDiv = styled.div`
-
     @media screen and (max-width: 768px){
         display: flex;
         justify-content: center;
@@ -33,7 +32,8 @@ export default function Growth(){
                 width="1013"
                 className='images-mobile'
             />
-            <FlexRow justifyItems="space-between" setPadding="110px 0 50px 0" flexDirection='column'>
+            <FlexRow justifyItems="space-between" setPadding="110px 0 50px 0" flexDirection='column' 
+            setWidth="80%" setWidthMobile="100%">
                 <FirstTextDiv>
                     <YellowText maxWidth="431px" fontSize="25.41px" fontWeight="600">
                         Para o lucro, a ética e o profissionalismo andarem juntos na sua clínica.
@@ -43,7 +43,7 @@ export default function Growth(){
                         Na sessão estratégica gratuita você vai descobrir como nosso Método pode te ajudar a:
                     </WhiteTexts>
                 </FirstTextDiv>
-                <GradientBorder setBorder="to right" setBRight="0" setPadding="30px 0 30px 30px" setPaddingMobile="30px 0 30px 10px">
+                <GradientBorder setColor="#fff" setBorder="to right" setBRight="0" setPadding="30px 0 30px 30px" setPaddingMobile="30px 0 30px 10px">
                     <FlexColumn>
                         <FlexRow>
                         <span><IoIosArrowForward fill="#9A7E4E" size="25" className="arrow-icons"/></span>

@@ -4,6 +4,7 @@ import { useEffect } from "react";
 
 const FirstDiv = styled.div`
     text-align: center;
+    padding-bottom: 6em;
 `
 const SecondDiv = styled.div`
     text-align: center;

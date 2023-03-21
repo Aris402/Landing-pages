@@ -28,12 +28,14 @@ const FlexRow = styled.div`
     align-items: ${props => props.alignItems};
     justify-content: ${props => props.justifyItems};
     padding: ${props => props.setPadding};
+    width: ${props => props.setWidth};
 
     @media screen and (max-width: 768px){
         flex-direction: ${props => props.flexDirection};
         margin: ${props => props.setMargin};
         text-align: ${props => props.textAlignMobile};
         padding: ${props => props.setPaddingMobile};
+        width: ${props => props.setWidthMobile};
     }
 `
 const FlexColumnCenter = styled.div`
@@ -148,7 +150,7 @@ const GradientBorder = styled.div`
     border-left: ${props => props.setBLeft};
     border-right: ${props => props.setBRight};
     border-style: solid;
-    border-image: linear-gradient(${props => props.setBorder}, #9A7E4E, rgba(0, 0, 0, 0)) 1 7%;
+    border-image: linear-gradient(${props => props.setBorder}, ${props => props.setColor}, rgba(0, 0, 0, 0)) 1 7%;
     margin: ${props => props.setMargin};
     padding: ${props => props.setPadding};
 
