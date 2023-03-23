@@ -28,6 +28,9 @@ const StyledInput = styled.input`
         font-size: 16px;
         padding: 15px 0 15px 10px;
     }
+    @media screen and (max-width: 366px){
+        font-size: 12px;
+    }
 `
 const StyledSubmit = styled.input`
     background: linear-gradient(354.44deg, #D0A04D 3.67%, rgba(197, 174, 134, 0) 207.12%);
@@ -37,6 +40,10 @@ const StyledSubmit = styled.input`
     border: none;
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
+
+    @media screen and (max-width: 366px){
+        font-size: 14px;
+    }
 `
 const FormHeader = styled.p`
     color: #fff;
@@ -46,6 +53,9 @@ const FormHeader = styled.p`
 
     @media screen and (max-width: 768px){
         font-size: 22px;
+    }
+    @media screen and (max-width: 366px){
+        font-size: 18px;
     }
 `
 const SmallText = styled.small`

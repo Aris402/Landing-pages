@@ -39,7 +39,7 @@ body{
 @media screen and (max-width: 768px){
   #logo{
     margin: 20px 0 20px 0;
-    width: 100%;
+    width: 70px;
     align-self: center;
   }
   .images-mobile{

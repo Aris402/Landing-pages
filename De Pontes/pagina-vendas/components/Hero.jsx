@@ -52,12 +52,12 @@ const RufinaLogo = styled.p`
     padding: 18px;
 
     @media screen and (max-width: 768px){
-        font-size: 13px;
-        text-align: center;
-        padding: 21px 12px 0 12px;
+        font-size: 14px;
+        text-align: left;
+        padding: 21px 12px 21px 12px;
     }
-    @media screen and (max-width: 375px){
-        padding: 14px 12px 0 6px;
+    @media screen and (max-width: 366px){
+        font-size: 12px;
     }
 `
 const SupportDiv = styled.div`
@@ -92,7 +92,7 @@ export default function Hero(){
                             </GradientBorder>
                             <div>
                                 <img
-                                    src='./images/logo-depontes.png'
+                                    src='./images/avatar-logo.webp'
                                     width='132'
                                     alt='logo da agência de marketing De Pontes'
                                     id='logo'

@@ -40,7 +40,9 @@ const DetailsDiv = styled.div`
         max-height: 500px;
     }
     align-self: flex-start;
-
+    @media screen and (max-width: 768px){
+        width: 100%;
+    }
 `
 const SummaryTxt = styled.p`
     font-weight: 700;
@@ -85,7 +87,7 @@ export default function FAQ(){
                 </HeaderText>
                 <Details summary="O que é o método Recorrência de Crescimento?">
                 <BlackTexts maxWidth="639px" textAlignMobile="left">
-                            A ideia é simples: atrair um fluxo constante de novos pacientes  e transformar essa recorrência em crescimento palpável para a clínica através de uma abordagem de aprendizados, programa de anúncios eficazes e um ecossistema de vendas sólido. Nosso CEO idealizou o método ao adaptar o modus operandi de growth hacking de gigantes, como Uber e Airbnb, para as clínicas odontológicas.
+                        A ideia é simples: atrair um fluxo constante de novos pacientes  e transformar essa recorrência em crescimento palpável para a clínica através de uma abordagem de aprendizados, programa de anúncios eficazes e um ecossistema de vendas sólido. Nosso CEO idealizou o método ao adaptar o modus operandi de growth hacking de gigantes, como Uber e Airbnb, para as clínicas odontológicas.
 
                         </BlackTexts>
                 </Details>
@@ -104,7 +106,7 @@ export default function FAQ(){
                 <br/>
                 <Details summary="Preciso duplicar meu faturamento rápido, conseguem isso para mim?">
                 <BlackTexts maxWidth="639px" textAlignMobile="left">
-                Não. Somos extremamente realistas e claros com expectativas e resultados. Nenhuma estratégia fará "milagre" da noite para o dia.
+                Não. Somos extremamente realistas e claros com expectativas e resultados. Nenhuma estratégia fará &quot;milagre&quot; da noite para o dia.
                         </BlackTexts>
                 </Details>
 

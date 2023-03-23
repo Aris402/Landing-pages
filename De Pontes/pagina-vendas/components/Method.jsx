@@ -5,6 +5,10 @@ import { useEffect } from "react";
 const FirstDiv = styled.div`
     text-align: center;
     padding-bottom: 6em;
+
+    @media screen and (max-width: 768px){
+        padding: 3em 0 1em 0;
+    }
 `
 const SecondDiv = styled.div`
     text-align: center;
@@ -86,7 +90,7 @@ export default function Method(){
                                 className="iconsX"
                             />
                         </span>
-                        <WhiteTexts>Muitas mensagens, poucas vendas.</WhiteTexts>
+                        <WhiteTexts textAlign="left !important">Muitas mensagens, poucas vendas.</WhiteTexts>
                     </FlexRow>
                     <br/>
                     <FlexRow alignItems="center">
