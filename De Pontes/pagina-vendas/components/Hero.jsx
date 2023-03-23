@@ -19,11 +19,12 @@ const GradientHeader = styled.header`
 `
 const PageH1 = styled.h1`
     color: #fff;
-    max-width: 590px;
+    max-width: 600px;
     font-weight: 500;
     font-size: 29.71px;
     font-family: 'Rufina', serif;
     line-height: 42px;
+    text-transform: uppercase;
     @media screen and (max-width: 768px){
         font-size: 22px;
         text-align: center;
@@ -54,7 +55,7 @@ const RufinaLogo = styled.p`
     @media screen and (max-width: 768px){
         font-size: 14px;
         text-align: left;
-        padding: 21px 12px 21px 12px;
+        padding: 12px 8px 12px 8px;
     }
     @media screen and (max-width: 366px){
         font-size: 12px;
@@ -101,7 +102,7 @@ export default function Hero(){
                         </FlexRow>
                         <PageH1>
                         <TemporaryBr/>
-                            MÉTODO CAPAZ DE TE DAR DOIS ANOS DE NOVOS PACIENTES E CRESCIMENTO, EM MESES.
+                        Método capaz de criar um fluxo de pacientes ideais e crescimento desproporcional ainda este ano.
                         </PageH1>
                         <br/>
                         <PageH2>

@@ -43,7 +43,7 @@ export default function Growth(){
                         Na sessão estratégica gratuita você vai descobrir como nosso Método pode te ajudar a:
                     </WhiteTexts>
                 </FirstTextDiv>
-                <GradientBorder setColor="#fff" setBorder="to right" setBRight="0" setPadding="30px 0 30px 30px" setPaddingMobile="30px 0 30px 10px">
+                <GradientBorder setColor="#9A7E4E" setBorder="to right" setBRight="0" setPadding="30px 0 30px 30px" setPaddingMobile="30px 0 30px 10px">
                     <FlexColumn>
                         <FlexRow>
                         <span><IoIosArrowForward fill="#9A7E4E" size="25" className="arrow-icons"/></span>
