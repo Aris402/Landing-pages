@@ -20,7 +20,7 @@ const SecondarySec = styled.section`
     background-image: url('./images/bg-2.png');
     background-size: cover;
     background-color: #05081A !important;
-    padding: 6em 0;
+    padding: 1.5em 0;
     background-position: center;
 
     @media screen and (max-width: 768px){
@@ -44,7 +44,7 @@ export default function Secondary(){
                         CRESCIMENTO E AUMENTO DA RECEITA DA CLÍNICA.
                     </YellowText>
                     <BlackTexts fontWeight="500" fontSize="19.38px" maxWidth="543px">
-                        Unindo a sua capacidade de entrega aos pacientes com a abordagem disciplinada da nossa metodologia, levaremos a sua clínica e o rendimento dela de forma consistente, ao longo do tempo, a altos patamares.
+                    Unindo a sua capacidade de entrega aos pacientes com a abordagem disciplinada da nossa metodologia, sua clínica e o rendimento dela irá, ao longo do tempo, para altos patamares.
                     </BlackTexts>
                 </DescBox>
                 <DescBox setAlign="flex-end" alignItems="flex-end">
@@ -72,7 +72,7 @@ export default function Secondary(){
                         DESTAQUE DA CONCORRÊNCIA
                     </YellowText>
                     <BlackTexts fontWeight="500" fontSize="19.38px" maxWidth="543px" textAlign="left">
-                        A grande concorrência por um número limitado de pacientes na odontologia não será mais um problema, sua clínica irá vencer a concorrência e ter um fluxo de pacientes que não vai te comparar com os outros.
+                        A grande concorrência por um número limitado de pacientes na odontologia não será um problema, sua clínica vencerá na região e terá pacientes que não vão te igualar aos outros.
                     </BlackTexts>
                 </DescBox>
             </FlexColumnCenter>

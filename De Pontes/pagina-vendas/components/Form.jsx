@@ -63,9 +63,6 @@ const SmallText = styled.small`
     color: #fff;
     text-align: center;
 ` 
-const YellowHeader = styled.span`
-    color: #9A7E4E;
-`
 
 export default function Form(){
 
@@ -87,11 +84,11 @@ export default function Form(){
         <section>
             <StyledForm method="POST" action="/obrigado.html">
                 <FormHeader id="agendar">
-                    PARA ENTENDER COMO SUA CLÍNICA PODE TER UMA <YellowHeader>RECORRÊNCIA DE PACIENTES</YellowHeader> E <YellowHeader>FIDELIZA-LOS</YellowHeader>:
+                    PARA ENTENDER COMO SUA CLÍNICA PODE TER UMA RECORRÊNCIA DE PACIENTES E FIDELIZA-LOS:
                 </FormHeader>
                 <br/>
                 <WhiteTexts textAlign="center">
-                Preencha o formulário abaixo e agende uma SESSÃO GRATUITA. <PcBr/>Entraremos em contato o mais rápido possível.
+                Preencha o formulário abaixo e agende uma reunião. <PcBr/>Entraremos em contato o mais rápido possível.
                 </WhiteTexts>
                 <br/>
                 <StyledInput type="text" name="firstname"

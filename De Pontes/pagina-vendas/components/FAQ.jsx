@@ -92,7 +92,7 @@ export default function FAQ(){
                         </BlackTexts>
                 </Details>
                 <br/>
-                <Details summary="Quanto tempo dura a Sessão Estratégica Gratuita?">
+                <Details summary="Quanto tempo dura a reunião?">
                 <BlackTexts maxWidth="639px" textAlignMobile="left">
                 Entre 30 a 45 minutos, esse é o tempo necessário para nossa equipe ou o CEO mostre como vamos te ajudar.
                         </BlackTexts>

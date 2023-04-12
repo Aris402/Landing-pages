@@ -33,6 +33,7 @@ const FlexRow = styled.div`
     @media screen and (max-width: 768px){
         flex-direction: ${props => props.flexDirection};
         margin: ${props => props.setMargin};
+        justify-content: ${props => props.justifyItemsMobile};
         text-align: ${props => props.textAlignMobile};
         padding: ${props => props.setPaddingMobile};
         width: ${props => props.setWidthMobile};

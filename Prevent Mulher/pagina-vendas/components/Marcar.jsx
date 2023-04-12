@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { FlexRowCenter, TemporaryBr, ButtonStyle1 } from "./styles/Sharedstyles"
+import { FlexRowCenter, TemporaryBr, ButtonStyle1} from "./styles/Sharedstyles"
 
 const Headers = styled.h2`
     color: #EA5394;
@@ -57,6 +57,16 @@ const AgendarDouble = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+`
+const PurpleText = styled.p`
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    color: #EA5394;
+    text-align: center;
+
+    @media screen and (max-width: 768px){
+        font-size: 22px;
     }
 `
 
@@ -119,6 +129,8 @@ export default function Marcar(){
                         </ButtonStyle1>
                     </AgendarBox>
             </FlexRowCenter>
+            <TemporaryBr/><TemporaryBr/><TemporaryBr/>
+            <PurpleText>Atenção! Não atendemos convênio. Apenas particular.</PurpleText>
         </MarcarDiv>
     )
 }

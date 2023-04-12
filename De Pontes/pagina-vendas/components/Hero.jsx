@@ -19,12 +19,13 @@ const GradientHeader = styled.header`
 `
 const PageH1 = styled.h1`
     color: #fff;
-    max-width: 600px;
+    max-width: 740px;
     font-weight: 500;
-    font-size: 29.71px;
+    font-size: 26.71px;
     font-family: 'Rufina', serif;
     line-height: 42px;
     text-transform: uppercase;
+    
     @media screen and (max-width: 768px){
         font-size: 22px;
         text-align: center;
@@ -32,8 +33,11 @@ const PageH1 = styled.h1`
     }
 `
 const ContentDiv = styled.div`
-    padding: 7em 0;
+    padding: 13em 0;
     background-image: url('./images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70% 0;
 
     @media screen and (min-width: 900px) and (max-width: 1650px){
         background-position: 50% 0;
@@ -46,9 +50,9 @@ const ContentDiv = styled.div`
     }
 `
 const RufinaLogo = styled.p`
-    font-family: 'Rufina', serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 19.38px;
+    font-size: 16px;
     color: #fff;
     padding: 18px;
 
@@ -85,7 +89,7 @@ export default function Hero(){
             <ContentDiv>
                 <EvenlyDiv>
                     <FlexColumn>
-                        <FlexRow justifyItems="space-evenly" setMargin="0 0 30px 0" alignItems="center">
+                        <FlexRow justifyItems="flex-start" setMargin="0 0 30px 0" alignItems="center" justifyItemsMobile="center">
                             <GradientBorder setMargin="0 20px 0 0;" setMarginMobile="0" setBorder="to left" setBLeft="0" setColor="#9A7E4E">
                                 <RufinaLogo>
                                     RECORRÊNCIA DE CRESCIMENTO
@@ -102,16 +106,16 @@ export default function Hero(){
                         </FlexRow>
                         <PageH1>
                         <TemporaryBr/>
-                        Método capaz de criar um fluxo de pacientes ideais e crescimento desproporcional ainda este ano.
+                        Fluxo de pacientes ideais no seu atendimento e crescimento exponencial ainda este ano.
                         </PageH1>
                         <br/>
                         <PageH2>
-                            Agende uma <BoldMontserrat>Sessão estratégica GRATUITA</BoldMontserrat> e descubra como ter o sistema de recorrência de pacientes ético e lucrativo para a sua clínica.
+                            Agende uma <BoldMontserrat>reunião</BoldMontserrat> e descubra como ter o sistema de recorrência de pacientes ético e lucrativo para a sua clínica.
                         </PageH2>
                         <br/><br/>
                         <GradientButton maxWidth='341px' alignSelf="flex-start" alignSelfMobile="center" href="#agendar">
                             <StyledButton maxWidth='341px' >
-                                AGENDAR SESSÃO GRATUITA
+                                AGENDAR AGORA
                             </StyledButton>
                         </GradientButton>
                     </FlexColumn>
