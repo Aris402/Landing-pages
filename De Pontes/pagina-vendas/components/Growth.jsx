@@ -13,12 +13,18 @@ const GrowthSec = styled.section`
         padding: 3em 25px;
     }
 `
+const HeaderText = styled.p`
+    font-size: ${props => props.fontSize};
+    font-family: 'Montserrat', serif;
+    color: white;
+    margin-bottom: 3px;
+`
 const FirstTextDiv = styled.div`
     @media screen and (max-width: 768px){
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding: 0 25px;
+        padding: 0 0;
         margin-bottom: 20px;
     }
 `
@@ -41,37 +47,45 @@ export default function Growth(){
     return (
         <GrowthSec>
             <FlexRow justifyItems="space-between" setPadding="110px 0 50px 0" flexDirection='column' 
-            setWidth="80%" setWidthMobile="100%">
+            setWidth="80%" setWidthMobile="100%" setPaddingMobile="20px 0 50px 0">
                 <FirstTextDiv>
-                    <YellowText maxWidth="431px" fontSize="25.41px" fontWeight="600">
-                        Para o lucro, a ética e o profissionalismo andarem juntos na sua clínica.
-                    </YellowText>
+                    <HeaderText fontSize="14px">
+                        O QUE FAZEMOS
+                    </HeaderText>
+                    <YellowText fontSize="24px" fontWeight="600">SISTEMA DE RECORRÊNCIA DE PACIENTES COM TRANSPARÊNCIA, PROFISSIONALISMO E ÉTICA.</YellowText>
                     <br/>
                     <WhiteTexts maxWidth="431px" fontSize="19.38px" textAlign="left !important">
-                        Na reunião exclusiva você vai descobrir como nosso Método pode te ajudar a:
+                    Na reunião exclusiva você vai descobrir como nós podemos te ajudar a:
                     </WhiteTexts>
                 </FirstTextDiv>
                 <GradientBorder setColor="#9A7E4E" setBorder="to right" setBRight="0" setPadding="30px 0 30px 30px" setPaddingMobile="30px 0 30px 10px">
                     <FlexColumn>
                         <FlexRow>
                         <span><IoIosArrowForward fill="#9A7E4E" size="25" className="arrow-icons"/></span>
-                            <WhiteTexts maxWidth="476px" fontSize="19.38px" textAlign="left !important">Não se preocupar com marketing e aquisição de pacientes, e ter mais tempo para se dedicar a odontologia e a gestão.</WhiteTexts>
+                            <WhiteTexts maxWidth="886px" fontSize="19.38px" textAlign="left !important">Ter o marketing gerenciado por uma metodologia especializada para consultórios e clínicas.
+                        </WhiteTexts>
                         </FlexRow>
                         <br/>
                         <FlexRow>
                         <span><IoIosArrowForward fill="#9A7E4E" size="25" className="arrow-icons"/></span>
-                            <WhiteTexts maxWidth="476px" fontSize="19.38px" textAlign="left !important">Não atender qualquer tipo de paciente, mas sim pacientes qualificados para tratamentos de alto valor.</WhiteTexts>
+                            <WhiteTexts maxWidth="886px" fontSize="19.38px" textAlign="left !important">Não mais se preocupar com a aquisição de pacientes.
+                            </WhiteTexts>
                         </FlexRow>
                         <br/>
                         <FlexRow>
                             <span><IoIosArrowForward fill="#9A7E4E" size="25" className="arrow-icons"/></span>
-                            <WhiteTexts maxWidth="476px" fontSize="19.38px" textAlign="left !important">Alcançar a liberdade de tempo e o tão sonhado faturamento.</WhiteTexts>
+                            <WhiteTexts maxWidth="886px" fontSize="19.38px" textAlign="left !important">Atender pacientes qualificados para tratamentos 
+de alto valor, e não qualquer tipo de paciente.
+
+                            </WhiteTexts>
                         </FlexRow>
                         <br/>
                         <FlexRow>
                             <span><IoIosArrowForward fill="#9A7E4E" size="25" className="arrow-icons"/></span>
-                            <WhiteTexts maxWidth="476px" fontSize="19.38px" textAlign="left !important" >Conquistar e fidelizar pacientes ideais para o sucesso.</WhiteTexts>
+                            <WhiteTexts maxWidth="886px" fontSize="19.38px" textAlign="left !important" >Alcançar a liberdade tempo e o tão sonhado faturamento.
+                            </WhiteTexts>
                         </FlexRow>
+                        
                     </FlexColumn>
                 </GradientBorder>
             </FlexRow>

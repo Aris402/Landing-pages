@@ -103,7 +103,7 @@ export default function Method(){
                     </BgDivHeader>
                     <MobileBr/>
                     <WhiteTexts fontSize="19.38px" maxWidth="504px">
-                            Com o nosso Método, nós levamos os pacientes certos até sua clínica ou consultório, aplicando estratégias para atrair, converter e torná-los evangelistas da sua clínica. São os pacientes certos para você focar em tratamentos de alto valor.
+                    Com o nosso Método, implementamos o Sistema de Recorrência de pacientes e os levamos até sua clínica ou consultório, aplicando estratégias para atrair, converter e torná-los evangelistas da sua clínica. São os pacientes certos para você focar em tratamentos de alto valor.
                     </WhiteTexts>
                     <br/>
                     <FlexRow alignItems="center">
@@ -123,7 +123,8 @@ export default function Method(){
                             alt="ícone de check"
                             className="iconsX"
                         />
-                        <WhiteTexts textAlign="left !important">Levamos o paciente de qualidade que não vai te<PcBr/> olhar por preço.</WhiteTexts>
+                        <WhiteTexts textAlign="left !important">Sempre focado em ações para filtrar e qualifica os
+                        pacientes.</WhiteTexts>
                     </FlexRow>
                     <br/>
                     <FlexRow alignItems="center">
@@ -133,7 +134,7 @@ export default function Method(){
                             alt="ícone de check"
                             className="iconsX"
                         />
-                        <WhiteTexts textAlign="left !important">Foco em ações para filtrar e qualificar os<PcBr/> pacientes sempre.</WhiteTexts>
+                        <WhiteTexts textAlign="left !important">Capacitação do atendimento para as vendas.</WhiteTexts>
                     </FlexRow>
                 </FlexColumn>
                 <img 

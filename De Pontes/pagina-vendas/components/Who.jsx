@@ -3,11 +3,22 @@ import { FlexColumn, FlexRow, MobileBr, PcBr, WhiteTexts } from "./styles/Shared
 
 const HeaderText = styled.p`
     font-size: 27.46px;
-    font-family: 'Rufina', serif;
+    font-family: 'Montserrat', serif;
     color: white;
+    font-weight: ${props => props.fontWeight};
+
+    @media screen and (max-width: 768px){
+        font-size: ${props => props.fontSize};
+        max-width: 100%;
+    }
 `
 const YellowHeader = styled.span`
     color: #9A7E4E;
+    font-size: 21px;
+
+    @media screen and (max-width: 768px){
+        font-size: ${props => props.fontSizeMobile};
+    }
 `
 const WhoSec = styled.section`
     background-image: url('./images/depontes-transparent.png');
@@ -17,7 +28,7 @@ const WhoSec = styled.section`
 
     @media screen and (max-width: 768px){
         background-size: 150%;
-        padding: 5em 2em;
+        padding: 1em 2em 5em 2em;
     }
 `
 const AvatarHeader = styled.p`
@@ -40,13 +51,15 @@ export default function Who(){
         <WhoSec>
             <FlexRow justifyItems="space-evenly" alignItems="center" flexDirection="column">
                 <div>
-                <HeaderText>QUEM <YellowHeader>SOMOS?</YellowHeader></HeaderText>
-                <br/><PcBr/>
-                <WhiteTexts maxWidth="502px" textAlignMobile="left">A De Pontes Medical Marketing é uma Assessoria de Business and Marketing que enxerga cada cliente como prioridade e dedicada em criar conexões duradouras com nossos parceiros.
+                <HeaderText fontWeight="600"> <YellowHeader fontSizeMobile="12px">A DE PONTES MEDICAL MARKETING</YellowHeader></HeaderText>
+                <MobileBr/>
+                <HeaderText fontWeight="400" fontSize="18px">Acreditamos em um gerenciamento <PcBr/> transparente, baseado em métricas e<PcBr/> realista, sem promessas mirabolantes.</HeaderText>
+
+                <WhiteTexts maxWidth="502px" textAlignMobile="left">
                 <br/><br/>
-                Nosso foco é potencializar as vendas de clínicas captando mais clientes com escala, previsibilidade e valor de crescimento para o negócio. Além de estarmos atentos às necessidades de cada cliente.
+                Somos uma Assessoria de Business and Marketing que enxerga cada cliente como prioridade e dedicada em criar conexões duradouras com nossos parceiros.
                 <br/><br/>
-                Estamos extremamente satisfeitos em poder impactar não apenas as clínicas e profissionais da saúde, mas também as inúmeras vidas que conectamos aos serviços de alto nível fornecidos por nossos parceiros.
+                Aqui o foco é potencializar as vendas de clínicas captando mais clientes com escala, previsibilidade e crescimento para o negócio. Nosso trabalho é colocar sua clínica em frente as pessoas certas, na hora certa.
                 </WhiteTexts>
                 </div>
                 <MobileBr/><MobileBr/><MobileBr/>

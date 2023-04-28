@@ -83,8 +83,8 @@ export default function Form(){
     return(
         <section>
             <StyledForm method="POST" action="/obrigado.html">
-                <FormHeader id="agendar">
-                    PARA ENTENDER COMO SUA CLÍNICA PODE TER UMA RECORRÊNCIA DE PACIENTES E FIDELIZA-LOS:
+                <FormHeader>
+                CONHEÇA NOSSO MÉTODO E TENHA UMA RECORRÊNCIA DE PACIENTES:
                 </FormHeader>
                 <br/>
                 <WhiteTexts textAlign="center">

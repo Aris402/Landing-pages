@@ -122,7 +122,8 @@ const YellowText = styled.p`
     margin: ${props => props.setMargin};
     text-align: ${props => props.textAlign};
     text-transform: uppercase;
-    font-family: 'Rufina', serif;
+    font-family: 'Montserrat', serif;
+    font-family: ${props => props.fontFamily};
 
     @media screen and (max-width: 768px){
         text-align: ${props => props.textAlignMobile};

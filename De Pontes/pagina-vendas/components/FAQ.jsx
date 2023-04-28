@@ -113,13 +113,6 @@ export default function FAQ(){
             </FlexColumnCenter>
             <br/><br/>
             <FlexColumnCenter setPadding="0 3em">
-                <img
-                    src="./images/logo-depontes.svg"
-                    width="220"
-                    alt="logo da De Pontes Medical Marketing"
-                    className="logoObg"
-                />
-                <br/>
                 <BlackTexts fontSize="12px">
                     © 2023 De Pontes Medical Marketing - Todos os Direitos Reservados
                 </BlackTexts>

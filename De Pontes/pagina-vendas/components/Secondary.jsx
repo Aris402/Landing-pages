@@ -40,11 +40,11 @@ export default function Secondary(){
                         alt='imagem de uma seta de gráfico subindo'
                         className="image-icons"
                     />
-                    <YellowText maxWidth="424px" fontSize="23.68px" fontWeight="500" setMargin="0 0 10px 0" textAlignMobile="center">
+                    <YellowText maxWidth="424px" fontSize="23.68px" fontWeight="500" setMargin="0 0 10px 0" textAlignMobile="center" fontFamily="'Rufina', serif">
                         CRESCIMENTO E AUMENTO DA RECEITA DA CLÍNICA.
                     </YellowText>
                     <BlackTexts fontWeight="500" fontSize="19.38px" maxWidth="543px">
-                    Unindo a sua capacidade de entrega aos pacientes com a abordagem disciplinada da nossa metodologia, sua clínica e o rendimento dela irá, ao longo do tempo, para altos patamares.
+                    Unindo a qualidade do seu trabalho com a abordagem disciplinada da nossa metodologia, sua clínica irá, ao longo do tempo, para altos patamares.
                     </BlackTexts>
                 </DescBox>
                 <DescBox setAlign="flex-end" alignItems="flex-end">
@@ -54,11 +54,11 @@ export default function Secondary(){
                         alt='imagem de uma seta de gráfico subindo'
                         className="image-icons"
                     />
-                    <YellowText fontSize="23.68px" fontWeight="500" setMargin="0 0 10px 0" textAlign="right" textAlignMobile="center">
-                        RECORRÊNCIA DE PACIENTES.
+                    <YellowText fontFamily="'Rufina', serif" fontSize="23.68px" fontWeight="500" setMargin="0 0 10px 0" textAlign="right" textAlignMobile="center">
+                    FIM DA DEPENDÊNCIA DE INDICAÇÕES E CONVÊNIOS.
                     </YellowText>
                     <BlackTexts fontWeight="500" fontSize="19.38px" maxWidth="543px" textAlign="right">
-                        Através dos pilares de nosso método sua empresa construirá um sistema de vendas produzindo um constante fluxo progressivo de clientes.
+                    Através dos pilares de nosso método sua empresa construirá um sistema de vendas produzindo um constante fluxo de clientes independente de indicações e convênios.
                     </BlackTexts>
                 </DescBox>
                 <DescBox setAlign="flex-start" alignItems="flex-start" className="lastIconDiv">
@@ -68,11 +68,11 @@ export default function Secondary(){
                         alt='imagem de uma seta de gráfico subindo'
                         className="image-icons"
                     />
-                    <YellowText fontSize="23.68px" fontWeight="500" setMargin="0 0 10px 0" textAlign="left" textAlignMobile="center">
-                        DESTAQUE DA CONCORRÊNCIA
+                    <YellowText fontFamily="'Rufina', serif" fontSize="23.68px" fontWeight="500" setMargin="0 0 10px 0" textAlign="left" textAlignMobile="center">
+                    DESTAQUE DA CONCORRÊNCIA
                     </YellowText>
                     <BlackTexts fontWeight="500" fontSize="19.38px" maxWidth="543px" textAlign="left">
-                        A grande concorrência por um número limitado de pacientes na odontologia não será um problema, sua clínica vencerá na região e terá pacientes que não vão te igualar aos outros.
+                        A grande concorrência da odontologia não será uma dor de cabeça, você vencerá na região e os potenciais pacientes te olharão com destaque.
                     </BlackTexts>
                 </DescBox>
             </FlexColumnCenter>

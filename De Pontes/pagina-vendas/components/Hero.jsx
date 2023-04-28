@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { EvenlyDiv, FlexColumn, TemporaryBr, WhiteTexts, StyledButton, GradientButton, 
-    FlexRow, BoldMontserrat, MobileBr, GradientBorder } from './styles/Sharedstyles'
+    FlexRow, BoldMontserrat, MobileBr, GradientBorder, PcBr } from './styles/Sharedstyles'
 
 const RedDiv = styled.div`
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
@@ -20,16 +20,17 @@ const GradientHeader = styled.header`
 const PageH1 = styled.h1`
     color: #fff;
     max-width: 740px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 26.71px;
-    font-family: 'Rufina', serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 42px;
     text-transform: uppercase;
     
     @media screen and (max-width: 768px){
-        font-size: 22px;
+        font-size: 19px;
         text-align: center;
-        line-height: 32px;
+        line-height: 26px;
+        max-width: 100%;
     }
 `
 const ContentDiv = styled.div`
@@ -77,6 +78,13 @@ const PageH2 = styled.p`
         text-align: center;
     }
 `
+const WhiteMontserrat = styled.span`
+    color: #fff;
+`
+const SpecialSpan = styled.span`
+    color: #FFF;
+    text-decoration: underline;
+`
 
 export default function Hero(){
     return(
@@ -90,27 +98,22 @@ export default function Hero(){
                 <EvenlyDiv>
                     <FlexColumn>
                         <FlexRow justifyItems="flex-start" setMargin="0 0 30px 0" alignItems="center" justifyItemsMobile="center">
-                            <GradientBorder setMargin="0 20px 0 0;" setMarginMobile="0" setBorder="to left" setBLeft="0" setColor="#9A7E4E">
-                                <RufinaLogo>
-                                    RECORRÊNCIA DE CRESCIMENTO
-                                </RufinaLogo>
-                            </GradientBorder>
                             <div>
                                 <img
-                                    src='./images/avatar-logo.webp'
-                                    width='132'
+                                    src='./images/logo-depontes-2.webp'
+                                    width='202'
                                     alt='logo da agência de marketing De Pontes'
                                     id='logo'
                                 />
                             </div>
                         </FlexRow>
+                        <PcBr/>
                         <PageH1>
-                        <TemporaryBr/>
-                        Fluxo de pacientes ideais no seu atendimento e crescimento exponencial ainda este ano.
+                            FLUXO <SpecialSpan>CONSTANTE</SpecialSpan> DE PACIENTES IDEAIS EM <PcBr/> CONTATO COM SEU O ATENDIMENTO.
                         </PageH1>
                         <br/>
                         <PageH2>
-                            Agende uma <BoldMontserrat>reunião</BoldMontserrat> e descubra como ter o sistema de recorrência de pacientes ético e lucrativo para a sua clínica.
+                            Agende uma <BoldMontserrat>reunião</BoldMontserrat> e descubra como ter o <WhiteMontserrat>sistema de recorrência de pacientes ético e lucrativo</WhiteMontserrat> para a sua clínica através do nosso método de marketing digital.
                         </PageH2>
                         <br/><br/>
                         <GradientButton maxWidth='341px' alignSelf="flex-start" alignSelfMobile="center" href="#agendar">
