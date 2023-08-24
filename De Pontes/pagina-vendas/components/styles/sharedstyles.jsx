@@ -8,6 +8,9 @@ const EvenlyDiv = styled.div`
     @media screen and (max-width: 768px){
         flex-direction: column;
         padding: 0 20px;
+        justify-content: ${props => props.justifyItems};
+        align-items: ${props => props.alignItems};
+        text-align: ${props => props.textAlign};
     }
 `
 const FlexColumn = styled.div`
@@ -16,6 +19,7 @@ const FlexColumn = styled.div`
     justify-content: ${props => props.justifyItems};
     align-items: ${props => props.alignItems};
     text-align: ${props => props.textAlign};
+    max-width: ${props => props.setMaxWidth};
     @media screen and (max-width: 768px){
         padding: ${props => props.setPadding};
         flex-direction: ${props => props.flexDirection};
@@ -28,6 +32,7 @@ const FlexRow = styled.div`
     align-items: ${props => props.alignItems};
     justify-content: ${props => props.justifyItems};
     padding: ${props => props.setPadding};
+    margin: ${props => props.setMarginDois};
     width: ${props => props.setWidth};
 
     @media screen and (max-width: 768px){
@@ -73,20 +78,26 @@ const WhiteTexts = styled.p`
     }
 `
 const BlackTexts = styled.p`
-    color: #000000;
+    color: #434343;
     text-align: ${props => props.textAlign};
     font-size: ${props => props.fontSize};
     max-width: ${props => props.maxWidth};
     font-weight: ${props => props.fontWeight};
     font-family: 'Montserrat', sans-serif;
 
+    margin: ${props => props.setMargin};
+
+    line-height: 1.5em;
+
     @media screen and (max-width: 768px){
         font-size: 14px;
         text-align: center;
         text-align: ${props => props.textAlignMobile};
         font-size: ${props => props.fontSizeMobile};
+        margin: ${props => props.setMarginMob};
     }
 `
+
 const StyledButton = styled.button`
     padding: 1em;
     color: #0A0A1E;

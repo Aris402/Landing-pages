@@ -7,7 +7,7 @@ html{
   scroll-behavior: smooth;
 }
 body{
-  background-color: #05081A;
+  background-color: #F5F5F5;
 }
 .image-icons{
   margin-bottom: 30px;
@@ -40,6 +40,16 @@ body{
   #logo{
     margin: 20px 0 0 0;
     align-self: center;
+    width: 143px;
+  }
+  .iconsXRed{
+    width: 35px;
+  }
+  .img-Doctor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
   }
   .images-mobile{
     width: 90%;

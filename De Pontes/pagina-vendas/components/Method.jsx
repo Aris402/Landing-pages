@@ -2,14 +2,6 @@ import styled from "styled-components";
 import { BgText, WhiteTexts, PcBr, FlexRow, FlexColumn, MobileBr } from "./styles/Sharedstyles";
 import { useEffect } from "react";
 
-const FirstDiv = styled.div`
-    text-align: center;
-    padding-bottom: 6em;
-
-    @media screen and (max-width: 768px){
-        padding: 3em 0 1em 0;
-    }
-`
 const SecondDiv = styled.div`
     text-align: center;
 `

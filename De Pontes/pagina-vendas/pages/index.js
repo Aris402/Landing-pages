@@ -19,7 +19,6 @@ export default function Home() {
       <PcBr/><PcBr/>
       <Method/>
       <Who/>
-      <Form/>
       <FAQ/>
     </div>
   )

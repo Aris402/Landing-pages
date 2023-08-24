@@ -85,31 +85,17 @@ export default function FAQ(){
                 <HeaderText>
                     PERGUNTAS <YellowSpan>FREQUENTES</YellowSpan>
                 </HeaderText>
-                <Details summary="O que é o método Recorrência de Crescimento?">
+                <Details summary="Não tenho site, vale a pena fazer tráfego pago?">
                 <BlackTexts maxWidth="639px" textAlignMobile="left">
-                        A ideia é simples: atrair um fluxo constante de novos pacientes  e transformar essa recorrência em crescimento palpável para a clínica através de uma abordagem de aprendizados, programa de anúncios eficazes e um ecossistema de vendas sólido. Nosso CEO idealizou o método ao adaptar o modus operandi de growth hacking de gigantes, como Uber e Airbnb, para as clínicas odontológicas.
-
-                        </BlackTexts>
-                </Details>
-                <br/>
-                <Details summary="Quanto tempo dura a reunião?">
-                <BlackTexts maxWidth="639px" textAlignMobile="left">
-                Entre 30 a 45 minutos, esse é o tempo necessário para nossa equipe ou o CEO mostre como vamos te ajudar.
-                        </BlackTexts>
-                </Details>
-                <br/>
-                <Details summary="Quando ela será realizada?">
-                <BlackTexts maxWidth="639px" textAlignMobile="left">
-                Você precisará preencher o formulário, enviar os dados, e agendar um horário na agenda virtual que aparecerá na próxima página.
+                Não se preocupe. Você precisa sim de um site próprio para anunciar efetivamente na internet, por isso em nossa reunião também oferecemos isso, se aplicável.
                         </BlackTexts>
                 </Details>
                 <br/>
                 <Details summary="Preciso duplicar meu faturamento rápido, conseguem isso para mim?">
                 <BlackTexts maxWidth="639px" textAlignMobile="left">
-                Não. Somos extremamente realistas e claros com expectativas e resultados. Nenhuma estratégia fará &quot;milagre&quot; da noite para o dia.
+                Não. Somos extremamente realistas e claros com expectativas e resultados. Nenhuma estratégia fará "milagre" da noite para o dia.
                         </BlackTexts>
                 </Details>
-
             </FlexColumnCenter>
             <br/><br/>
             <FlexColumnCenter setPadding="0 3em">
