@@ -36,6 +36,10 @@ body{
   transition: max-height 0.5s ease-in;
 }
 
+.iconsRounded{
+  align-self: end !important;
+}
+
 @media screen and (max-width: 768px){
   #logo{
     margin: 20px 0 0 0;

@@ -64,7 +64,7 @@ export default function Form(){
             <StyledForm method="POST" action="/obrigado.html" id="agendardois">
                 <FlexRow setMarginDois="0 0 8px 0;" flexDirection="column">
                 <StyledInput type="text" name="firstname"
-                placeholder="Qual é o seu nome?" setAlignSelf="left;" setMargin="0 0 8px 0;"/>
+                placeholder="Qual é o seu nome?" setAlignSelf="left;" setMarginMob="0 0 8px 0;"/>
                 
                 <StyledInput type="tel" name="hs_whatsapp_phone_number"
                 placeholder="Qual é o seu WhatsApp?(Com DDD)" setMargin="0 0 0 8px;" setWidth="100%;" setMarginMob="0"/>

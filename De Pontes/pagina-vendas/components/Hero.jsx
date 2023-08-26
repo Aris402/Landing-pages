@@ -28,8 +28,12 @@ const PageH2 = styled.p`
     color: #434343;
     font-family: 'Montserrat', sans-serif;
     max-width: 570px;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
+
+    @media screen and (max-width: 768px){
+        font-size: 15px;
+    }
 `
 const SpecialSpan = styled.span`
     color: #9A7E4E;
@@ -38,7 +42,7 @@ const SpecialSpan = styled.span`
 export default function Hero(){
     return(
         <section>
-            <ContentDiv>
+            <ContentDiv id='hero-section'>
                 <EvenlyDiv alignItems="left" textAlign='left !important'>
                     <FlexColumn setMaxWidth="560px;">
                         <FlexRow justifyItems="flex-start" setMargin="0 0 30px 0" alignItems="center" textAlign='left !important'>
@@ -54,7 +58,7 @@ export default function Hero(){
                         <PcBr/>
                         <PcBr/>
                         <PageH1>
-                            O Sistema capaz de te tornar <SpecialSpan>referência</SpecialSpan> e gerar novos <SpecialSpan>fechamentos toda semana</SpecialSpan> para implantes ou ortodontia.
+                            Seja <SpecialSpan>referência</SpecialSpan> e tenha <SpecialSpan>novos fechamentos</SpecialSpan> de implantes ou de ortodontia <SpecialSpan>toda semana</SpecialSpan>!
                         </PageH1>
                         <br/>
                         <PageH2>

@@ -16,14 +16,18 @@ const EvenlyDiv = styled.div`
 const FlexColumn = styled.div`
     display: flex;
     flex-direction: column;
+    margin: ${props => props.setMargin};
     justify-content: ${props => props.justifyItems};
     align-items: ${props => props.alignItems};
     text-align: ${props => props.textAlign};
     max-width: ${props => props.setMaxWidth};
+
     @media screen and (max-width: 768px){
         padding: ${props => props.setPadding};
+        margin: ${props => props.setMarginMob};
         flex-direction: ${props => props.flexDirection};
         justify-content: ${props => props.justifyItemsMob};
+        
         width: ${props => props.setWidthMob};
     }
 `
@@ -34,6 +38,8 @@ const FlexRow = styled.div`
     padding: ${props => props.setPadding};
     margin: ${props => props.setMarginDois};
     width: ${props => props.setWidth};
+    gap: ${props => props.setGap};
+    flex-direction: ${props => props.flexDirectionDois};
 
     @media screen and (max-width: 768px){
         flex-direction: ${props => props.flexDirection};
@@ -84,45 +90,37 @@ const BlackTexts = styled.p`
     max-width: ${props => props.maxWidth};
     font-weight: ${props => props.fontWeight};
     font-family: 'Montserrat', sans-serif;
-
     margin: ${props => props.setMargin};
-
+    padding: ${props => props.setPadding};
     line-height: 1.5em;
 
     @media screen and (max-width: 768px){
         font-size: 14px;
         text-align: center;
+        padding: ${props => props.setPaddingMob};
         text-align: ${props => props.textAlignMobile};
         font-size: ${props => props.fontSizeMobile};
         margin: ${props => props.setMarginMob};
     }
 `
 
-const StyledButton = styled.button`
-    padding: 1em;
+const StyledButton = styled.a`
+    padding: 1em 2.2em;
     color: #0A0A1E;
-    background: linear-gradient(354.44deg, #D0A04D 3.67%, rgba(197, 174, 134, 0) 207.12%);
-    font-weight: 800;
+    text-decoration: none;
+    border-radius: 5px;
+    background: linear-gradient(354.44deg,#C5AE86 3.67%,rgba(197,174,134,0) 207.12%);
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     border: none;
+    text-transform: uppercase;
     width: ${props => props.maxWidth};
     font-size: 18px;
     cursor: pointer;
 
     @media screen and (max-width: 768px){
-        font-size: 16px;
-        width: 300px;
-    }
-`
-const GradientButton = styled.a`
-    background-color: #9A7E4E;
-    max-width: ${props => props.maxWidth};
-    align-self: center;
-    align-self: ${props => props.alignSelf};
-    box-shadow: 0 0 12px #C5AE86;
-
-    @media screen and (max-width: 768px){
-        align-self: ${props => props.alignSelfMobile};
+        font-size: 14px;
+        padding: 1em 1.5em;
     }
 `
 const YellowText = styled.p`
@@ -184,6 +182,6 @@ const BgText = styled.span`
     }
 `
 
-export {EvenlyDiv, FlexColumn, TemporaryBr, GradientButton, StyledButton, 
+export {EvenlyDiv, FlexColumn, TemporaryBr, StyledButton, 
     FlexColumnCenter, YellowText, WhiteTexts, BoldMontserrat, MobileBr,
     BlackTexts, FlexRow, GradientBorder, BgText, PcBr}

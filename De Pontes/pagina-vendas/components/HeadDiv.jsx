@@ -9,7 +9,7 @@ export default function HeadDiv(){
             <meta name="keywords" content="Marketing, Medical, Clínica, Odontologia"/>
             <meta name="author" content="https://www.linkedin.com/in/arist%C3%B3teles-rocha-2b677a203/"/>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="./images/favicon.svg" />
       </Head>
     )
 }

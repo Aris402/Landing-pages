@@ -1,13 +1,11 @@
 import Head from 'next/head'
-import Growth from '../components/Growth'
 import Hero from '../components/Hero'
-import Method from '../components/Method'
+import How from '../components/How'
 import Secondary from '../components/Secondary'
-import { PcBr } from '../components/styles/Sharedstyles'
 import Who from '../components/Who'
-import Form from '../components/Form'
 import HeadDiv from '../components/HeadDiv'
 import FAQ from '../components/FAQ'
+import Consultoria from '../components/Consultoria'
 
 export default function Home() {
   return (
@@ -15,10 +13,8 @@ export default function Home() {
       <HeadDiv/>
       <Hero/>
       <Secondary/>
-      <Growth/>
-      <PcBr/><PcBr/>
-      <Method/>
-      <Who/>
+      <How/>
+      <Consultoria/>
       <FAQ/>
     </div>
   )

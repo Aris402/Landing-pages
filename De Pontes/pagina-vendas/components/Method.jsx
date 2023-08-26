@@ -129,12 +129,6 @@ export default function Method(){
                         <WhiteTexts textAlign="left !important">Capacitação do atendimento para as vendas.</WhiteTexts>
                     </FlexRow>
                 </FlexColumn>
-                <img 
-                    src="./images/notebook.webp"
-                    width="616"
-                    alt="imagem de um notebook"
-                    className="images-mobile"
-                />
             </FlexRow>
         </MethodSec>
     )
