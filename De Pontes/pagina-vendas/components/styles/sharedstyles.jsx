@@ -27,7 +27,7 @@ const FlexColumn = styled.div`
         margin: ${props => props.setMarginMob};
         flex-direction: ${props => props.flexDirection};
         justify-content: ${props => props.justifyItemsMob};
-        
+        align-items: ${props => props.alignItemsMob};
         width: ${props => props.setWidthMob};
     }
 `
@@ -48,6 +48,7 @@ const FlexRow = styled.div`
         text-align: ${props => props.textAlignMobile};
         padding: ${props => props.setPaddingMobile};
         width: ${props => props.setWidthMobile};
+        align-items: ${props => props.alignItemsMob};
     }
 `
 const FlexColumnCenter = styled.div`
@@ -115,12 +116,15 @@ const StyledButton = styled.a`
     border: none;
     text-transform: uppercase;
     width: ${props => props.maxWidth};
+    text-align: ${props => props.textAlign};
+    margin: ${props => props.setMargin};
     font-size: 18px;
     cursor: pointer;
 
     @media screen and (max-width: 768px){
         font-size: 14px;
         padding: 1em 1.5em;
+        width: ${props => props.maxWidthMob};
     }
 `
 const YellowText = styled.p`
@@ -130,7 +134,6 @@ const YellowText = styled.p`
     font-weight: ${props => props.fontWeight};
     margin: ${props => props.setMargin};
     text-align: ${props => props.textAlign};
-    text-transform: uppercase;
     font-family: 'Montserrat', serif;
     font-family: ${props => props.fontFamily};
 

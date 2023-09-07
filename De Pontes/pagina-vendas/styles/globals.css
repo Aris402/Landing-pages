@@ -3,6 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src:
+    local("Montserrat"),
+    url("../components/fonts/Montserrat-Bold.woff") format("opentype"),
+    url("../components/fonts/Montserrat-Medium.woff") format("opentype"),
+    url("../components/fonts/Montserrat-SemiBold.woff") format("opentype"),
+    url("../components/fonts/Montserrat-Regular.woff") format("opentype");
+}
 html{
   scroll-behavior: smooth;
 }

@@ -25,7 +25,7 @@ const PageH1 = styled.h2`
     color: #434343;
     max-width: 740px;
     font-weight: 600;
-    font-size: 26.71px;
+    font-size: 22.71px;
     font-family: 'Montserrat', sans-serif;
     line-height: 42px;
     text-align: center;
@@ -45,10 +45,9 @@ export default function Secondary(){
     return(
         <SecondarySec>
             <FlexColumnCenter>
-                <PageH1>Seu consultório não pode atender pacientes esporadicamente!</PageH1>
+                <PageH1>Você quer aumentar o faturamento e o volume de pacientes, mas continua com os mesmos problemas, não é?</PageH1>
                 <br/>
-                <BlackTexts fontWeight="500" textAlign="center" fontSize="17px">Você quer aumentar a receita e o volume de pacientes, mas continua<PcBr/> bloqueado pelos mesmos problemas, não é?</BlackTexts>
-                <br/><br/>
+                <br/>
                 <GoldenBlock>
                 <FlexRow alignItems="center" setMarginDois="0 0 30px 0;">
                         <img
@@ -66,7 +65,7 @@ export default function Secondary(){
                             alt='Ícone vermelho em formato de X redondo'
                             className="iconsXRed"
                         />
-                        <BlackTexts fontWeight="600" setMargin="0 0 0 20px;" textAlignMobile="left">Seguidores que não se tornam pacientes</BlackTexts>
+                        <BlackTexts fontWeight="600" setMargin="0 0 0 20px;" textAlignMobile="left">Ainda ocupa a agenda com tratamentos de baixo valor</BlackTexts>
                 </FlexRow>
                 <FlexRow alignItems="center" setMarginDois="0 0 30px 0;">
                         <img
@@ -113,7 +112,7 @@ export default function Secondary(){
                                 Captação Recorrente e Eficiente
                             </BlackTexts>
                             <BlackTexts fontWeight="500" fontSize="16px" setMargin="10px 0 0 0;" textAlignMobile="left !important">
-                            Com a aplicação do Sistema você irá se conectar com o seu público-alvo ideal, com as estratégias certas para atraí-los e torná-los evangelistas da sua clínica. Nunca mais você passará pelo Efeito Montanha Russa.
+                            Com a aplicação do Sistema você irá se conectar com o seu público-alvo ideal através das estratégias certas para atraí-los e despertar o desejo pelo seu trabalho. Nunca mais você passará pelo Efeito Montanha Russa.
                             </BlackTexts>
                     </FlexColumn>
                     <FlexColumn justifyItems="start" setMaxWidth="290px">
@@ -128,7 +127,7 @@ export default function Secondary(){
                                 Mais agendamentos e comparecimentos
                             </BlackTexts>
                             <BlackTexts fontWeight="500" fontSize="16px" setMargin="10px 0 0 0;" textAlignMobile="left !important">
-                            Não basta captar, é preciso converter. Por isso, guiamos o seu atendimento no tratamento com o lead para que agende o maior número possível e aumente sua taxa de comparecimento.
+                            Não basta captar, é preciso converter. Por isso, estruturamos e treinamos o seu comercial &#40;atendimento&#41; para que agende o maior número possível e mantenha sempre alta a sua taxa de comparecimento.
                             </BlackTexts>
                     </FlexColumn>
                  </FlexColumn>
@@ -145,7 +144,7 @@ export default function Secondary(){
                             Fim da dependência de Indicações e Convênios
                             </BlackTexts>
                             <BlackTexts fontWeight="500" fontSize="16px" setMargin="10px 0 0 0;" textAlignMobile="left !important">
-                            Os pilares do Sistema nos garantem um fluxo semanal de novas oportunidades de negócios através de uma estrutura de vendas robusta rodando 7 dias por semana.
+                            O Sistema nos garante um fluxo semanal de novos pacientes particulares para implantes ou para ortodontia graças aos seus pilares que dão à clínica uma estrutura de vendas robusta.
                             </BlackTexts>
                     </FlexColumn>
                     <PcBr/>

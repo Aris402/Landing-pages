@@ -4,8 +4,8 @@ import Form from './Form'
 
 const PageH1 = styled.h1`
     color: #434343;
-    max-width: 740px;
-    font-weight: 800;
+    max-width: 550px;
+    font-weight: 700;
     font-size: 26.71px;
     font-family: 'Montserrat', sans-serif;
     line-height: 42px;
@@ -58,7 +58,7 @@ export default function Hero(){
                         <PcBr/>
                         <PcBr/>
                         <PageH1>
-                            Seja <SpecialSpan>referência</SpecialSpan> e tenha <SpecialSpan>novos fechamentos</SpecialSpan> de implantes ou de ortodontia <SpecialSpan>toda semana</SpecialSpan>!
+                            Torne-se <SpecialSpan>referência</SpecialSpan> e tenha <PcBr/>novos<SpecialSpan> pacientes toda semana</SpecialSpan> para implantes ou ortodontia.
                         </PageH1>
                         <br/>
                         <PageH2>

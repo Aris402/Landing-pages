@@ -1,7 +1,8 @@
 import styled from "styled-components"
-import { YellowText, WhiteTexts, BoldMontserrat, PcBr, FlexRow, FlexColumnCenter, MobileBr } from "../../components/styles/Sharedstyles"
+import { YellowText, PcBr, FlexRow, FlexColumnCenter, MobileBr, BlackTexts } from "../../components/styles/Sharedstyles"
 import HeadDiv from "../../components/HeadDiv"
 import { useEffect } from "react"
+import MetaPixelTwo from "../../components/MetaPixel"
 
 export default function Obrigado(){
 
@@ -26,22 +27,24 @@ export default function Obrigado(){
     return(
         <section>
             <HeadDiv/>
+            <MetaPixelTwo/>
             <FlexRow justifyItems="space-evenly" alignItems="center" setPadding="6em 0" flexDirection="column" setMargin="0 35px" setPaddingMobile="2em 0">
                 <div>
-                    <YellowText textAlign="left" fontSize="34px" textAlignMobile="center">PARABÉNS POR SUA <br/> INICIATIVA!</YellowText>
+                    <YellowText textAlign="left" fontSize="34px" textAlignMobile="center" fontWeight="600">Parabéns por sua <br/>iniciativa!</YellowText>
                     <br/><br/>
-                    <WhiteTexts>
+                    <BlackTexts fontWeight="500" fontSize="20px">
                         Estamos quase lá...
-                    </WhiteTexts>
+                    </BlackTexts>
                     <br/>
-                    <WhiteTexts>
+                    <BlackTexts fontWeight="500" fontSize="20px">
                         Finalize seu agendamento <PcBr/> escolhendo a data e horário no quadro a seguir.
-                    </WhiteTexts>
+                    </BlackTexts>
                     <MobileBr/>
                 </div>
                 <div>
                 {/* Widget em linha do Calendly - início */}
-                <div className="calendly-div calendly-inline-widget" data-url="https://calendly.com/depontesmarketing/sessao-estrategica-gratuita" ></div>
+                <div className="calendly-div calendly-inline-widget" data-url="https://calendly.com/depontesmarketing/consultoria-estrategica-gratuita" ></div>
+                
                 </div>
             </FlexRow>
             <FlexColumnCenter setPadding="1em 3em">
@@ -52,9 +55,9 @@ export default function Obrigado(){
                     className="logoObg"
                 />
                 <br/>
-                <WhiteTexts fontSize="12px">
+                <BlackTexts fontSize="14px">
                     © 2023 De Pontes Medical Marketing - Todos os Direitos Reservados
-                </WhiteTexts>
+                </BlackTexts>
             </FlexColumnCenter>
         </section>
     )

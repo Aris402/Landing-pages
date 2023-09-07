@@ -16,7 +16,6 @@ const HeaderText = styled.p`
 `
 const FaqSec = styled.section`
     font-family: 'Montserrat', sans-serif;
-    background-color: #fff;
     padding: 2.5em 0;
 `
 const YellowSpan = styled.span`
@@ -49,6 +48,7 @@ const SummaryTxt = styled.p`
     display: flex;
     font-size: 19.47px;
     cursor: pointer;
+    color: #434343;
 
     @media screen and (max-width: 768px){
         font-size: 18px;
@@ -83,23 +83,23 @@ export default function FAQ(){
         <FaqSec>
             <FlexColumnCenter maxWidth="571px" setPadding="0 20px;">
                 <HeaderText>
-                    PERGUNTAS <YellowSpan>FREQUENTES</YellowSpan>
+                <YellowSpan>PERGUNTAS FREQUENTES</YellowSpan>
                 </HeaderText>
                 <Details summary="Não tenho site, vale a pena fazer tráfego pago?">
                 <BlackTexts maxWidth="639px" textAlignMobile="left">
-                Não se preocupe. Você precisa sim de um site próprio para anunciar efetivamente na internet, por isso em nossa reunião também oferecemos isso, se aplicável.
+                Não se preocupe. Você precisa sim de um site próprio para anunciar efetivamente na internet, por isso em nossa consultoria também oferecemos isso, se aplicável.
                         </BlackTexts>
                 </Details>
                 <br/>
                 <Details summary="Preciso duplicar meu faturamento rápido, conseguem isso para mim?">
                 <BlackTexts maxWidth="639px" textAlignMobile="left">
-                Não. Somos extremamente realistas e claros com expectativas e resultados. Nenhuma estratégia fará "milagre" da noite para o dia.
+                Existem diversas variáveis que precisam ser observadas em cada clínica para uma comunicação ideal com seu público. <strong>Precisamos entender o contexto atual da sua clínica</strong> para saber como vamos ajudá-los, durante a Consultoria Estratégica conseguimos juntos pontuar quais são essas variáveis e te apresentar <strong>os pilares necessários para se ter êxito com o nosso Sistema.</strong>
                         </BlackTexts>
                 </Details>
             </FlexColumnCenter>
             <br/><br/>
             <FlexColumnCenter setPadding="0 3em">
-                <BlackTexts fontSize="12px">
+                <BlackTexts fontSize="14px">
                     © 2023 De Pontes Medical Marketing - Todos os Direitos Reservados
                 </BlackTexts>
             </FlexColumnCenter>

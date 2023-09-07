@@ -1,100 +1,63 @@
 import styled from "styled-components"
-import { FlexColumn, FlexRow, MobileBr, PcBr, WhiteTexts } from "./styles/Sharedstyles"
+import { FlexColumn, FlexRow, MobileBr, PcBr, BlackTexts, StyledButton } from "./styles/Sharedstyles"
 
-const HeaderText = styled.p`
-    font-size: 27.46px;
-    font-family: 'Montserrat', serif;
-    color: white;
-    font-weight: ${props => props.fontWeight};
-
-    @media screen and (max-width: 768px){
-        font-size: ${props => props.fontSize};
-        max-width: 100%;
-    }
-`
 const YellowHeader = styled.span`
     color: #9A7E4E;
-    font-size: 21px;
+    font-weight: bold;
 
     @media screen and (max-width: 768px){
         font-size: ${props => props.fontSizeMobile};
     }
 `
 const WhoSec = styled.section`
-    background-image: url('./images/depontes-transparent.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 10em 0;
+    padding: 7em 0;
 
     @media screen and (max-width: 768px){
-        background-size: 150%;
-        padding: 1em 2em 5em 2em;
+        padding: 1em 2em 1em 2em;
     }
-`
-const AvatarHeader = styled.p`
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-align: center;
-`
-const AvatarSmallTxt = styled.p`
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    text-align: center;
-    width: 100%;
-    margin-top: 5px;
 `
 
 export default function Who(){
     return(
         <WhoSec>
+            <FlexColumn alignItemsMob="center" justifyItemsMob="center">
             <FlexRow justifyItems="space-evenly" alignItems="center" flexDirection="column">
-                <div>
-                <HeaderText fontWeight="600"> <YellowHeader fontSizeMobile="12px">A DE PONTES MEDICAL MARKETING</YellowHeader></HeaderText>
-                <MobileBr/>
-                <HeaderText fontWeight="400" fontSize="18px">Acreditamos em um gerenciamento <PcBr/> transparente, baseado em métricas e<PcBr/> realista, sem promessas mirabolantes.</HeaderText>
+                <FlexColumn setMaxWidth="527px">
+                    <FlexRow alignItems="center">
+                    
+                    <img
+                        src='./images/favicon.svg'
+                        width='32'
+                        alt='Ícone dourado da de pontes medical'
+                        className="iconsXRed"
+                    />
+                
+                <BlackTexts fontSize="26px" fontWeight="500" setMargin="0 0 0 12px" fontSizeMobile="20px"><YellowHeader>QUEM</YellowHeader> SOMOS?</BlackTexts>
+                </FlexRow>
+                <br/>
+                <BlackTexts fontWeight="500" fontSize="18px" textAlignMobile="left">A De Pontes Medical Marketing é uma Assessoria de Marketing, onde cada cliente é a prioridade. Somos constituídos por profissionais de larga bagagem no digital.
+                <br/><br/>
+                Nosso foco é potencializar as vendas de clínicas odontológicas e criar conexões duradouras com um trabalho extremamente sério. 
+                <br/><br/>
+                Hoje atendemos clínicas e consultórios, no Brasil e em Portugal, que buscam resultados e profissionalismo.
 
-                <WhiteTexts maxWidth="502px" textAlignMobile="left">
-                <br/><br/>
-                Somos uma Assessoria de Business and Marketing que enxerga cada cliente como prioridade e dedicada em criar conexões duradouras com nossos parceiros.
-                <br/><br/>
-                Aqui o foco é potencializar as vendas de clínicas captando mais clientes com escala, previsibilidade e crescimento para o negócio. Nosso trabalho é colocar sua clínica em frente as pessoas certas, na hora certa.
-                </WhiteTexts>
-                </div>
-                <MobileBr/><MobileBr/><MobileBr/>
-                <FlexColumn flexDirection="row" justifyItemsMob="space-evenly !important" setWidthMob="100%">
-                    <div>
-                        <img
-                            src="./images/jose.webp"
-                            width="180"
-                            alt="imagem de José de Pontes, CEO e Co-fundador da De Pontes Medical Marketing"
-                            className="cofounders"
-                        />
-                        <AvatarHeader>
-                            José de Pontes
-                        </AvatarHeader>
-                        <AvatarSmallTxt>
-                            CEO e Co-founder
-                        </AvatarSmallTxt>
-                    </div>
-                    <br/><br/>
-                    <FlexColumn>
-                        <img
-                            src="./images/anajulia.webp"
-                            width="180"
-                            alt="imagem de Ana Júlia Campelo Co-fundadora da De Pontes Medical Marketing"
-                            className="cofounders"
-                        />
-                        <AvatarHeader>
-                            Ana Júlia Campelo
-                        </AvatarHeader>
-                        <AvatarSmallTxt>
-                            Co-founder
-                        </AvatarSmallTxt>
-                    </FlexColumn>
+                </BlackTexts>
                 </FlexColumn>
+                <MobileBr/><MobileBr/>
+                
+                    <img
+                        src='./images/founders.webp'
+                        width='604'
+                        alt='Ícone dourado da de pontes medical'
+                        className="images-mobile"
+                    />
+                
             </FlexRow>
+            <MobileBr/><MobileBr/>
+                <StyledButton href="#hero-section" textAlign="center" maxWidth="450px" setMargin="auto" maxWidthMob="100%">
+                    Clique e agende a sua consultoria
+                </StyledButton>
+            </FlexColumn>
         </WhoSec>
     )
 }

@@ -46,7 +46,7 @@ const StyledSubmit = styled.input`
 
 export default function Form(){
 
-    useEffect(() => {
+    {/*useEffect(() => {
         const script = document.createElement("script");
         script.type = "text/javascript";
         script.src = "//js.hs-scripts.com/24271807.js";
@@ -57,20 +57,20 @@ export default function Form(){
         return () =>{
             document.body.removeChild(script);
         }
-    }, [])
+    }, [])*/}
 
     return(
         <section>
             <StyledForm method="POST" action="/obrigado.html" id="agendardois">
                 <FlexRow setMarginDois="0 0 8px 0;" flexDirection="column">
                 <StyledInput type="text" name="firstname"
-                placeholder="Qual é o seu nome?" setAlignSelf="left;" setMarginMob="0 0 8px 0;"/>
+                placeholder="Qual é o seu nome?" setAlignSelf="left;" setMarginMob="0 0 8px 0;" required/>
                 
                 <StyledInput type="tel" name="hs_whatsapp_phone_number"
-                placeholder="Qual é o seu WhatsApp?(Com DDD)" setMargin="0 0 0 8px;" setWidth="100%;" setMarginMob="0"/>
+                placeholder="Qual é o seu WhatsApp?(Com DDD)" setMargin="0 0 0 8px;" setWidth="100%;" setMarginMob="0" required/>
                 </FlexRow>
                 <StyledInput type="email" name="email"
-                placeholder="Qual é o seu melhor e-mail?"/>
+                placeholder="Qual é o seu melhor e-mail?" required/>
                 <br/>
                 <StyledSubmit type="submit" value="AGENDE AGORA"/>
                 <br/>
