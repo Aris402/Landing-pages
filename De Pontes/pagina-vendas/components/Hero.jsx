@@ -4,7 +4,7 @@ import Form from './Form'
 
 const PageH1 = styled.h1`
     color: #434343;
-    max-width: 550px;
+    max-width: 850px;
     font-weight: 700;
     font-size: 26.71px;
     font-family: 'Montserrat', sans-serif;
@@ -38,13 +38,16 @@ const PageH2 = styled.p`
 const SpecialSpan = styled.span`
     color: #9A7E4E;
 `
+const UnderLineSpan = styled.span`
+    text-decoration: underline;
+`
 
 export default function Hero(){
     return(
         <section>
             <ContentDiv id='hero-section'>
                 <EvenlyDiv alignItems="left" textAlign='left !important'>
-                    <FlexColumn setMaxWidth="560px;">
+                    <FlexColumn setMaxWidth="660px;">
                         <FlexRow justifyItems="flex-start" setMargin="0 0 30px 0" alignItems="center" textAlign='left !important'>
                             <div>
                                 <img
@@ -58,13 +61,13 @@ export default function Hero(){
                         <PcBr/>
                         <PcBr/>
                         <PageH1>
-                            Torne-se <SpecialSpan>referência</SpecialSpan> e tenha <PcBr/>novos<SpecialSpan> pacientes toda semana</SpecialSpan> para implantes ou ortodontia.
+                            O Sistema de Vendas que irá te dar <SpecialSpan>pacientes</SpecialSpan> de <UnderLineSpan>Implantes e Bucomaxilo</UnderLineSpan><SpecialSpan> toda semana!</SpecialSpan>
                         </PageH1>
                         <br/>
                         <PageH2>
-                            Saiba como aplicar o Sistema que nossa Assessoria utiliza para nossos clientes conquistarem alto volume de pacientes e serem referência em suas regiões!
+                        Tráfego pago não é o suficiente para ter resultados! Saiba como aplicar o Sistema que utilizamos para os nossos clientes conquistarem alto volume de paciente e serem referência em suas regiões.
                             <br/><br/>
-                            <small>Preencha abaixo para agendar sua consultoria<br/> gratuita na próxima página:</small>
+                            <small>Preencha abaixo e agende sua consultoria:</small>
                         </PageH2>
                         <Form></Form>
                         <br/><br/>

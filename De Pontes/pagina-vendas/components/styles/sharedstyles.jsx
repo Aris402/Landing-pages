@@ -29,6 +29,7 @@ const FlexColumn = styled.div`
         justify-content: ${props => props.justifyItemsMob};
         align-items: ${props => props.alignItemsMob};
         width: ${props => props.setWidthMob};
+        max-width: ${props => props.setMaxWidthMob};
     }
 `
 const FlexRow = styled.div`
@@ -40,6 +41,7 @@ const FlexRow = styled.div`
     width: ${props => props.setWidth};
     gap: ${props => props.setGap};
     flex-direction: ${props => props.flexDirectionDois};
+    max-width: ${props => props.setMaxWidth};
 
     @media screen and (max-width: 768px){
         flex-direction: ${props => props.flexDirection};

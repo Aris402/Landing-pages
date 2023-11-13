@@ -59,7 +59,39 @@ export default function Consultoria(){
                             />
                         </div>
                         <ItemBox>
-                            <BlackTexts textAlignMobile="left">Dentistas que desejam: Aumentar o fluxo de pacientes para tratamentos de alto valor e ganhar mais pela hora.</BlackTexts>
+                            <BlackTexts textAlignMobile="left">Dentistas que desejam: Aumentar o fluxo de pacientes para tratamentos de alto valor &#40;implantes, ortognáticas, etc&#41; e ganhar mais pela hora.</BlackTexts>
+                        </ItemBox>
+                    </FlexRow>
+                    <br/><br/><PcBr/>
+                    <FlexRow justifyItems="center" alignItems="start" alignItemsMob="center">
+                        <div>
+                            <img
+                                src='./images/check-icon.svg'
+                                width='37'
+                                alt='Ícone vermelho em formato de X redondo'
+                                className="iconsXRed"
+                            />
+                        </div>
+                        <ItemBox>
+                            <BlackTexts textAlignMobile="left">Clínicas e Dentistas que estão cansados de agências que nunca levam o paciente até sua cadeira, e buscam profissionalismo e resultados.</BlackTexts>
+                        </ItemBox>
+                    </FlexRow>
+                    
+                    
+                </FlexColumn>
+                <MobileBr/><MobileBr/>
+                <FlexColumn justifyItems="center" alignItems="start" alignItemsMob="center">
+                    <FlexRow justifyItems="center" alignItems="start" alignItemsMob="center">
+                        <div>
+                            <img
+                                src='./images/check-icon.svg'
+                                width='37'
+                                alt='Ícone vermelho em formato de X redondo'
+                                className="iconsXRed"
+                            />
+                        </div>
+                        <ItemBox>
+                            <BlackTexts textAlignMobile="left">Clínicas e Dentistas que procuram por uma assessoria de Marketing que enxerga o seu negócio com atenção e prioridade.</BlackTexts>
                         </ItemBox>
                     </FlexRow>
                     <br/><br/><PcBr/>
@@ -76,64 +108,7 @@ export default function Consultoria(){
                             <BlackTexts textAlignMobile="left">Dentistas que desejam: Conquistar um fluxo constante de pacientes chegando aos seus mochos.</BlackTexts>
                         </ItemBox>
                     </FlexRow>
-                    <br/><br/><PcBr/>
-                    <FlexRow justifyItems="center" alignItems="start" alignItemsMob="center">
-                        <div>
-                            <img
-                                src='./images/check-icon.svg'
-                                width='37'
-                                alt='Ícone vermelho em formato de X redondo'
-                                className="iconsXRed"
-                            />
-                        </div>
-                        <ItemBox>
-                            <BlackTexts textAlignMobile="left">Dentistas que vivem atarefados 24h, mas querem liberdade de tempo para viver sob suas regras, sejam elas quais forem.</BlackTexts>
-                        </ItemBox>
-                    </FlexRow>
-                </FlexColumn>
-                <MobileBr/><MobileBr/>
-                <FlexColumn justifyItems="center" alignItems="start" alignItemsMob="center">
-                    <FlexRow justifyItems="center" alignItems="start" alignItemsMob="center">
-                        <div>
-                            <img
-                                src='./images/check-icon.svg'
-                                width='37'
-                                alt='Ícone vermelho em formato de X redondo'
-                                className="iconsXRed"
-                            />
-                        </div>
-                        <ItemBox>
-                            <BlackTexts textAlignMobile="left">Clínicas e Dentistas que buscam a estruturação de um setor comercial sólido e robusto.</BlackTexts>
-                        </ItemBox>
-                    </FlexRow>
-                    <br/><br/><PcBr/>
-                    <FlexRow justifyItems="center" alignItems="start" alignItemsMob="center">
-                        <div>
-                            <img
-                                src='./images/check-icon.svg'
-                                width='37'
-                                alt='Ícone vermelho em formato de X redondo'
-                                className="iconsXRed"
-                            />
-                        </div>
-                        <ItemBox>
-                            <BlackTexts textAlignMobile="left">Clínicas e Dentistas que já possuem algum grau de inserção no mercado digital, mas que almejam atingir a excelência em termos de tráfego pago.</BlackTexts>
-                        </ItemBox>
-                    </FlexRow>
-                    <br/><br/><PcBr/>
-                    <FlexRow justifyItems="center" alignItems="start" alignItemsMob="center">
-                        <div>
-                            <img
-                                src='./images/check-icon.svg'
-                                width='37'
-                                alt='Ícone vermelho em formato de X redondo'
-                                className="iconsXRed"
-                            />
-                        </div>
-                        <ItemBox>
-                            <BlackTexts textAlignMobile="left">Clínicas e Dentistas procuram por uma assessoria de Marketing que enxerga o seu negócio com atenção e prioridade.</BlackTexts>
-                        </ItemBox>
-                    </FlexRow>
+                    
                 </FlexColumn>
             </FlexRow>
         </section>

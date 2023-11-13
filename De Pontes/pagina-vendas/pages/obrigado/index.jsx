@@ -6,7 +6,7 @@ import MetaPixelTwo from "../../components/MetaPixel"
 
 export default function Obrigado(){
 
-    useEffect(() => {
+    {/*useEffect(() => {
         const script = document.createElement("script");
         script.type = "text/javascript";
         script.src = "https://assets.calendly.com/assets/external/widget.js"
@@ -22,7 +22,7 @@ export default function Obrigado(){
         return () => {
             document.body.removeChild(script);
         }
-    }, [])
+    }, [])*/}
     
     return(
         <section>

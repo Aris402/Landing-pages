@@ -3,20 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: "Montserrat", sans-serif;
+/*@font-face {
+  font-family: "Montserrat";
   src:
-    local("Montserrat"),
-    url("../components/fonts/Montserrat-Bold.woff") format("opentype"),
-    url("../components/fonts/Montserrat-Medium.woff") format("opentype"),
-    url("../components/fonts/Montserrat-SemiBold.woff") format("opentype"),
-    url("../components/fonts/Montserrat-Regular.woff") format("opentype");
-}
+    url("../public/fonts/Montserrat-Bold.woff") format("woff"),
+    url("../public/fonts/Montserrat-Medium.woff") format("woff"),
+    url("../public/fonts/Montserrat-SemiBold.woff") format("woff"),
+    url("../public/fonts/Montserrat-Regular.woff") format("woff"),
+}*/
 html{
   scroll-behavior: smooth;
 }
 body{
   background-color: #F5F5F5;
+  font-family: "Montserrat";
 }
 .image-icons{
   margin-bottom: 30px;

@@ -56,7 +56,7 @@ export default function Secondary(){
                             alt='Ícone vermelho em formato de X redondo'
                             className="iconsXRed"
                         />
-                        <BlackTexts fontWeight="600" setMargin="0 0 0 20px;" textAlignMobile="left">Vive o Efeito Montanha Russa; mês em alta, mês em baixa</BlackTexts>
+                        <BlackTexts fontWeight="600" setMargin="0 0 0 20px;" textAlignMobile="left">Contatos que não agendam e não comparecem</BlackTexts>
                 </FlexRow>
                 <FlexRow alignItems="center" setMarginDois="0 0 30px 0;">
                         <img
@@ -83,7 +83,7 @@ export default function Secondary(){
                             alt='Ícone vermelho em formato de X redondo'
                             className="iconsXRed"
                         />
-                        <BlackTexts fontWeight="600" setMargin="0 0 0 20px;" textAlignMobile="left">Sem resultados no digital</BlackTexts>
+                        <BlackTexts fontWeight="600" setMargin="0 0 0 20px;" textAlignMobile="left">Sem resultados consistentes com tráfego pago/anúncios online</BlackTexts>
                 </FlexRow>
                 </GoldenBlock>
                 <FlexRow setMarginDois="30px 0 100px 0;">
@@ -95,9 +95,11 @@ export default function Secondary(){
                         />
                     <BlackTexts fontWeight="500" setMargin="0 0 0 20px;" textAlignMobile="left">Se você se identifica com algum destes problemas,<PcBr/> temos uma mensagem para você…</BlackTexts>
                 </FlexRow>
-                <PageH1 setMargin="0 0 60px 0">
+                <PageH1>
                     Benefícios do <SpecialSpan>Sistema de <PcBr/>Recorrência de Pacientes.</SpecialSpan>
                 </PageH1>
+                <br/>
+                <BlackTexts fontWeight="500" setMargin="0 0 60px 0" textAlignMobile="center" textAlign="center">Porque definitivamente o tráfego<PcBr/> pago não é suficiente!</BlackTexts>
                 <FlexRow justifyItems="space-between;" flexDirection="column;" justifyItemsMob="center">
                  <FlexColumn setMargin="0 90px 0 0;" setMarginMob="0 0 0 0;">
                     <FlexColumn justifyItems="start" setMaxWidth="290px" setMargin="0 0 40px 0;">
@@ -112,7 +114,7 @@ export default function Secondary(){
                                 Captação Recorrente e Eficiente
                             </BlackTexts>
                             <BlackTexts fontWeight="500" fontSize="16px" setMargin="10px 0 0 0;" textAlignMobile="left !important">
-                            Com a aplicação do Sistema você irá se conectar com o seu público-alvo ideal através das estratégias certas para atraí-los e despertar o desejo pelo seu trabalho. Nunca mais você passará pelo Efeito Montanha Russa.
+                            Com a aplicação do Sistema você irá se conectar com o seu público-alvo através de uma estrutura e comunicação assertiva para atraí-los e despertar o desejo por sua clínica. 
                             </BlackTexts>
                     </FlexColumn>
                     <FlexColumn justifyItems="start" setMaxWidth="290px">
@@ -141,10 +143,10 @@ export default function Secondary(){
                             />
                             <br/>
                             <BlackTexts fontWeight="600" fontSize="18px" textAlignMobile="left !important" fontSizeMobile="16px">
-                            Fim da dependência de Indicações e Convênios
+                            Fim da dependência de Indicações
                             </BlackTexts>
                             <BlackTexts fontWeight="500" fontSize="16px" setMargin="10px 0 0 0;" textAlignMobile="left !important">
-                            O Sistema nos garante um fluxo semanal de novos pacientes particulares para implantes ou para ortodontia graças aos seus pilares que dão à clínica uma estrutura de vendas robusta.
+                            O Sistema nos garante um fluxo semanal de novos pacientes particulares de implantes e bucomaxilo graças aos seus pilares que dão à clínica uma estrutura de vendas robusta.
                             </BlackTexts>
                     </FlexColumn>
                     <PcBr/>
@@ -160,16 +162,33 @@ export default function Secondary(){
                             Autoridade elevada
                             </BlackTexts>
                             <BlackTexts fontWeight="500" fontSize="16px" setMargin="10px 0 0 0;" textAlignMobile="left !important">
-                            Com o posicionamento digital completo nas redes sociais e no Google do Sistema, o único fim será maior exposição da sua marca e percepção de autoridade maximizada.
+                            Com o posicionamento digital completo nas redes sociais e no Google, o único fim será maior exposição da sua marca e percepção de autoridade maximizada.
                             </BlackTexts>
                     </FlexColumn>
                  </FlexColumn>
                 </FlexRow>
                 <br/><br/><PcBr/>
+                <FlexColumn justifyItems="start" setMaxWidth="680px" setMaxWidthMob="290px">
+                        <img
+                                src='./images/premio.svg'
+                                width='45'
+                                alt='Ícone dourado em formato de chat'
+                                className="iconsXRed"
+                            />
+                            <br/>
+                            <BlackTexts fontWeight="600" fontSize="18px" textAlignMobile="left !important" fontSizeMobile="16px">
+                            Diferenciação da concorrência
+                            </BlackTexts>
+                            <BlackTexts fontWeight="500" fontSize="16px" setMargin="10px 0 0 0;" textAlignMobile="left !important">
+                            Aos olhos dos pacientes as clínicas odontológicas são muito parecidas: ambiente frio, paredes e uniformes brancos. Sua chance de se diferenciar é pela estrutura do Sistema de Recorrência de Pacientes!
+                            </BlackTexts>
+                    </FlexColumn>
+                    <br/><br/><br/><PcBr/>
                 <StyledButton href="#hero-section">
                     Clique e agende sua consultoria
                 </StyledButton>
             </FlexColumnCenter>
+            
         </SecondarySec>
     )   
 }

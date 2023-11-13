@@ -5,10 +5,12 @@ import { useEffect } from "react"
 const StyledForm = styled.form`
     display: flex;
     flex-direction: column;
-    margin: auto;
     
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
+
+    max-width: 600px;
+    align-self: left;
 
     @media screen and (max-width: 768px){
         padding: 10px 0 10px 0;
